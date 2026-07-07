@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { PhaseSelector } from "@/components/PhaseSelector";
 import { QuizCard } from "@/components/QuizCard";
 import { ResultCard } from "@/components/ResultCard";
@@ -9,8 +9,8 @@ import { phases } from "@/data/phases";
 import { questions } from "@/data/questions";
 import { topics } from "@/data/topics";
 import { loadProgress, unlockNextPhase } from "@/lib/progress";
-import { didPassPhase, getQuestionsByTopicAndPhase } from "@/lib/quizEngine";
-import type { Phase, QuizProgress, Topic } from "@/types/quiz";
+import { didPassPhase, getQuestionsByTopicAndPhase, getRandomQuestionsForPhase } from "@/lib/quizEngine";
+import type { Phase, Question, QuizProgress, Topic } from "@/types/quiz";
 
 type GameStatus = "start" | "topics" | "phases" | "playing" | "finished";
 
@@ -24,18 +24,12 @@ export default function Home() {
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [passedLastQuiz, setPassedLastQuiz] = useState(false);
+  const [phaseQuestions, setPhaseQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
     setProgress(loadProgress(topics.map((topic) => topic.id)));
   }, []);
 
-  const phaseQuestions = useMemo(() => {
-    if (!selectedTopic || !selectedPhase) {
-      return [];
-    }
-
-    return getQuestionsByTopicAndPhase(questions, selectedTopic.id, selectedPhase.id);
-  }, [selectedPhase, selectedTopic]);
 
   const currentQuestion = phaseQuestions[currentQuestionIndex];
   const currentQuestionNumber = currentQuestionIndex + 1;
@@ -43,6 +37,7 @@ export default function Home() {
   function goToMainMenu() {
     setSelectedTopic(null);
     setSelectedPhase(null);
+    setPhaseQuestions([]);
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -58,6 +53,7 @@ export default function Home() {
   function selectTopic(topic: Topic) {
     setSelectedTopic(topic);
     setSelectedPhase(null);
+    setPhaseQuestions([]);
     setGameStatus("phases");
   }
 
@@ -75,6 +71,7 @@ export default function Home() {
     }
 
     setSelectedPhase(phase);
+    setPhaseQuestions(getRandomQuestionsForPhase(questions, selectedTopic.id, phase.id));
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -125,10 +122,11 @@ export default function Home() {
   }
 
   function restartPhase() {
-    if (!selectedPhase) {
+    if (!selectedTopic || !selectedPhase) {
       return;
     }
 
+    setPhaseQuestions(getRandomQuestionsForPhase(questions, selectedTopic.id, selectedPhase.id));
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -139,6 +137,7 @@ export default function Home() {
 
   function backToPhases() {
     setSelectedPhase(null);
+    setPhaseQuestions([]);
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setScore(0);
@@ -220,6 +219,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
