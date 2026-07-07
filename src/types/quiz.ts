@@ -15,6 +15,7 @@ export type Phase = {
 };
 
 export type Question = {
+  code: string;
   id: string;
   topicId: string;
   phaseId: number;
@@ -26,3 +27,4 @@ export type Question = {
 };
 
 export type QuizProgress = Record<string, number>;
+

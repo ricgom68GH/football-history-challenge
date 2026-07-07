@@ -147,26 +147,26 @@ export default function Home() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-pitch px-4 py-4">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.22),transparent_34%),linear-gradient(135deg,rgba(15,23,42,0.95),rgba(7,19,13,0.95))]" />
+    <main className="relative min-h-screen overflow-x-hidden bg-pitch px-4 py-4">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.2),transparent_30%),linear-gradient(135deg,rgba(2,6,23,0.98),rgba(7,19,13,0.96))]" />
       <div className="absolute inset-0 opacity-10 [background-image:linear-gradient(rgba(255,255,255,.25)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.25)_1px,transparent_1px)] [background-size:64px_64px]" />
 
-      <div className="relative z-10 flex min-h-[calc(100vh-2rem)] w-full items-center justify-center">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl items-center justify-center">
         {gameStatus === "start" && (
-          <section className="w-full max-w-3xl text-center">
-            <p className="text-sm font-bold uppercase tracking-[0.35em] text-grass">
-              Futebol histórico
+          <section className="w-full max-w-2xl text-center">
+            <p className="text-xs font-black uppercase tracking-[0.28em] text-grass">
+              FOOTBALL HISTORY · GR GAMES
             </p>
-            <h1 className="mt-5 text-5xl font-black text-white md:text-7xl">GR Games Quiz</h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
-              Escolha um tema, avance pelas fases e prove que sua memória de futebol é de campeão.
+            <h1 className="mt-4 text-4xl font-black text-white md:text-6xl">Football History Challenge</h1>
+            <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-slate-300 md:text-lg">
+              Um quiz de futebol histórico. Escolha uma competição, avance de fase e prove que você conhece os grandes momentos do jogo.
             </p>
             <button
               type="button"
               onClick={startJourney}
-              className="mt-10 rounded-lg bg-grass px-8 py-4 text-lg font-bold text-slate-950 shadow-glow transition hover:bg-green-400"
+              className="mt-7 rounded-lg bg-grass px-7 py-3 text-base font-black text-slate-950 shadow-glow transition hover:bg-green-400"
             >
-              Começar Jornada
+              Start Challenge
             </button>
           </section>
         )}
@@ -220,4 +220,7 @@ export default function Home() {
     </main>
   );
 }
+
+
+
 

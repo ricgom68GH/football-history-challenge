@@ -22,24 +22,24 @@ export function PhaseSelector({
 }: PhaseSelectorProps) {
   return (
     <section className="w-full max-w-4xl">
-      <div className="mb-4 flex flex-wrap gap-4 text-sm font-bold">
+      <div className="mb-4 flex justify-center gap-5 text-xs font-bold">
         <button type="button" onClick={onBack} className="text-slate-300 transition hover:text-grass">
-          Voltar para temas
+          Temas
         </button>
         <button type="button" onClick={onMainMenu} className="text-slate-300 transition hover:text-grass">
           Menu principal
         </button>
       </div>
 
-      <div className="mb-5">
-        <p className="text-xs font-bold uppercase tracking-[0.3em] text-grass">{topic.name}</p>
+      <div className="mb-5 text-center">
+        <p className="text-xs font-black uppercase tracking-[0.28em] text-grass">{topic.name}</p>
         <h2 className="mt-2 text-3xl font-black text-white md:text-4xl">Escolha a fase</h2>
-        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-          Fases liberadas ficam clicáveis. As demais continuam travadas neste tema.
+        <p className="mx-auto mt-2 max-w-lg text-sm leading-6 text-slate-300">
+          Fases liberadas ficam em destaque. As travadas aguardam sua campanha.
         </p>
       </div>
 
-      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+      <div className="mx-auto grid max-w-4xl gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {phases.map((phase) => {
           const questionCount = questions.filter(
             (question) => question.topicId === topic.id && question.phaseId === phase.id,
