@@ -1,8 +1,10 @@
 ﻿import { AnswerButton } from "@/components/AnswerButton";
 import { ProgressBar } from "@/components/ProgressBar";
-import type { Question } from "@/types/quiz";
+import type { Phase, Question, Topic } from "@/types/quiz";
 
 type QuizCardProps = {
+  topic: Topic;
+  phase: Phase;
   question: Question;
   currentQuestion: number;
   totalQuestions: number;
@@ -10,9 +12,13 @@ type QuizCardProps = {
   showResult: boolean;
   onSelectAnswer: (answer: string) => void;
   onNextQuestion: () => void;
+  onBackToPhases: () => void;
+  onMainMenu: () => void;
 };
 
 export function QuizCard({
+  topic,
+  phase,
   question,
   currentQuestion,
   totalQuestions,
@@ -20,17 +26,30 @@ export function QuizCard({
   showResult,
   onSelectAnswer,
   onNextQuestion,
+  onBackToPhases,
+  onMainMenu,
 }: QuizCardProps) {
   const gotItRight = selectedAnswer === question.correctAnswer;
 
   return (
     <section className="w-full max-w-2xl rounded-xl border border-white/10 bg-slate-950/80 p-5 shadow-glow backdrop-blur md:p-6">
+      <div className="mb-4 flex flex-wrap gap-4 text-sm font-bold">
+        <button type="button" onClick={onBackToPhases} className="text-slate-300 transition hover:text-grass">
+          Voltar para fases
+        </button>
+        <button type="button" onClick={onMainMenu} className="text-slate-300 transition hover:text-grass">
+          Menu principal
+        </button>
+      </div>
+
       <div className="mb-4 space-y-2">
         <div className="flex items-center justify-between gap-4 text-sm font-semibold text-slate-300">
           <span>
+            {topic.name} • {phase.name}
+          </span>
+          <span>
             Pergunta {currentQuestion} de {totalQuestions}
           </span>
-          <span>{Math.round((currentQuestion / totalQuestions) * 100)}%</span>
         </div>
         <ProgressBar currentQuestion={currentQuestion} totalQuestions={totalQuestions} />
       </div>
@@ -60,6 +79,7 @@ export function QuizCard({
           <p className="mt-1 text-sm text-slate-300">
             Resposta correta: <strong className="text-white">{question.correctAnswer}</strong>
           </p>
+          <p className="mt-2 text-sm leading-6 text-slate-300">{question.explanation}</p>
         </div>
       )}
 
@@ -74,5 +94,3 @@ export function QuizCard({
     </section>
   );
 }
-
-
