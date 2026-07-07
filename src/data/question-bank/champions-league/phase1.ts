@@ -9,10 +9,10 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu a Champions League de 2021-22?",
     options: [
+      "Real Madrid",
       "Liverpool",
       "Chelsea",
-      "Manchester City",
-      "Real Madrid"
+      "Manchester City"
     ],
     correctAnswer: "Real Madrid",
     explanation: "O Real Madrid venceu o Liverpool na final de 2022, com gol de Vincius Jnior.",
@@ -25,8 +25,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube é o maior campeão da Champions League?",
     options: [
-      "Real Madrid",
       "Milan",
+      "Real Madrid",
       "Barcelona",
       "Bayern de Munique"
     ],
@@ -42,8 +42,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     question: "Quem marcou o gol do Real Madrid na final da Champions de 2022?",
     options: [
       "Benzema",
-      "Vincius Jnior",
       "Modric",
+      "Vincius Jnior",
       "Rodrygo"
     ],
     correctAnswer: "Vincius Jnior",
@@ -59,8 +59,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     options: [
       "Chelsea",
       "Arsenal",
-      "Liverpool",
-      "Manchester United"
+      "Manchester United",
+      "Liverpool"
     ],
     correctAnswer: "Liverpool",
     explanation: "O Liverpool venceu o Tottenham na final de 2019.",
@@ -73,10 +73,10 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu a Champions League de 2022-23?",
     options: [
+      "Manchester City",
       "Inter de Milão",
       "Real Madrid",
-      "Bayern de Munique",
-      "Manchester City"
+      "Bayern de Munique"
     ],
     correctAnswer: "Manchester City",
     explanation: "O Manchester City venceu a Inter de Milão e conquistou sua primeira Champions.",
@@ -89,8 +89,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu a Champions League de 2011 com Messi como destaque?",
     options: [
-      "Barcelona",
       "Manchester United",
+      "Barcelona",
       "Chelsea",
       "Real Madrid"
     ],
@@ -106,8 +106,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     question: "Qual clube alemão venceu a Champions League de 2019-20?",
     options: [
       "Borussia Dortmund",
-      "Bayern de Munique",
       "RB Leipzig",
+      "Bayern de Munique",
       "Bayer Leverkusen"
     ],
     correctAnswer: "Bayern de Munique",
@@ -123,8 +123,8 @@ export const championsLeaguePhase1Questions: Question[] = [
     options: [
       "Juventus",
       "Barcelona",
-      "Liverpool",
-      "Arsenal"
+      "Arsenal",
+      "Liverpool"
     ],
     correctAnswer: "Liverpool",
     explanation: "O Liverpool empatou com o Milan depois de estar perdendo por 3 a 0 e venceu nos pênaltis.",
@@ -137,10 +137,10 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube português venceu a Champions League de 2003-04?",
     options: [
+      "Porto",
       "Benfica",
       "Sporting",
-      "Braga",
-      "Porto"
+      "Braga"
     ],
     correctAnswer: "Porto",
     explanation: "O Porto, comandado por Jose Mourinho, venceu a Champions de 2004.",
@@ -153,12 +153,332 @@ export const championsLeaguePhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube italiano venceu a Champions League de 2006-07?",
     options: [
-      "Milan",
       "Inter de Milão",
+      "Milan",
       "Juventus",
       "Roma"
     ],
     correctAnswer: "Milan",
     explanation: "O Milan venceu o Liverpool na final de 2007.",
+  },
+  {
+    code: "CL-F1-P0011",
+    id: "champions-league-phase1-011",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Manchester City no titulo inedito da Champions de 2023?",
+    options: [
+      "Carlo Ancelotti",
+      "Jurgen Klopp",
+      "Pep Guardiola",
+      "Thomas Tuchel"
+    ],
+    correctAnswer: "Pep Guardiola",
+    explanation: "Pep Guardiola levou o Manchester City ao primeiro titulo de Champions em 2023.",
+  },
+  {
+    code: "CL-F1-P0012",
+    id: "champions-league-phase1-012",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Quem marcou o gol do Chelsea na final da Champions de 2021 contra o Manchester City?",
+    options: [
+      "Mason Mount",
+      "Timo Werner",
+      "Christian Pulisic",
+      "Kai Havertz"
+    ],
+    correctAnswer: "Kai Havertz",
+    explanation: "Kai Havertz marcou o gol da vitoria do Chelsea na final de 2021.",
+  },
+  {
+    code: "CL-F1-P0013",
+    id: "champions-league-phase1-013",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube foi derrotado pelo Chelsea na final da Champions de 2021?",
+    options: [
+      "Manchester City",
+      "PSG",
+      "Real Madrid",
+      "Bayern de Munique"
+    ],
+    correctAnswer: "Manchester City",
+    explanation: "O Chelsea venceu o Manchester City por 1 a 0 na final de 2021.",
+  },
+  {
+    code: "CL-F1-P0014",
+    id: "champions-league-phase1-014",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual trio ficou famoso no Barcelona campeao europeu de 2015?",
+    options: [
+      "BBC",
+      "MSN",
+      "MNM",
+      "MVP"
+    ],
+    correctAnswer: "MSN",
+    explanation: "Messi, Suarez e Neymar formaram o trio MSN no Barcelona de 2015.",
+  },
+  {
+    code: "CL-F1-P0015",
+    id: "champions-league-phase1-015",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube a Juventus enfrentou na final da Champions de 2015?",
+    options: [
+      "Real Madrid",
+      "Bayern de Munique",
+      "Barcelona",
+      "Chelsea"
+    ],
+    correctAnswer: "Barcelona",
+    explanation: "A Juventus perdeu a final de 2015 para o Barcelona.",
+  },
+  {
+    code: "CL-F1-P0016",
+    id: "champions-league-phase1-016",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual atacante frances marcou na final da Champions de 2020 pelo Bayern?",
+    options: [
+      "Robert Lewandowski",
+      "Thomas Muller",
+      "Serge Gnabry",
+      "Kingsley Coman"
+    ],
+    correctAnswer: "Kingsley Coman",
+    explanation: "Coman marcou o gol do titulo do Bayern contra o PSG em 2020.",
+  },
+  {
+    code: "CL-F1-P0017",
+    id: "champions-league-phase1-017",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube frances chegou a sua primeira final de Champions em 2020?",
+    options: [
+      "PSG",
+      "Monaco",
+      "Marseille",
+      "Lyon"
+    ],
+    correctAnswer: "PSG",
+    explanation: "O PSG chegou a final de 2020 contra o Bayern de Munique.",
+  },
+  {
+    code: "CL-F1-P0018",
+    id: "champions-league-phase1-018",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Por qual clube Cristiano Ronaldo venceu sua primeira Champions League?",
+    options: [
+      "Real Madrid",
+      "Manchester United",
+      "Juventus",
+      "Sporting"
+    ],
+    correctAnswer: "Manchester United",
+    explanation: "Cristiano Ronaldo venceu sua primeira Champions pelo Manchester United em 2008.",
+  },
+  {
+    code: "CL-F1-P0019",
+    id: "champions-league-phase1-019",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube foi derrotado pelo Liverpool na final da Champions de 2019?",
+    options: [
+      "Ajax",
+      "Roma",
+      "Tottenham",
+      "PSG"
+    ],
+    correctAnswer: "Tottenham",
+    explanation: "O Liverpool venceu o Tottenham na final de 2019.",
+  },
+  {
+    code: "CL-F1-P0020",
+    id: "champions-league-phase1-020",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Quem marcou de penalti para o Liverpool logo no inicio da final de 2019?",
+    options: [
+      "Sadio Mane",
+      "Roberto Firmino",
+      "Jordan Henderson",
+      "Mohamed Salah"
+    ],
+    correctAnswer: "Mohamed Salah",
+    explanation: "Salah abriu o placar contra o Tottenham na final de 2019.",
+  },
+  {
+    code: "CL-F1-P0021",
+    id: "champions-league-phase1-021",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual goleiro brasileiro era titular do Manchester City campeao da Champions de 2023?",
+    options: [
+      "Ederson",
+      "Alisson",
+      "Julio Cesar",
+      "Dida"
+    ],
+    correctAnswer: "Ederson",
+    explanation: "Ederson foi o goleiro titular do City na conquista de 2023.",
+  },
+  {
+    code: "CL-F1-P0022",
+    id: "champions-league-phase1-022",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube espanhol perdeu a final da Champions de 2014 para o Real Madrid?",
+    options: [
+      "Barcelona",
+      "Atletico de Madrid",
+      "Valencia",
+      "Sevilla"
+    ],
+    correctAnswer: "Atletico de Madrid",
+    explanation: "O Atletico de Madrid perdeu a final de 2014 para o Real Madrid.",
+  },
+  {
+    code: "CL-F1-P0023",
+    id: "champions-league-phase1-023",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual zagueiro marcou nos acrescimos para levar a final de 2014 para a prorrogacao?",
+    options: [
+      "Pepe",
+      "Raphael Varane",
+      "Sergio Ramos",
+      "Marcelo"
+    ],
+    correctAnswer: "Sergio Ramos",
+    explanation: "Sergio Ramos empatou a final de 2014 nos acrescimos.",
+  },
+  {
+    code: "CL-F1-P0024",
+    id: "champions-league-phase1-024",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube italiano foi vice-campeao da Champions em 2015 e 2017?",
+    options: [
+      "Milan",
+      "Inter de Milao",
+      "Roma",
+      "Juventus"
+    ],
+    correctAnswer: "Juventus",
+    explanation: "A Juventus perdeu as finais de 2015 e 2017.",
+  },
+  {
+    code: "CL-F1-P0025",
+    id: "champions-league-phase1-025",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual jogador brasileiro participou do trio MSN no Barcelona?",
+    options: [
+      "Neymar",
+      "Ronaldinho",
+      "Rivaldo",
+      "Kaka"
+    ],
+    correctAnswer: "Neymar",
+    explanation: "Neymar formou o trio MSN ao lado de Messi e Suarez.",
+  },
+  {
+    code: "CL-F1-P0026",
+    id: "champions-league-phase1-026",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube alemao foi vice da Champions de 2013 em final contra o Bayern?",
+    options: [
+      "Bayer Leverkusen",
+      "Borussia Dortmund",
+      "Schalke 04",
+      "RB Leipzig"
+    ],
+    correctAnswer: "Borussia Dortmund",
+    explanation: "O Borussia Dortmund perdeu a final alema de 2013 para o Bayern.",
+  },
+  {
+    code: "CL-F1-P0027",
+    id: "champions-league-phase1-027",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube portugues surpreendeu a Europa ao vencer a Champions de 2004?",
+    options: [
+      "Benfica",
+      "Sporting",
+      "Porto",
+      "Braga"
+    ],
+    correctAnswer: "Porto",
+    explanation: "O Porto de Jose Mourinho conquistou a Champions de 2004.",
+  },
+  {
+    code: "CL-F1-P0028",
+    id: "champions-league-phase1-028",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico portugues comandou o Porto campeao europeu de 2004?",
+    options: [
+      "Andre Villas-Boas",
+      "Fernando Santos",
+      "Nuno Espirito Santo",
+      "Jose Mourinho"
+    ],
+    correctAnswer: "Jose Mourinho",
+    explanation: "Mourinho comandou o Porto na conquista europeia de 2004.",
+  },
+  {
+    code: "CL-F1-P0029",
+    id: "champions-league-phase1-029",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube venceu a Champions de 2024 contra o Borussia Dortmund?",
+    options: [
+      "Real Madrid",
+      "Manchester City",
+      "Bayern de Munique",
+      "PSG"
+    ],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu o Borussia Dortmund na final de 2024.",
+  },
+  {
+    code: "CL-F1-P0030",
+    id: "champions-league-phase1-030",
+    topicId: "champions-league",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Quem marcou o primeiro gol do Real Madrid na final da Champions de 2024?",
+    options: [
+      "Vinicius Junior",
+      "Dani Carvajal",
+      "Jude Bellingham",
+      "Rodrygo"
+    ],
+    correctAnswer: "Dani Carvajal",
+    explanation: "Carvajal abriu o placar na final de 2024 contra o Borussia Dortmund.",
   },
 ];

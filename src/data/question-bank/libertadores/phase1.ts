@@ -9,10 +9,10 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Quem marcou os dois gols da virada do Flamengo na final da Libertadores de 2019?",
     options: [
+      "Gabigol",
       "Bruno Henrique",
       "Arrascaeta",
-      "Diego Ribas",
-      "Gabigol"
+      "Diego Ribas"
     ],
     correctAnswer: "Gabigol",
     explanation: "Gabigol marcou duas vezes nos minutos finais contra o River Plate em 2019.",
@@ -25,8 +25,8 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Quem marcou o gol do título do Palmeiras na final da Libertadores de 2021?",
     options: [
-      "Deyverson",
       "Rony",
+      "Deyverson",
       "Raphael Veiga",
       "Gustaçavo Gmez"
     ],
@@ -42,8 +42,8 @@ export const libertadoresPhase1Questions: Question[] = [
     question: "Qual técnico comandou o Palmeiras nos títulos da Libertadores de 2020 e 2021?",
     options: [
       "Felipo",
-      "Abel Ferreira",
       "Cuca",
+      "Abel Ferreira",
       "Vanderlei Luxemburgo"
     ],
     correctAnswer: "Abel Ferreira",
@@ -59,8 +59,8 @@ export const libertadoresPhase1Questions: Question[] = [
     options: [
       "Dorival Jnior",
       "Renato Gacho",
-      "Jorge Jesus",
-      "Tite"
+      "Tite",
+      "Jorge Jesus"
     ],
     correctAnswer: "Jorge Jesus",
     explanation: "Jorge Jesus comandou o Flamengo na campanha histórica do título de 2019.",
@@ -73,10 +73,10 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube de Neymar venceu a Libertadores de 2011?",
     options: [
+      "Santos",
       "Flamengo",
       "Barcelona de Guayaquil",
-      "Boca Juniors",
-      "Santos"
+      "Boca Juniors"
     ],
     correctAnswer: "Santos",
     explanation: "O Santos de Neymar, Ganso e companhia venceu a Libertadores de 2011.",
@@ -89,8 +89,8 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual goleiro foi destaque do Corinthians campeão invicto da Libertadores de 2012?",
     options: [
-      "Cssio",
       "Dida",
+      "Cssio",
       "Marcos",
       "Fábio"
     ],
@@ -106,8 +106,8 @@ export const libertadoresPhase1Questions: Question[] = [
     question: "Ronaldinho Gaúcho foi campeão da Libertadores de 2013 por qual clube?",
     options: [
       "Grêmio",
-      "Atlético-MG",
       "Flamengo",
+      "Atlético-MG",
       "Fluminense"
     ],
     correctAnswer: "Atlético-MG",
@@ -123,8 +123,8 @@ export const libertadoresPhase1Questions: Question[] = [
     options: [
       "Buenos Aires",
       "Montevidu",
-      "Madrid",
-      "Lima"
+      "Lima",
+      "Madrid"
     ],
     correctAnswer: "Madrid",
     explanation: "Aps incidentes em Buenos Aires, a decisão de 2018 foi levada para Madrid.",
@@ -137,10 +137,10 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "O Fluminense venceu qual clube na final da Libertadores de 2023?",
     options: [
+      "Boca Juniors",
       "River Plate",
       "Olimpia",
-      "Internacional",
-      "Boca Juniors"
+      "Internacional"
     ],
     correctAnswer: "Boca Juniors",
     explanation: "O Fluminense derrotou o Boca Juniors na final de 2023, no Maracanã.",
@@ -153,12 +153,332 @@ export const libertadoresPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual atacante foi grande nome do Fluminense campeão da Libertadores de 2023?",
     options: [
-      "Germn Cano",
       "John Kennedy",
+      "Germn Cano",
       "Arias",
       "Keno"
     ],
     correctAnswer: "Germn Cano",
     explanation: "Germn Cano foi o artilheiro e principal referncia ofensiva do Fluminense na campanha de 2023.",
+  },
+  {
+    code: "LB-F1-P0011",
+    id: "libertadores-phase1-011",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube brasileiro venceu a Libertadores de 2017 contra o Lanus?",
+    options: [
+      "Cruzeiro",
+      "Internacional",
+      "Gremio",
+      "Athletico-PR"
+    ],
+    correctAnswer: "Gremio",
+    explanation: "O Gremio venceu o Lanus na final e conquistou a Libertadores de 2017.",
+  },
+  {
+    code: "LB-F1-P0012",
+    id: "libertadores-phase1-012",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Gremio campeao da Libertadores de 2017?",
+    options: [
+      "Tite",
+      "Mano Menezes",
+      "Roger Machado",
+      "Renato Gaucho"
+    ],
+    correctAnswer: "Renato Gaucho",
+    explanation: "Renato Gaucho comandou o Gremio no titulo continental de 2017.",
+  },
+  {
+    code: "LB-F1-P0013",
+    id: "libertadores-phase1-013",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube brasileiro venceu a Libertadores de 2010?",
+    options: [
+      "Internacional",
+      "Cruzeiro",
+      "Fluminense",
+      "Santos"
+    ],
+    correctAnswer: "Internacional",
+    explanation: "O Internacional conquistou a Libertadores de 2010 contra o Chivas.",
+  },
+  {
+    code: "LB-F1-P0014",
+    id: "libertadores-phase1-014",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube equatoriano foi o primeiro do pais a vencer a Libertadores?",
+    options: [
+      "Barcelona de Guayaquil",
+      "LDU Quito",
+      "Emelec",
+      "Independiente del Valle"
+    ],
+    correctAnswer: "LDU Quito",
+    explanation: "A LDU Quito foi campea da Libertadores de 2008.",
+  },
+  {
+    code: "LB-F1-P0015",
+    id: "libertadores-phase1-015",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube colombiano surpreendeu o Boca Juniors na final da Libertadores de 2004?",
+    options: [
+      "Deportivo Cali",
+      "America de Cali",
+      "Once Caldas",
+      "Atletico Nacional"
+    ],
+    correctAnswer: "Once Caldas",
+    explanation: "O Once Caldas venceu o Boca Juniors nos penaltis em 2004.",
+  },
+  {
+    code: "LB-F1-P0016",
+    id: "libertadores-phase1-016",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube chileno e o unico campeao chileno da Libertadores?",
+    options: [
+      "Universidad de Chile",
+      "Cobreloa",
+      "Universidad Catolica",
+      "Colo-Colo"
+    ],
+    correctAnswer: "Colo-Colo",
+    explanation: "O Colo-Colo conquistou a Libertadores de 1991.",
+  },
+  {
+    code: "LB-F1-P0017",
+    id: "libertadores-phase1-017",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube argentino ficou conhecido como Rei de Copas por seus titulos na Libertadores?",
+    options: [
+      "Independiente",
+      "Racing",
+      "San Lorenzo",
+      "Velez Sarsfield"
+    ],
+    correctAnswer: "Independiente",
+    explanation: "O Independiente e o maior campeao da Libertadores.",
+  },
+  {
+    code: "LB-F1-P0018",
+    id: "libertadores-phase1-018",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube uruguaio divide com Penarol a tradicao uruguaia de titulos continentais?",
+    options: [
+      "Defensor Sporting",
+      "Nacional",
+      "Danubio",
+      "Liverpool-URU"
+    ],
+    correctAnswer: "Nacional",
+    explanation: "O Nacional tem uma historia muito forte na Libertadores.",
+  },
+  {
+    code: "LB-F1-P0019",
+    id: "libertadores-phase1-019",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube paraguaio e tricampeao da Libertadores?",
+    options: [
+      "Cerro Porteno",
+      "Guarani",
+      "Olimpia",
+      "Libertad"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Olimpia venceu a Libertadores em 1979, 1990 e 2002.",
+  },
+  {
+    code: "LB-F1-P0020",
+    id: "libertadores-phase1-020",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube venceu a Libertadores de 2022 contra o Athletico-PR?",
+    options: [
+      "Palmeiras",
+      "River Plate",
+      "Boca Juniors",
+      "Flamengo"
+    ],
+    correctAnswer: "Flamengo",
+    explanation: "O Flamengo venceu o Athletico-PR em Guayaquil e foi campeao em 2022.",
+  },
+  {
+    code: "LB-F1-P0021",
+    id: "libertadores-phase1-021",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Quem marcou o gol do Flamengo na final da Libertadores de 2022?",
+    options: [
+      "Gabigol",
+      "Pedro",
+      "Arrascaeta",
+      "Everton Ribeiro"
+    ],
+    correctAnswer: "Gabigol",
+    explanation: "Gabigol marcou o gol do titulo do Flamengo contra o Athletico-PR em 2022.",
+  },
+  {
+    code: "LB-F1-P0022",
+    id: "libertadores-phase1-022",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube argentino perdeu a final da Libertadores de 2017 para o Gremio?",
+    options: [
+      "Boca Juniors",
+      "Lanus",
+      "River Plate",
+      "San Lorenzo"
+    ],
+    correctAnswer: "Lanus",
+    explanation: "O Lanus foi vice-campeao da Libertadores de 2017.",
+  },
+  {
+    code: "LB-F1-P0023",
+    id: "libertadores-phase1-023",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube brasileiro foi vice-campeao da Libertadores de 2022?",
+    options: [
+      "Atletico-MG",
+      "Corinthians",
+      "Athletico-PR",
+      "Internacional"
+    ],
+    correctAnswer: "Athletico-PR",
+    explanation: "O Athletico-PR chegou a final de 2022 contra o Flamengo.",
+  },
+  {
+    code: "LB-F1-P0024",
+    id: "libertadores-phase1-024",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube argentino venceu a Libertadores de 2007 com grande campanha de Juan Roman Riquelme?",
+    options: [
+      "River Plate",
+      "Estudiantes",
+      "Racing",
+      "Boca Juniors"
+    ],
+    correctAnswer: "Boca Juniors",
+    explanation: "Riquelme foi destaque do Boca Juniors campeao da Libertadores de 2007.",
+  },
+  {
+    code: "LB-F1-P0025",
+    id: "libertadores-phase1-025",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual jogador foi simbolo do Boca Juniors na Libertadores de 2007?",
+    options: [
+      "Juan Roman Riquelme",
+      "Carlos Tevez",
+      "Martin Palermo",
+      "Nicolas Gaitan"
+    ],
+    correctAnswer: "Juan Roman Riquelme",
+    explanation: "Riquelme brilhou pelo Boca Juniors na campanha de 2007.",
+  },
+  {
+    code: "LB-F1-P0026",
+    id: "libertadores-phase1-026",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube brasileiro venceu a Libertadores de 1997?",
+    options: [
+      "Gremio",
+      "Cruzeiro",
+      "Vasco",
+      "Palmeiras"
+    ],
+    correctAnswer: "Cruzeiro",
+    explanation: "O Cruzeiro conquistou a Libertadores de 1997.",
+  },
+  {
+    code: "LB-F1-P0027",
+    id: "libertadores-phase1-027",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube brasileiro venceu a Libertadores de 1983?",
+    options: [
+      "Flamengo",
+      "Internacional",
+      "Gremio",
+      "Atletico-MG"
+    ],
+    correctAnswer: "Gremio",
+    explanation: "O Gremio conquistou sua primeira Libertadores em 1983.",
+  },
+  {
+    code: "LB-F1-P0028",
+    id: "libertadores-phase1-028",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube carioca conquistou sua primeira Libertadores em 1998?",
+    options: [
+      "Fluminense",
+      "Botafogo",
+      "Flamengo",
+      "Vasco"
+    ],
+    correctAnswer: "Vasco",
+    explanation: "O Vasco venceu a Libertadores de 1998 no ano de seu centenario.",
+  },
+  {
+    code: "LB-F1-P0029",
+    id: "libertadores-phase1-029",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube argentino venceu a Libertadores de 2014 depois de longa espera?",
+    options: [
+      "San Lorenzo",
+      "Racing",
+      "Velez Sarsfield",
+      "Huracan"
+    ],
+    correctAnswer: "San Lorenzo",
+    explanation: "O San Lorenzo conquistou sua primeira Libertadores em 2014.",
+  },
+  {
+    code: "LB-F1-P0030",
+    id: "libertadores-phase1-030",
+    topicId: "libertadores",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube colombiano venceu a Libertadores de 2016?",
+    options: [
+      "America de Cali",
+      "Atletico Nacional",
+      "Deportivo Cali",
+      "Millonarios"
+    ],
+    correctAnswer: "Atletico Nacional",
+    explanation: "O Atletico Nacional venceu a Libertadores de 2016.",
   },
 ];

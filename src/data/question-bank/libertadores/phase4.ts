@@ -9,9 +9,9 @@ export const libertadoresPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual técnico comandou o São Paulo nos títulos da Libertadores de 1992 e 1993?",
     options: [
+      "Telê Santana",
       "Muricy Ramalho",
       "Cilinho",
-      "Telê Santana",
       "Carlos Alberto Parreira"
     ],
     correctAnswer: "Telê Santana",
@@ -26,9 +26,9 @@ export const libertadoresPhase4Questions: Question[] = [
     question: "Qual clube foi vice-campeão da Libertadores três vezes seguidas entre 1985 e 1987?",
     options: [
       "Deportivo Cali",
+      "América de Cali",
       "Nacional",
-      "Cobreloa",
-      "América de Cali"
+      "Cobreloa"
     ],
     correctAnswer: "América de Cali",
     explanation: "O América de Cali chegou a três finais consecutivas, mas ficou com o vice em 1985, 1986 e 1987.",
@@ -41,9 +41,9 @@ export const libertadoresPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a Libertadores de 1987 contra o América de Cali?",
     options: [
-      "Peñarol",
       "River Plate",
       "Olimpia",
+      "Peñarol",
       "Nacional"
     ],
     correctAnswer: "Peñarol",
@@ -58,9 +58,9 @@ export const libertadoresPhase4Questions: Question[] = [
     question: "Qual clube venceu a Libertadores de 2000 contra o Palmeiras?",
     options: [
       "River Plate",
-      "Boca Juniors",
       "Vélez Sarsfield",
-      "Nacional"
+      "Nacional",
+      "Boca Juniors"
     ],
     correctAnswer: "Boca Juniors",
     explanation: "O Boca Juniors venceu o Palmeiras nos pênaltis e ficou com a taça de 2000.",
@@ -73,9 +73,9 @@ export const libertadoresPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube mexicano foi finalista da Libertadores de 2001?",
     options: [
+      "Cruz Azul",
       "América",
       "Chivas",
-      "Cruz Azul",
       "Tigres"
     ],
     correctAnswer: "Cruz Azul",
@@ -90,9 +90,9 @@ export const libertadoresPhase4Questions: Question[] = [
     question: "Qual clube mexicano foi finalista da Libertadores de 2010 contra o Internacional?",
     options: [
       "Cruz Azul",
+      "Chivas",
       "Tigres",
-      "Pumas",
-      "Chivas"
+      "Pumas"
     ],
     correctAnswer: "Chivas",
     explanation: "O Chivas Guadalajara foi vice-campeão da Libertadores de 2010 contra o Internacional.",
@@ -105,9 +105,9 @@ export const libertadoresPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube argentino venceu a Libertadores de 1967?",
     options: [
-      "Racing",
       "Independiente",
       "Estudiantes",
+      "Racing",
       "River Plate"
     ],
     correctAnswer: "Racing",
@@ -122,9 +122,9 @@ export const libertadoresPhase4Questions: Question[] = [
     question: "Qual clube venceu a Libertadores de 2013 contra o Olimpia?",
     options: [
       "Newell's Old Boys",
-      "Atlético-MG",
       "Grêmio",
-      "Nacional"
+      "Nacional",
+      "Atlético-MG"
     ],
     correctAnswer: "Atlético-MG",
     explanation: "O Atlético-MG venceu o Olimpia nos pênaltis e conquistou a Libertadores de 2013.",
@@ -137,9 +137,9 @@ export const libertadoresPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube foi campeão da Libertadores de 2005 contra o Athletico Paranaense?",
     options: [
+      "São Paulo",
       "Internacional",
       "Boca Juniors",
-      "São Paulo",
       "Palmeiras"
     ],
     correctAnswer: "São Paulo",
@@ -154,11 +154,331 @@ export const libertadoresPhase4Questions: Question[] = [
     question: "Qual clube venceu a Libertadores de 2016?",
     options: [
       "Independiente del Valle",
+      "Atlético Nacional",
       "River Plate",
-      "Boca Juniors",
-      "Atlético Nacional"
+      "Boca Juniors"
     ],
     correctAnswer: "Atlético Nacional",
     explanation: "O Atlético Nacional venceu o Independiente del Valle e conquistou a Libertadores de 2016.",
+  },
+  {
+    code: "LB-F4-P0011",
+    id: "libertadores-phase4-011",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Internacional campeao da Libertadores de 2010?",
+    options: [
+      "Abel Braga",
+      "Tite",
+      "Celso Roth",
+      "Muricy Ramalho"
+    ],
+    correctAnswer: "Celso Roth",
+    explanation: "Celso Roth comandou o Internacional na conquista da Libertadores de 2010.",
+  },
+  {
+    code: "LB-F4-P0012",
+    id: "libertadores-phase4-012",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Flamengo campeao da Libertadores de 2022?",
+    options: [
+      "Jorge Jesus",
+      "Renato Gaucho",
+      "Paulo Sousa",
+      "Dorival Junior"
+    ],
+    correctAnswer: "Dorival Junior",
+    explanation: "Dorival Junior comandou o Flamengo no titulo de 2022.",
+  },
+  {
+    code: "LB-F4-P0013",
+    id: "libertadores-phase4-013",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual estadio recebeu a final unica da Libertadores de 2022?",
+    options: [
+      "Monumental de Guayaquil",
+      "Monumental de Lima",
+      "Maracana",
+      "Centenario"
+    ],
+    correctAnswer: "Monumental de Guayaquil",
+    explanation: "A final de 2022 foi disputada em Guayaquil, no Equador.",
+  },
+  {
+    code: "LB-F4-P0014",
+    id: "libertadores-phase4-014",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual estadio recebeu a final unica da Libertadores de 2019?",
+    options: [
+      "Maracana",
+      "Monumental de Lima",
+      "Defensores del Chaco",
+      "La Bombonera"
+    ],
+    correctAnswer: "Monumental de Lima",
+    explanation: "A final de 2019 foi disputada em Lima, no Peru.",
+  },
+  {
+    code: "LB-F4-P0015",
+    id: "libertadores-phase4-015",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube brasileiro eliminou o Sao Paulo na semifinal da Libertadores de 2010?",
+    options: [
+      "Cruzeiro",
+      "Gremio",
+      "Internacional",
+      "Fluminense"
+    ],
+    correctAnswer: "Internacional",
+    explanation: "O Internacional passou pelo Sao Paulo antes de decidir a Libertadores de 2010.",
+  },
+  {
+    code: "LB-F4-P0016",
+    id: "libertadores-phase4-016",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube argentino venceu o Gremio na final da Libertadores de 2007?",
+    options: [
+      "River Plate",
+      "Estudiantes",
+      "Lanus",
+      "Boca Juniors"
+    ],
+    correctAnswer: "Boca Juniors",
+    explanation: "O Boca Juniors venceu a final de 2007 contra o Gremio.",
+  },
+  {
+    code: "LB-F4-P0017",
+    id: "libertadores-phase4-017",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual atacante marcou dois gols pelo Internacional no primeiro jogo da final de 2006?",
+    options: [
+      "Rafael Sobis",
+      "Fernandao",
+      "Iarley",
+      "Alexandre Pato"
+    ],
+    correctAnswer: "Rafael Sobis",
+    explanation: "Rafael Sobis marcou duas vezes contra o Sao Paulo no Morumbi em 2006.",
+  },
+  {
+    code: "LB-F4-P0018",
+    id: "libertadores-phase4-018",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual estadio recebeu o jogo decisivo da final brasileira da Libertadores de 2005?",
+    options: [
+      "Maracana",
+      "Morumbi",
+      "Beira-Rio",
+      "Mineirao"
+    ],
+    correctAnswer: "Morumbi",
+    explanation: "O Sao Paulo decidiu o titulo de 2005 contra o Athletico-PR no Morumbi.",
+  },
+  {
+    code: "LB-F4-P0019",
+    id: "libertadores-phase4-019",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube do ABC paulista foi finalista da Libertadores de 2002?",
+    options: [
+      "Santo Andre",
+      "Sao Bernardo",
+      "Sao Caetano",
+      "Agua Santa"
+    ],
+    correctAnswer: "Sao Caetano",
+    explanation: "O Sao Caetano chegou a final de 2002 contra o Olimpia.",
+  },
+  {
+    code: "LB-F4-P0020",
+    id: "libertadores-phase4-020",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou a LDU campea da Libertadores de 2008?",
+    options: [
+      "Jorge Fossati",
+      "Luis Zubeldia",
+      "Pablo Repetto",
+      "Edgardo Bauza"
+    ],
+    correctAnswer: "Edgardo Bauza",
+    explanation: "Edgardo Bauza comandou a LDU no titulo de 2008.",
+  },
+  {
+    code: "LB-F4-P0021",
+    id: "libertadores-phase4-021",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Once Caldas campeao da Libertadores de 2004?",
+    options: [
+      "Luis Fernando Montoya",
+      "Juan Carlos Osorio",
+      "Reinaldo Rueda",
+      "Francisco Maturana"
+    ],
+    correctAnswer: "Luis Fernando Montoya",
+    explanation: "Montoya comandou o Once Caldas na conquista de 2004.",
+  },
+  {
+    code: "LB-F4-P0022",
+    id: "libertadores-phase4-022",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual goleiro foi personagem do Once Caldas campeao de 2004?",
+    options: [
+      "Rene Higuita",
+      "Juan Carlos Henao",
+      "Oscar Cordoba",
+      "Miguel Calero"
+    ],
+    correctAnswer: "Juan Carlos Henao",
+    explanation: "Henao foi decisivo na campanha do Once Caldas.",
+  },
+  {
+    code: "LB-F4-P0023",
+    id: "libertadores-phase4-023",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube equatoriano surpreendeu ao chegar a final da Libertadores de 2016?",
+    options: [
+      "LDU Quito",
+      "Emelec",
+      "Independiente del Valle",
+      "Barcelona de Guayaquil"
+    ],
+    correctAnswer: "Independiente del Valle",
+    explanation: "O Independiente del Valle foi finalista em 2016.",
+  },
+  {
+    code: "LB-F4-P0024",
+    id: "libertadores-phase4-024",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Atletico Nacional campeao da Libertadores de 2016?",
+    options: [
+      "Juan Carlos Osorio",
+      "Francisco Maturana",
+      "Luis Fernando Suarez",
+      "Reinaldo Rueda"
+    ],
+    correctAnswer: "Reinaldo Rueda",
+    explanation: "Reinaldo Rueda dirigiu o Atletico Nacional na conquista de 2016.",
+  },
+  {
+    code: "LB-F4-P0025",
+    id: "libertadores-phase4-025",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube paraguaio foi vice-campeao da Libertadores de 2014?",
+    options: [
+      "Nacional-PAR",
+      "Olimpia",
+      "Cerro Porteno",
+      "Libertad"
+    ],
+    correctAnswer: "Nacional-PAR",
+    explanation: "O Nacional do Paraguai decidiu a Libertadores de 2014 contra o San Lorenzo.",
+  },
+  {
+    code: "LB-F4-P0026",
+    id: "libertadores-phase4-026",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube boliviano chegou a semifinal da Libertadores de 2014?",
+    options: [
+      "The Strongest",
+      "Bolivar",
+      "Oriente Petrolero",
+      "Jorge Wilstermann"
+    ],
+    correctAnswer: "Bolivar",
+    explanation: "O Bolivar fez campanha marcante e chegou a semifinal de 2014.",
+  },
+  {
+    code: "LB-F4-P0027",
+    id: "libertadores-phase4-027",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube uruguaio foi campeao da Libertadores de 1982?",
+    options: [
+      "Nacional",
+      "Defensor Sporting",
+      "Penarol",
+      "Danubio"
+    ],
+    correctAnswer: "Penarol",
+    explanation: "O Penarol conquistou a Libertadores de 1982.",
+  },
+  {
+    code: "LB-F4-P0028",
+    id: "libertadores-phase4-028",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube chileno foi finalista da Libertadores de 1993 contra o Sao Paulo?",
+    options: [
+      "Colo-Colo",
+      "Cobreloa",
+      "Universidad de Chile",
+      "Universidad Catolica"
+    ],
+    correctAnswer: "Universidad Catolica",
+    explanation: "A Universidad Catolica foi vice-campea da Libertadores de 1993.",
+  },
+  {
+    code: "LB-F4-P0029",
+    id: "libertadores-phase4-029",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube brasileiro eliminou o Palmeiras na semifinal da Libertadores de 2001?",
+    options: [
+      "Boca Juniors",
+      "Cruz Azul",
+      "Sao Caetano",
+      "Gremio"
+    ],
+    correctAnswer: "Boca Juniors",
+    explanation: "O Boca eliminou o Palmeiras nos penaltis na semifinal de 2001.",
+  },
+  {
+    code: "LB-F4-P0030",
+    id: "libertadores-phase4-030",
+    topicId: "libertadores",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube mexicano eliminou o Rosario Central na semifinal da Libertadores de 2001?",
+    options: [
+      "Chivas",
+      "Cruz Azul",
+      "America",
+      "Tigres"
+    ],
+    correctAnswer: "Cruz Azul",
+    explanation: "O Cruz Azul chegou a final da Libertadores de 2001.",
   },
 ];

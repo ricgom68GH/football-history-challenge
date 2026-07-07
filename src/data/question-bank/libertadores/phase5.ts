@@ -7,15 +7,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube foi campeão da Libertadores de 1964 e 1965?",
+    question: "Qual clube argentino ficou conhecido como Rei de Copas por seus sete titulos de Libertadores?",
     options: [
-      "Peñarol",
-      "Santos",
-      "Estudiantes",
-      "Independiente"
+      "Independiente",
+      "Boca Juniors",
+      "River Plate",
+      "Racing"
     ],
     correctAnswer: "Independiente",
-    explanation: "O Independiente conquistou seus primeiros títulos da Libertadores em 1964 e 1965.",
+    explanation: "O Independiente e o maior campeao da Libertadores, com sete conquistas.",
   },
   {
     code: "LB-F5-P0002",
@@ -23,15 +23,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube venceu quatro Libertadores consecutivas entre 1972 e 1975?",
+    question: "Qual tecnico comandou o Estudiantes no periodo do tricampeonato continental entre 1968 e 1970?",
     options: [
-      "Independiente",
-      "Boca Juniors",
-      "Peñarol",
-      "River Plate"
+      "Carlos Bilardo",
+      "Osvaldo Zubeldia",
+      "Cesar Menotti",
+      "Helenio Herrera"
     ],
-    correctAnswer: "Independiente",
-    explanation: "O Independiente venceu quatro edições seguidas da Libertadores, de 1972 a 1975.",
+    correctAnswer: "Osvaldo Zubeldia",
+    explanation: "Osvaldo Zubeldia marcou epoca no Estudiantes multicampeao da Libertadores.",
   },
   {
     code: "LB-F5-P0003",
@@ -39,15 +39,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube paraguaio derrotou o São Caetano na final da Libertadores de 2002?",
+    question: "Qual goleiro foi decisivo para o Palmeiras na conquista da Libertadores de 1999?",
     options: [
-      "Cerro Porteo",
-      "Olimpia",
-      "Libertad",
-      "Guaran"
+      "Velloso",
+      "Sergio",
+      "Marcos",
+      "Carlos Germano"
     ],
-    correctAnswer: "Olimpia",
-    explanation: "O Olimpia venceu o São Caetano nos pênaltis e conquistou a Libertadores de 2002.",
+    correctAnswer: "Marcos",
+    explanation: "Marcos brilhou especialmente nas decisoes por penaltis daquela campanha.",
   },
   {
     code: "LB-F5-P0004",
@@ -55,15 +55,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube venceu a Libertadores de 1999 contra o Deportivo Cali?",
+    question: "Qual foi o adversario do Palmeiras na final da Libertadores de 1999?",
     options: [
-      "Vasco",
-      "Cruzeiro",
-      "Palmeiras",
-      "Grêmio"
+      "America de Cali",
+      "Atletico Nacional",
+      "Once Caldas",
+      "Deportivo Cali"
     ],
-    correctAnswer: "Palmeiras",
-    explanation: "O Palmeiras venceu o Deportivo Cali nos pênaltis e conquistou a Libertadores de 1999.",
+    correctAnswer: "Deportivo Cali",
+    explanation: "O Palmeiras decidiu o titulo de 1999 contra o Deportivo Cali, da Colombia.",
   },
   {
     code: "LB-F5-P0005",
@@ -71,15 +71,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube venceu a Libertadores de 2003 derrotando o Santos na final?",
+    question: "Qual atacante argentino foi destaque do Boca Juniors na final contra o Santos em 2003?",
     options: [
-      "River Plate",
-      "Olimpia",
-      "Estudiantes",
-      "Boca Juniors"
+      "Carlos Tevez",
+      "Martin Palermo",
+      "Guillermo Barros Schelotto",
+      "Juan Roman Riquelme"
     ],
-    correctAnswer: "Boca Juniors",
-    explanation: "O Boca Juniors venceu o Santos nas duas partidas da final da Libertadores de 2003.",
+    correctAnswer: "Carlos Tevez",
+    explanation: "Tevez foi um dos nomes mais marcantes do Boca campeao de 2003.",
   },
   {
     code: "LB-F5-P0006",
@@ -87,15 +87,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube venceu a Libertadores de 1996?",
+    question: "Qual idolo argentino liderava o River Plate campeao da Libertadores de 1996?",
     options: [
-      "River Plate",
-      "América de Cali",
-      "Boca Juniors",
-      "Vélez Sarsfield"
+      "Ariel Ortega",
+      "Enzo Francescoli",
+      "Marcelo Salas",
+      "Hernan Crespo"
     ],
-    correctAnswer: "River Plate",
-    explanation: "O River Plate venceu o América de Cali na final e conquistou a Libertadores de 1996.",
+    correctAnswer: "Enzo Francescoli",
+    explanation: "Francescoli era a grande referencia tecnica daquele River Plate.",
   },
   {
     code: "LB-F5-P0007",
@@ -103,15 +103,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube argentino venceu a Libertadores de 1986?",
+    question: "Qual dupla de zaga ficou marcada no Corinthians campeao invicto da Libertadores de 2012?",
     options: [
-      "Boca Juniors",
-      "River Plate",
-      "Independiente",
-      "Racing"
+      "Gil e Felipe",
+      "Gamarra e Fabio Luciano",
+      "Chicao e Leandro Castan",
+      "Balbuena e Pablo"
     ],
-    correctAnswer: "River Plate",
-    explanation: "O River Plate conquistou a Libertadores de 1986, ano em que tambm venceu o Mundial.",
+    correctAnswer: "Chicao e Leandro Castan",
+    explanation: "Chicao e Leandro Castan formaram a defesa titular do Corinthians em 2012.",
   },
   {
     code: "LB-F5-P0008",
@@ -119,15 +119,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube colombiano foi vice-campeão da Libertadores de 1978 e 1999?",
+    question: "Qual clube colombiano foi o primeiro do pais a chegar a uma final de Libertadores, em 1978?",
     options: [
-      "Atlético Nacional",
-      "América de Cali",
-      "Deportivo Cali",
-      "Once Caldas"
+      "America de Cali",
+      "Atletico Nacional",
+      "Millonarios",
+      "Deportivo Cali"
     ],
     correctAnswer: "Deportivo Cali",
-    explanation: "O Deportivo Cali chegou às finais de 1978 e 1999, mas terminou como vice-campeão.",
+    explanation: "O Deportivo Cali abriu caminho para a Colombia em finais continentais.",
   },
   {
     code: "LB-F5-P0009",
@@ -135,15 +135,15 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube equatoriano foi finalista da Libertadores de 2016?",
+    question: "Antes da final de 2016, qual gigante argentino o Independiente del Valle eliminou na semifinal?",
     options: [
-      "LDU Quito",
-      "Barcelona de Guayaquil",
-      "Emelec",
-      "Independiente del Valle"
+      "Boca Juniors",
+      "River Plate",
+      "Racing",
+      "San Lorenzo"
     ],
-    correctAnswer: "Independiente del Valle",
-    explanation: "O Independiente del Valle chegou à final de 2016 e perdeu para o Atlético Nacional.",
+    correctAnswer: "Boca Juniors",
+    explanation: "O Independiente del Valle eliminou o Boca na semifinal de 2016.",
   },
   {
     code: "LB-F5-P0010",
@@ -151,14 +151,334 @@ export const libertadoresPhase5Questions: Question[] = [
     topicId: "libertadores",
     phaseId: 5,
     difficulty: "dificil",
-    question: "Qual clube uruguaio venceu a Libertadores de 1971 e 1980?",
+    question: "Qual clube brasileiro foi adversario do Nacional na final da Libertadores de 1980?",
     options: [
-      "Nacional",
-      "Peñarol",
+      "Cruzeiro",
+      "Internacional",
+      "Sao Paulo",
+      "Atletico-MG"
+    ],
+    correctAnswer: "Internacional",
+    explanation: "O Internacional enfrentou o Nacional na decisao continental de 1980.",
+  },
+  {
+    code: "LB-F5-P0011",
+    id: "libertadores-phase5-011",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual foi o placar do jogo desempate entre Penarol e River Plate na final de 1966?",
+    options: [
+      "2 a 0",
+      "3 a 1",
+      "4 a 2",
+      "1 a 0"
+    ],
+    correctAnswer: "4 a 2",
+    explanation: "O Penarol venceu o River Plate por 4 a 2 no jogo desempate de 1966.",
+  },
+  {
+    code: "LB-F5-P0012",
+    id: "libertadores-phase5-012",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paraguaio foi adversario do Penarol na primeira final da Libertadores, em 1960?",
+    options: [
+      "Cerro Porteno",
+      "Libertad",
+      "Guarani",
+      "Olimpia"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Olimpia enfrentou o Penarol na decisao da primeira Libertadores.",
+  },
+  {
+    code: "LB-F5-P0013",
+    id: "libertadores-phase5-013",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube argentino venceu o Nacional-URU na final da Libertadores de 1967?",
+    options: [
+      "Racing",
+      "Estudiantes",
+      "Independiente",
+      "River Plate"
+    ],
+    correctAnswer: "Racing",
+    explanation: "O Racing superou o Nacional e conquistou a Libertadores de 1967.",
+  },
+  {
+    code: "LB-F5-P0014",
+    id: "libertadores-phase5-014",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Em qual estadio o Santos venceu o Boca Juniors na final da Libertadores de 1963?",
+    options: [
+      "Maracana",
+      "La Bombonera",
+      "Centenario",
+      "Morumbi"
+    ],
+    correctAnswer: "La Bombonera",
+    explanation: "O Santos ganhou do Boca em plena La Bombonera na final de 1963.",
+  },
+  {
+    code: "LB-F5-P0015",
+    id: "libertadores-phase5-015",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador simbolizava o Santos bicampeao continental dos anos 1960?",
+    options: [
+      "Pepe",
+      "Zito",
+      "Pele",
+      "Coutinho"
+    ],
+    correctAnswer: "Pele",
+    explanation: "Pele era o maior nome do Santos que dominou a America no periodo.",
+  },
+  {
+    code: "LB-F5-P0016",
+    id: "libertadores-phase5-016",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube chileno decidiu a Libertadores de 1973 contra o Independiente?",
+    options: [
+      "Cobreloa",
+      "Universidad de Chile",
+      "Union Espanola",
+      "Colo-Colo"
+    ],
+    correctAnswer: "Colo-Colo",
+    explanation: "O Colo-Colo foi finalista em 1973 contra o Independiente.",
+  },
+  {
+    code: "LB-F5-P0017",
+    id: "libertadores-phase5-017",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual goleiro ficou famoso pelo estilo ousado no Atletico Nacional campeao de 1989?",
+    options: [
+      "Rene Higuita",
+      "Oscar Cordoba",
+      "Farid Mondragon",
+      "David Ospina"
+    ],
+    correctAnswer: "Rene Higuita",
+    explanation: "Rene Higuita foi uma figura marcante do Atletico Nacional de 1989.",
+  },
+  {
+    code: "LB-F5-P0018",
+    id: "libertadores-phase5-018",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paraguaio surpreendeu ao chegar a final contra o San Lorenzo em 2014?",
+    options: [
+      "Olimpia",
+      "Nacional-PAR",
+      "Cerro Porteno",
+      "Libertad"
+    ],
+    correctAnswer: "Nacional-PAR",
+    explanation: "O Nacional do Paraguai fez campanha historica e foi vice em 2014.",
+  },
+  {
+    code: "LB-F5-P0019",
+    id: "libertadores-phase5-019",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube boliviano chegou a semifinal da Libertadores de 2014?",
+    options: [
+      "The Strongest",
+      "Oriente Petrolero",
+      "Bolivar",
+      "Jorge Wilstermann"
+    ],
+    correctAnswer: "Bolivar",
+    explanation: "O Bolivar fez uma campanha rara para o futebol boliviano na Libertadores.",
+  },
+  {
+    code: "LB-F5-P0020",
+    id: "libertadores-phase5-020",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube equatoriano foi vice para o Vasco na Libertadores de 1998?",
+    options: [
+      "LDU Quito",
+      "Emelec",
+      "El Nacional",
+      "Barcelona de Guayaquil"
+    ],
+    correctAnswer: "Barcelona de Guayaquil",
+    explanation: "O Barcelona de Guayaquil decidiu a Libertadores de 1998 contra o Vasco.",
+  },
+  {
+    code: "LB-F5-P0021",
+    id: "libertadores-phase5-021",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual foi o adversario do Atletico-MG na final da Libertadores de 2013?",
+    options: [
+      "Olimpia",
+      "Nacional-PAR",
+      "Libertad",
+      "Cerro Porteno"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Atletico-MG decidiu a Libertadores de 2013 contra o Olimpia.",
+  },
+  {
+    code: "LB-F5-P0022",
+    id: "libertadores-phase5-022",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Quem marcou o gol do titulo do Cruzeiro na final da Libertadores de 1997?",
+    options: [
+      "Dida",
+      "Elivelton",
+      "Palhinha",
+      "Marcelo Ramos"
+    ],
+    correctAnswer: "Elivelton",
+    explanation: "Elivelton marcou o gol decisivo contra o Sporting Cristal em 1997.",
+  },
+  {
+    code: "LB-F5-P0023",
+    id: "libertadores-phase5-023",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube argentino ficou marcado por um estilo intenso e fisico no tricampeonato de 1968 a 1970?",
+    options: [
+      "Racing",
+      "Boca Juniors",
+      "Estudiantes",
+      "River Plate"
+    ],
+    correctAnswer: "Estudiantes",
+    explanation: "O Estudiantes de Zubeldia foi uma equipe historica, competitiva e muito marcante.",
+  },
+  {
+    code: "LB-F5-P0024",
+    id: "libertadores-phase5-024",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube uruguaio foi adversario do Estudiantes na final da Libertadores de 1969?",
+    options: [
+      "Penarol",
+      "Danubio",
       "Defensor Sporting",
-      "Danubio"
+      "Nacional"
     ],
     correctAnswer: "Nacional",
-    explanation: "O Nacional conquistou a Libertadores em 1971 e 1980, alm do título de 1988.",
+    explanation: "O Nacional decidiu a Libertadores de 1969 contra o Estudiantes.",
+  },
+  {
+    code: "LB-F5-P0025",
+    id: "libertadores-phase5-025",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube chileno foi finalista da Libertadores de 1975 contra o Independiente?",
+    options: [
+      "Union Espanola",
+      "Colo-Colo",
+      "Cobreloa",
+      "Universidad Catolica"
+    ],
+    correctAnswer: "Union Espanola",
+    explanation: "A Union Espanola chegou a decisao continental de 1975.",
+  },
+  {
+    code: "LB-F5-P0026",
+    id: "libertadores-phase5-026",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Em qual cidade foi disputado o jogo desempate da final de 1977 entre Boca Juniors e Cruzeiro?",
+    options: [
+      "Buenos Aires",
+      "Montevideo",
+      "Santiago",
+      "Lima"
+    ],
+    correctAnswer: "Montevideo",
+    explanation: "O jogo desempate da final de 1977 foi disputado em Montevideo.",
+  },
+  {
+    code: "LB-F5-P0027",
+    id: "libertadores-phase5-027",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paraguaio conquistou a Libertadores de 1979 contra o Boca Juniors?",
+    options: [
+      "Cerro Porteno",
+      "Libertad",
+      "Olimpia",
+      "Guarani"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Olimpia superou o Boca Juniors e conquistou a Libertadores de 1979.",
+  },
+  {
+    code: "LB-F5-P0028",
+    id: "libertadores-phase5-028",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube colombiano foi vice-campeao da Libertadores tres vezes seguidas nos anos 1980?",
+    options: [
+      "Deportivo Cali",
+      "Atletico Nacional",
+      "Millonarios",
+      "America de Cali"
+    ],
+    correctAnswer: "America de Cali",
+    explanation: "O America de Cali foi vice em 1985, 1986 e 1987.",
+  },
+  {
+    code: "LB-F5-P0029",
+    id: "libertadores-phase5-029",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube chileno foi vice da Libertadores em 1981 e 1982, em duas campanhas seguidas?",
+    options: [
+      "Cobreloa",
+      "Colo-Colo",
+      "Universidad de Chile",
+      "Universidad Catolica"
+    ],
+    correctAnswer: "Cobreloa",
+    explanation: "O Cobreloa chegou a duas finais consecutivas no inicio dos anos 1980.",
+  },
+  {
+    code: "LB-F5-P0030",
+    id: "libertadores-phase5-030",
+    topicId: "libertadores",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador marcou o gol do titulo do Flamengo na final da Libertadores de 2022?",
+    options: [
+      "Pedro",
+      "Gabigol",
+      "Everton Ribeiro",
+      "Arrascaeta"
+    ],
+    correctAnswer: "Gabigol",
+    explanation: "Gabigol marcou o gol da vitoria do Flamengo sobre o Athletico-PR em 2022.",
   },
 ];

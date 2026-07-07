@@ -9,9 +9,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a primeira edição da Copa dos Campeões da Europa, em 1956?",
     options: [
+      "Real Madrid",
       "Milan",
       "Reims",
-      "Real Madrid",
       "Benfica"
     ],
     correctAnswer: "Real Madrid",
@@ -26,9 +26,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     question: "Qual clube português foi bicampeão europeu em 1961 e 1962?",
     options: [
       "Porto",
+      "Benfica",
       "Sporting",
-      "Boavistaça",
-      "Benfica"
+      "Boavistaça"
     ],
     correctAnswer: "Benfica",
     explanation: "O Benfica venceu a competição em 1961 e 1962.",
@@ -41,9 +41,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual jogador do Benfica foi grande estrela do título europeu de 1962?",
     options: [
-      "Eusebio",
       "Coluna",
       "Aguas",
+      "Eusebio",
       "Torres"
     ],
     correctAnswer: "Eusebio",
@@ -58,9 +58,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     question: "Qual clube holandês venceu três Copas dos Campeões seguidas de 1971 a 1973?",
     options: [
       "PSV",
-      "Ajax",
       "Feyenoord",
-      "AZ"
+      "AZ",
+      "Ajax"
     ],
     correctAnswer: "Ajax",
     explanation: "O Ajax dominou a Europa no inicio dos anos 1970.",
@@ -73,9 +73,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube inglês venceu duas Copas dos Campeões seguidas em 1979 e 1980?",
     options: [
+      "Nottingham Forest",
       "Liverpool",
       "Aston Villa",
-      "Nottingham Forest",
       "Leeds United"
     ],
     correctAnswer: "Nottingham Forest",
@@ -90,9 +90,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     question: "Qual clube romeno venceu a Copa dos Campeões de 1986?",
     options: [
       "Dynamo Kiev",
+      "Steaua Bucareste",
       "Estrela Vermelha",
-      "Partizan",
-      "Steaua Bucareste"
+      "Partizan"
     ],
     correctAnswer: "Steaua Bucareste",
     explanation: "O Steaua venceu o Barcelona nos pênaltis em 1986.",
@@ -105,9 +105,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a Copa dos Campeões de 1991 nos pênaltis contra o Marseille?",
     options: [
-      "Estrela Vermelha",
       "Milan",
       "Benfica",
+      "Estrela Vermelha",
       "Porto"
     ],
     correctAnswer: "Estrela Vermelha",
@@ -122,9 +122,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     question: "Qual clube francês venceu a Champions League de 1993?",
     options: [
       "PSG",
-      "Marseille",
       "Mônaco",
-      "Lyon"
+      "Lyon",
+      "Marseille"
     ],
     correctAnswer: "Marseille",
     explanation: "O Marseille venceu o Milan e conquistou a Champions de 1993.",
@@ -137,9 +137,9 @@ export const championsLeaguePhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual jogador marcou o gol do Borussia Dortmund na final de 1997 contra a Juventus logo aps entrar?",
     options: [
+      "Ricken",
       "Moller",
       "Sammer",
-      "Ricken",
       "Chapuisat"
     ],
     correctAnswer: "Ricken",
@@ -154,11 +154,331 @@ export const championsLeaguePhase4Questions: Question[] = [
     question: "Qual clube venceu a Champions de 2001 contra o Valencia nos pênaltis?",
     options: [
       "Real Madrid",
+      "Bayern de Munique",
       "Milan",
-      "Manchester United",
-      "Bayern de Munique"
+      "Manchester United"
     ],
     correctAnswer: "Bayern de Munique",
     explanation: "O Bayern venceu o Valencia nos pênaltis na final de 2001.",
+  },
+  {
+    code: "CL-F4-P0011",
+    id: "champions-league-phase4-011",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual estadio recebeu a final da Champions de 1999 entre Manchester United e Bayern?",
+    options: [
+      "Wembley",
+      "San Siro",
+      "Camp Nou",
+      "Old Trafford"
+    ],
+    correctAnswer: "Camp Nou",
+    explanation: "A final de 1999 foi disputada no Camp Nou, em Barcelona.",
+  },
+  {
+    code: "CL-F4-P0012",
+    id: "champions-league-phase4-012",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual jogador marcou o gol da virada do Manchester United na final de 1999?",
+    options: [
+      "Teddy Sheringham",
+      "Ryan Giggs",
+      "David Beckham",
+      "Ole Gunnar Solskjaer"
+    ],
+    correctAnswer: "Ole Gunnar Solskjaer",
+    explanation: "Solskjaer marcou o gol do titulo nos acrescimos.",
+  },
+  {
+    code: "CL-F4-P0013",
+    id: "champions-league-phase4-013",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube holandes venceu a Copa dos Campeoes da Europa em 1988?",
+    options: [
+      "PSV",
+      "Ajax",
+      "Feyenoord",
+      "AZ Alkmaar"
+    ],
+    correctAnswer: "PSV",
+    explanation: "O PSV conquistou a Europa em 1988.",
+  },
+  {
+    code: "CL-F4-P0014",
+    id: "champions-league-phase4-014",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube portugues foi derrotado pelo PSV na final europeia de 1988?",
+    options: [
+      "Porto",
+      "Benfica",
+      "Sporting",
+      "Boavista"
+    ],
+    correctAnswer: "Benfica",
+    explanation: "O Benfica perdeu a final de 1988 para o PSV nos penaltis.",
+  },
+  {
+    code: "CL-F4-P0015",
+    id: "champions-league-phase4-015",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual goleiro do Steaua Bucareste defendeu quatro penaltis na final de 1986?",
+    options: [
+      "Silviu Lung",
+      "Bogdan Stelea",
+      "Helmuth Duckadam",
+      "Gheorghe Hagi"
+    ],
+    correctAnswer: "Helmuth Duckadam",
+    explanation: "Duckadam virou lenda ao defender quatro penaltis contra o Barcelona.",
+  },
+  {
+    code: "CL-F4-P0016",
+    id: "champions-league-phase4-016",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube espanhol perdeu a final da Copa dos Campeoes de 1986 para o Steaua Bucareste?",
+    options: [
+      "Real Madrid",
+      "Atletico de Madrid",
+      "Valencia",
+      "Barcelona"
+    ],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona perdeu para o Steaua nos penaltis em 1986.",
+  },
+  {
+    code: "CL-F4-P0017",
+    id: "champions-league-phase4-017",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube escoces venceu a Copa dos Campeoes da Europa em 1967?",
+    options: [
+      "Celtic",
+      "Rangers",
+      "Aberdeen",
+      "Hibernian"
+    ],
+    correctAnswer: "Celtic",
+    explanation: "O Celtic venceu a competicao em 1967.",
+  },
+  {
+    code: "CL-F4-P0018",
+    id: "champions-league-phase4-018",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube italiano foi derrotado pelo Celtic na final europeia de 1967?",
+    options: [
+      "Milan",
+      "Inter de Milao",
+      "Juventus",
+      "Roma"
+    ],
+    correctAnswer: "Inter de Milao",
+    explanation: "O Celtic venceu a Inter de Milao na final de 1967.",
+  },
+  {
+    code: "CL-F4-P0019",
+    id: "champions-league-phase4-019",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube holandes venceu a Copa dos Campeoes da Europa de 1970?",
+    options: [
+      "Ajax",
+      "PSV",
+      "Feyenoord",
+      "Twente"
+    ],
+    correctAnswer: "Feyenoord",
+    explanation: "O Feyenoord foi campeao europeu em 1970.",
+  },
+  {
+    code: "CL-F4-P0020",
+    id: "champions-league-phase4-020",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube grego foi finalista da Copa dos Campeoes de 1971 contra o Ajax?",
+    options: [
+      "Olympiacos",
+      "AEK Atenas",
+      "PAOK",
+      "Panathinaikos"
+    ],
+    correctAnswer: "Panathinaikos",
+    explanation: "O Panathinaikos chegou a final europeia de 1971.",
+  },
+  {
+    code: "CL-F4-P0021",
+    id: "champions-league-phase4-021",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico lendario comandou o Panathinaikos finalista europeu em 1971?",
+    options: [
+      "Ferenc Puskas",
+      "Rinus Michels",
+      "Helenio Herrera",
+      "Ernst Happel"
+    ],
+    correctAnswer: "Ferenc Puskas",
+    explanation: "Puskas foi o tecnico do Panathinaikos na final de 1971.",
+  },
+  {
+    code: "CL-F4-P0022",
+    id: "champions-league-phase4-022",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube belga chegou a final da Copa dos Campeoes de 1978 contra o Liverpool?",
+    options: [
+      "Anderlecht",
+      "Club Brugge",
+      "Standard Liege",
+      "Genk"
+    ],
+    correctAnswer: "Club Brugge",
+    explanation: "O Club Brugge foi vice europeu em 1978.",
+  },
+  {
+    code: "CL-F4-P0023",
+    id: "champions-league-phase4-023",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual treinador comandou o Nottingham Forest nos titulos europeus de 1979 e 1980?",
+    options: [
+      "Bob Paisley",
+      "Bill Shankly",
+      "Brian Clough",
+      "Jock Stein"
+    ],
+    correctAnswer: "Brian Clough",
+    explanation: "Brian Clough comandou o Nottingham Forest bicampeao europeu.",
+  },
+  {
+    code: "CL-F4-P0024",
+    id: "champions-league-phase4-024",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube sueco perdeu a final europeia de 1979 para o Nottingham Forest?",
+    options: [
+      "IFK Goteborg",
+      "AIK",
+      "Hammarby",
+      "Malmo"
+    ],
+    correctAnswer: "Malmo",
+    explanation: "O Malmo foi vice da Copa dos Campeoes em 1979.",
+  },
+  {
+    code: "CL-F4-P0025",
+    id: "champions-league-phase4-025",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube alemao venceu tres Copas dos Campeoes seguidas entre 1974 e 1976?",
+    options: [
+      "Bayern de Munique",
+      "Borussia Monchengladbach",
+      "Hamburgo",
+      "Borussia Dortmund"
+    ],
+    correctAnswer: "Bayern de Munique",
+    explanation: "O Bayern dominou a Europa entre 1974 e 1976.",
+  },
+  {
+    code: "CL-F4-P0026",
+    id: "champions-league-phase4-026",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual jogador alemao era simbolo do Bayern tricampeao europeu dos anos 1970?",
+    options: [
+      "Gerd Muller",
+      "Franz Beckenbauer",
+      "Karl-Heinz Rummenigge",
+      "Sepp Maier"
+    ],
+    correctAnswer: "Franz Beckenbauer",
+    explanation: "Beckenbauer foi o grande simbolo daquele Bayern.",
+  },
+  {
+    code: "CL-F4-P0027",
+    id: "champions-league-phase4-027",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube ingles venceu a Copa dos Campeoes da Europa de 1981 contra o Real Madrid?",
+    options: [
+      "Aston Villa",
+      "Nottingham Forest",
+      "Liverpool",
+      "Leeds United"
+    ],
+    correctAnswer: "Liverpool",
+    explanation: "O Liverpool venceu o Real Madrid na final de 1981.",
+  },
+  {
+    code: "CL-F4-P0028",
+    id: "champions-league-phase4-028",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube italiano foi campeao europeu em 1985 na final marcada pela tragedia de Heysel?",
+    options: [
+      "Milan",
+      "Inter de Milao",
+      "Roma",
+      "Juventus"
+    ],
+    correctAnswer: "Juventus",
+    explanation: "A Juventus venceu a final de 1985 contra o Liverpool.",
+  },
+  {
+    code: "CL-F4-P0029",
+    id: "champions-league-phase4-029",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube portugues venceu a Copa dos Campeoes de 1987 com gol de calcanhar de Madjer?",
+    options: [
+      "Porto",
+      "Benfica",
+      "Sporting",
+      "Boavista"
+    ],
+    correctAnswer: "Porto",
+    explanation: "O Porto venceu o Bayern em 1987 com gol historico de Madjer.",
+  },
+  {
+    code: "CL-F4-P0030",
+    id: "champions-league-phase4-030",
+    topicId: "champions-league",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual jogador argelino marcou de calcanhar na final europeia de 1987 pelo Porto?",
+    options: [
+      "Paulo Futre",
+      "Rabah Madjer",
+      "Fernando Gomes",
+      "Juary"
+    ],
+    correctAnswer: "Rabah Madjer",
+    explanation: "Madjer fez um dos gols mais famosos da historia das finais europeias.",
   },
 ];

@@ -9,8 +9,8 @@ export const libertadoresPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu três Libertadores seguidas entre 1968 e 1970?",
     options: [
-      "Independiente",
       "Estudiantes",
+      "Independiente",
       "Peñarol",
       "Nacional"
     ],
@@ -26,8 +26,8 @@ export const libertadoresPhase3Questions: Question[] = [
     question: "Qual clube argentino venceu a Libertadores de 1985?",
     options: [
       "Boca Juniors",
-      "River Plate",
       "Argentinos Juniors",
+      "River Plate",
       "Racing"
     ],
     correctAnswer: "Argentinos Juniors",
@@ -43,8 +43,8 @@ export const libertadoresPhase3Questions: Question[] = [
     options: [
       "Newell's Old Boys",
       "Boca Juniors",
-      "River Plate",
-      "Vélez Sarsfield"
+      "Vélez Sarsfield",
+      "River Plate"
     ],
     correctAnswer: "Vélez Sarsfield",
     explanation: "O Vélez Sarsfield venceu o São Paulo nos pênaltis e ficou com o título de 1994.",
@@ -57,10 +57,10 @@ export const libertadoresPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube brasileiro venceu a Libertadores de 1998?",
     options: [
-      "Vasco",
       "Cruzeiro",
       "Palmeiras",
-      "Grêmio"
+      "Grêmio",
+      "Vasco"
     ],
     correctAnswer: "Vasco",
     explanation: "O Vasco conquistou a Libertadores de 1998 no ano de seu centenrio.",
@@ -73,8 +73,8 @@ export const libertadoresPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube brasileiro venceu a Libertadores de 1976?",
     options: [
-      "Internacional",
       "Cruzeiro",
+      "Internacional",
       "Atlético-MG",
       "São Paulo"
     ],
@@ -90,8 +90,8 @@ export const libertadoresPhase3Questions: Question[] = [
     question: "Qual clube venceu a final da Libertadores de 2009 contra o Cruzeiro?",
     options: [
       "Nacional",
-      "Olimpia",
       "Estudiantes",
+      "Olimpia",
       "Boca Juniors"
     ],
     correctAnswer: "Estudiantes",
@@ -107,8 +107,8 @@ export const libertadoresPhase3Questions: Question[] = [
     options: [
       "Boca Juniors",
       "Grêmio",
-      "River Plate",
-      "Internacional"
+      "Internacional",
+      "River Plate"
     ],
     correctAnswer: "Internacional",
     explanation: "O Internacional superou o São Paulo na decisão e conquistou a Libertadores de 2006.",
@@ -121,10 +121,10 @@ export const libertadoresPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube uruguaio venceu a Libertadores de 1988?",
     options: [
-      "Nacional",
       "Peñarol",
       "Defensor Sporting",
-      "Danubio"
+      "Danubio",
+      "Nacional"
     ],
     correctAnswer: "Nacional",
     explanation: "O Nacional conquistou a Libertadores de 1988 ao superar o Newell's Old Boys na final.",
@@ -137,8 +137,8 @@ export const libertadoresPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu a Libertadores de 2015?",
     options: [
-      "Tigres",
       "River Plate",
+      "Tigres",
       "Boca Juniors",
       "San Lorenzo"
     ],
@@ -154,11 +154,331 @@ export const libertadoresPhase3Questions: Question[] = [
     question: "Qual clube brasileiro venceu a Libertadores de 1995?",
     options: [
       "Palmeiras",
-      "São Paulo",
       "Grêmio",
+      "São Paulo",
       "Cruzeiro"
     ],
     correctAnswer: "Grêmio",
     explanation: "O Grêmio conquistou a Libertadores de 1995 ao derrotar o Atlético Nacional na final.",
+  },
+  {
+    code: "LB-F3-P0011",
+    id: "libertadores-phase3-011",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube brasileiro foi campeao da Libertadores de 1981?",
+    options: [
+      "Gremio",
+      "Cruzeiro",
+      "Flamengo",
+      "Internacional"
+    ],
+    correctAnswer: "Flamengo",
+    explanation: "O Flamengo venceu a Libertadores de 1981.",
+  },
+  {
+    code: "LB-F3-P0012",
+    id: "libertadores-phase3-012",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube chileno foi adversario do Flamengo na final da Libertadores de 1981?",
+    options: [
+      "Colo-Colo",
+      "Universidad de Chile",
+      "Universidad Catolica",
+      "Cobreloa"
+    ],
+    correctAnswer: "Cobreloa",
+    explanation: "O Cobreloa decidiu a Libertadores de 1981 contra o Flamengo.",
+  },
+  {
+    code: "LB-F3-P0013",
+    id: "libertadores-phase3-013",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube argentino venceu a Libertadores de 1977 e 1978?",
+    options: [
+      "Boca Juniors",
+      "River Plate",
+      "Independiente",
+      "Racing"
+    ],
+    correctAnswer: "Boca Juniors",
+    explanation: "O Boca Juniors foi bicampeao continental em 1977 e 1978.",
+  },
+  {
+    code: "LB-F3-P0014",
+    id: "libertadores-phase3-014",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube paraguaio venceu a Libertadores de 1990?",
+    options: [
+      "Cerro Porteno",
+      "Olimpia",
+      "Libertad",
+      "Guarani"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Olimpia conquistou a Libertadores de 1990.",
+  },
+  {
+    code: "LB-F3-P0015",
+    id: "libertadores-phase3-015",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube equatoriano chegou a final da Libertadores de 1990?",
+    options: [
+      "Emelec",
+      "LDU Quito",
+      "Barcelona de Guayaquil",
+      "Deportivo Quito"
+    ],
+    correctAnswer: "Barcelona de Guayaquil",
+    explanation: "O Barcelona de Guayaquil foi vice-campeao em 1990.",
+  },
+  {
+    code: "LB-F3-P0016",
+    id: "libertadores-phase3-016",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube argentino foi vice-campeao da Libertadores de 1992 contra o Sao Paulo?",
+    options: [
+      "Boca Juniors",
+      "River Plate",
+      "Racing",
+      "Newells Old Boys"
+    ],
+    correctAnswer: "Newells Old Boys",
+    explanation: "O Newells Old Boys decidiu a Libertadores de 1992 contra o Sao Paulo.",
+  },
+  {
+    code: "LB-F3-P0017",
+    id: "libertadores-phase3-017",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube chileno foi vice-campeao da Libertadores de 1993?",
+    options: [
+      "Universidad Catolica",
+      "Colo-Colo",
+      "Cobreloa",
+      "Universidad de Chile"
+    ],
+    correctAnswer: "Universidad Catolica",
+    explanation: "A Universidad Catolica perdeu a final de 1993 para o Sao Paulo.",
+  },
+  {
+    code: "LB-F3-P0018",
+    id: "libertadores-phase3-018",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube argentino venceu a Libertadores de 1996?",
+    options: [
+      "Velez Sarsfield",
+      "River Plate",
+      "Boca Juniors",
+      "Estudiantes"
+    ],
+    correctAnswer: "River Plate",
+    explanation: "O River Plate venceu a Libertadores de 1996.",
+  },
+  {
+    code: "LB-F3-P0019",
+    id: "libertadores-phase3-019",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube brasileiro foi campeao da Libertadores de 1983?",
+    options: [
+      "Flamengo",
+      "Cruzeiro",
+      "Gremio",
+      "Santos"
+    ],
+    correctAnswer: "Gremio",
+    explanation: "O Gremio conquistou a Libertadores de 1983.",
+  },
+  {
+    code: "LB-F3-P0020",
+    id: "libertadores-phase3-020",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube uruguaio decidiu a Libertadores de 1983 contra o Gremio?",
+    options: [
+      "Nacional",
+      "Defensor Sporting",
+      "Danubio",
+      "Penarol"
+    ],
+    correctAnswer: "Penarol",
+    explanation: "O Penarol foi o adversario do Gremio na final de 1983.",
+  },
+  {
+    code: "LB-F3-P0021",
+    id: "libertadores-phase3-021",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube colombiano venceu a Libertadores de 1989?",
+    options: [
+      "Atletico Nacional",
+      "America de Cali",
+      "Deportivo Cali",
+      "Millonarios"
+    ],
+    correctAnswer: "Atletico Nacional",
+    explanation: "O Atletico Nacional foi campeao da Libertadores de 1989.",
+  },
+  {
+    code: "LB-F3-P0022",
+    id: "libertadores-phase3-022",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual goleiro colombiano ficou associado ao Atletico Nacional campeao de 1989?",
+    options: [
+      "Oscar Cordoba",
+      "Rene Higuita",
+      "Farid Mondragon",
+      "David Ospina"
+    ],
+    correctAnswer: "Rene Higuita",
+    explanation: "Higuita foi personagem marcante do Atletico Nacional de 1989.",
+  },
+  {
+    code: "LB-F3-P0023",
+    id: "libertadores-phase3-023",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube argentino foi campeao da Libertadores de 1984?",
+    options: [
+      "Argentinos Juniors",
+      "Boca Juniors",
+      "Independiente",
+      "Racing"
+    ],
+    correctAnswer: "Independiente",
+    explanation: "O Independiente conquistou a Libertadores de 1984.",
+  },
+  {
+    code: "LB-F3-P0024",
+    id: "libertadores-phase3-024",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube peruano foi finalista da Libertadores de 1972?",
+    options: [
+      "Alianza Lima",
+      "Sporting Cristal",
+      "Melgar",
+      "Universitario"
+    ],
+    correctAnswer: "Universitario",
+    explanation: "O Universitario chegou a final da Libertadores de 1972.",
+  },
+  {
+    code: "LB-F3-P0025",
+    id: "libertadores-phase3-025",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube chileno venceu a Libertadores de 1991?",
+    options: [
+      "Colo-Colo",
+      "Cobreloa",
+      "Universidad de Chile",
+      "Union Espanola"
+    ],
+    correctAnswer: "Colo-Colo",
+    explanation: "O Colo-Colo foi campeao em 1991.",
+  },
+  {
+    code: "LB-F3-P0026",
+    id: "libertadores-phase3-026",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube paraguaio foi adversario do Colo-Colo na final de 1991?",
+    options: [
+      "Cerro Porteno",
+      "Olimpia",
+      "Libertad",
+      "Guarani"
+    ],
+    correctAnswer: "Olimpia",
+    explanation: "O Olimpia foi vice-campeao da Libertadores de 1991.",
+  },
+  {
+    code: "LB-F3-P0027",
+    id: "libertadores-phase3-027",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube boliviano chegou a semifinal da Libertadores de 1986?",
+    options: [
+      "The Strongest",
+      "Jorge Wilstermann",
+      "Bolivar",
+      "Oriente Petrolero"
+    ],
+    correctAnswer: "Bolivar",
+    explanation: "O Bolivar fez uma campanha historica e chegou a semifinal de 1986.",
+  },
+  {
+    code: "LB-F3-P0028",
+    id: "libertadores-phase3-028",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube equatoriano chegou a final da Libertadores de 1998?",
+    options: [
+      "LDU Quito",
+      "Emelec",
+      "El Nacional",
+      "Barcelona de Guayaquil"
+    ],
+    correctAnswer: "Barcelona de Guayaquil",
+    explanation: "O Barcelona de Guayaquil foi vice-campeao para o Vasco em 1998.",
+  },
+  {
+    code: "LB-F3-P0029",
+    id: "libertadores-phase3-029",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube brasileiro foi vice-campeao da Libertadores de 1974?",
+    options: [
+      "Sao Paulo",
+      "Palmeiras",
+      "Cruzeiro",
+      "Internacional"
+    ],
+    correctAnswer: "Sao Paulo",
+    explanation: "O Sao Paulo decidiu a Libertadores de 1974 contra o Independiente.",
+  },
+  {
+    code: "LB-F3-P0030",
+    id: "libertadores-phase3-030",
+    topicId: "libertadores",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube uruguaio venceu a primeira Libertadores fora da dupla brasileira e argentina?",
+    options: [
+      "Nacional",
+      "Penarol",
+      "Defensor Sporting",
+      "Danubio"
+    ],
+    correctAnswer: "Penarol",
+    explanation: "O Penarol venceu a primeira edicao da Libertadores, em 1960.",
   },
 ];

@@ -9,8 +9,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual jogador marcou o gol de bicicleta do Real Madrid contra a Juventus em 2018?",
     options: [
-      "Bale",
       "Cristiano Ronaldo",
+      "Bale",
       "Benzema",
       "Marcelo"
     ],
@@ -26,8 +26,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     question: "Qual jogador marcou dois gols pelo Real Madrid na final de 2018 contra o Liverpool?",
     options: [
       "Cristiano Ronaldo",
-      "Benzema",
       "Bale",
+      "Benzema",
       "Isco"
     ],
     correctAnswer: "Bale",
@@ -43,8 +43,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     options: [
       "Alisson",
       "Mignolet",
-      "Reina",
-      "Karius"
+      "Karius",
+      "Reina"
     ],
     correctAnswer: "Karius",
     explanation: "Loris Karius cometeu erros marcantes na final contra o Real Madrid.",
@@ -57,10 +57,10 @@ export const championsLeaguePhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu a Champions de 2010 sob comando de Jose Mourinho?",
     options: [
-      "Inter de Milão",
       "Porto",
       "Chelsea",
-      "Real Madrid"
+      "Real Madrid",
+      "Inter de Milão"
     ],
     correctAnswer: "Inter de Milão",
     explanation: "A Inter venceu o Bayern e fechou a triplice coroa em 2010.",
@@ -73,8 +73,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual jogador foi expulso na final da Champions de 2006 entre Arsenal e Barcelona?",
     options: [
-      "Puyol",
       "Lehmann",
+      "Puyol",
       "Henry",
       "Deco"
     ],
@@ -90,8 +90,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     question: "Qual clube venceu a Champions de 1999 com dois gols nos acréscimos?",
     options: [
       "Bayern de Munique",
-      "Juventus",
       "Manchester United",
+      "Juventus",
       "Milan"
     ],
     correctAnswer: "Manchester United",
@@ -107,8 +107,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     options: [
       "Arsene Wenger",
       "Bobby Robson",
-      "Kenny Dalglish",
-      "Alex Ferguson"
+      "Alex Ferguson",
+      "Kenny Dalglish"
     ],
     correctAnswer: "Alex Ferguson",
     explanation: "Alex Ferguson era o técnico do United campeão em 1999.",
@@ -121,10 +121,10 @@ export const championsLeaguePhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube foi vice-campeão para o Chelsea em 2012 jogando a final em casa?",
     options: [
-      "Bayern de Munique",
       "Borussia Dortmund",
       "Barcelona",
-      "Real Madrid"
+      "Real Madrid",
+      "Bayern de Munique"
     ],
     correctAnswer: "Bayern de Munique",
     explanation: "O Bayern perdeu a final de 2012 em Munique para o Chelsea.",
@@ -137,8 +137,8 @@ export const championsLeaguePhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube eliminou o Ajax na semifinal de 2019 com hat-trick de Lucas Moura?",
     options: [
-      "Liverpool",
       "Tottenham",
+      "Liverpool",
       "Chelsea",
       "Manchester City"
     ],
@@ -154,11 +154,331 @@ export const championsLeaguePhase3Questions: Question[] = [
     question: "Qual atacante brasileiro marcou na final de 2006 pelo Barcelona contra o Arsenal?",
     options: [
       "Ronaldinho",
-      "Etoo",
       "Belletti",
+      "Etoo",
       "Rivaldo"
     ],
     correctAnswer: "Belletti",
     explanation: "Belletti fez o gol da virada do Barcelona na final de 2006.",
+  },
+  {
+    code: "CL-F3-P0011",
+    id: "champions-league-phase3-011",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube alemao perdeu a final da Champions de 2002 para o Real Madrid?",
+    options: [
+      "Borussia Dortmund",
+      "Bayern de Munique",
+      "Bayer Leverkusen",
+      "Schalke 04"
+    ],
+    correctAnswer: "Bayer Leverkusen",
+    explanation: "O Bayer Leverkusen foi vice em 2002, na final do voleio de Zidane.",
+  },
+  {
+    code: "CL-F3-P0012",
+    id: "champions-league-phase3-012",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual goleiro alemao foi destaque do Bayer Leverkusen vice-campeao europeu em 2002?",
+    options: [
+      "Oliver Kahn",
+      "Jens Lehmann",
+      "Manuel Neuer",
+      "Hans-Jorg Butt"
+    ],
+    correctAnswer: "Hans-Jorg Butt",
+    explanation: "Butt era o goleiro do Bayer Leverkusen naquela final.",
+  },
+  {
+    code: "CL-F3-P0013",
+    id: "champions-league-phase3-013",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube espanhol foi vice-campeao da Champions em 2000 e 2001?",
+    options: [
+      "Valencia",
+      "Atletico de Madrid",
+      "Deportivo La Coruna",
+      "Villarreal"
+    ],
+    correctAnswer: "Valencia",
+    explanation: "O Valencia perdeu as finais de 2000 e 2001.",
+  },
+  {
+    code: "CL-F3-P0014",
+    id: "champions-league-phase3-014",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube italiano sofreu a virada do Deportivo La Coruna nas quartas da Champions de 2003-04?",
+    options: [
+      "Juventus",
+      "Milan",
+      "Inter de Milao",
+      "Roma"
+    ],
+    correctAnswer: "Milan",
+    explanation: "O Deportivo eliminou o Milan apos perder o primeiro jogo por 4 a 1.",
+  },
+  {
+    code: "CL-F3-P0015",
+    id: "champions-league-phase3-015",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube espanhol virou contra o Milan com 4 a 0 em Riazor na Champions de 2003-04?",
+    options: [
+      "Valencia",
+      "Villarreal",
+      "Deportivo La Coruna",
+      "Sevilla"
+    ],
+    correctAnswer: "Deportivo La Coruna",
+    explanation: "O Deportivo fez uma das maiores viradas da historia da Champions.",
+  },
+  {
+    code: "CL-F3-P0016",
+    id: "champions-league-phase3-016",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube frances foi finalista da Champions de 2004 contra o Porto?",
+    options: [
+      "Marseille",
+      "Lyon",
+      "PSG",
+      "Monaco"
+    ],
+    correctAnswer: "Monaco",
+    explanation: "O Monaco foi vice-campeao europeu em 2004.",
+  },
+  {
+    code: "CL-F3-P0017",
+    id: "champions-league-phase3-017",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Monaco finalista da Champions de 2004?",
+    options: [
+      "Didier Deschamps",
+      "Arsene Wenger",
+      "Claude Puel",
+      "Laurent Blanc"
+    ],
+    correctAnswer: "Didier Deschamps",
+    explanation: "Deschamps levou o Monaco a final europeia de 2004.",
+  },
+  {
+    code: "CL-F3-P0018",
+    id: "champions-league-phase3-018",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube holandes venceu a Champions de 1995 com uma geracao jovem?",
+    options: [
+      "PSV",
+      "Ajax",
+      "Feyenoord",
+      "AZ Alkmaar"
+    ],
+    correctAnswer: "Ajax",
+    explanation: "O Ajax de 1995 ficou marcado por sua geracao jovem e tecnica.",
+  },
+  {
+    code: "CL-F3-P0019",
+    id: "champions-league-phase3-019",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante marcou o gol do titulo do Ajax na final de 1995?",
+    options: [
+      "Dennis Bergkamp",
+      "Marc Overmars",
+      "Patrick Kluivert",
+      "Jari Litmanen"
+    ],
+    correctAnswer: "Patrick Kluivert",
+    explanation: "Kluivert marcou contra o Milan na final de 1995.",
+  },
+  {
+    code: "CL-F3-P0020",
+    id: "champions-league-phase3-020",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube italiano foi derrotado pelo Borussia Dortmund na final de 1997?",
+    options: [
+      "Milan",
+      "Inter de Milao",
+      "Roma",
+      "Juventus"
+    ],
+    correctAnswer: "Juventus",
+    explanation: "A Juventus perdeu a final de 1997 para o Borussia Dortmund.",
+  },
+  {
+    code: "CL-F3-P0021",
+    id: "champions-league-phase3-021",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante do Borussia Dortmund marcou dois gols na final da Champions de 1997?",
+    options: [
+      "Karl-Heinz Riedle",
+      "Lars Ricken",
+      "Stephane Chapuisat",
+      "Andreas Moller"
+    ],
+    correctAnswer: "Karl-Heinz Riedle",
+    explanation: "Riedle marcou duas vezes contra a Juventus em 1997.",
+  },
+  {
+    code: "CL-F3-P0022",
+    id: "champions-league-phase3-022",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube espanhol eliminou o Manchester United nas quartas da Champions de 1999-00 com show de Redondo?",
+    options: [
+      "Barcelona",
+      "Real Madrid",
+      "Valencia",
+      "Deportivo La Coruna"
+    ],
+    correctAnswer: "Real Madrid",
+    explanation: "O Real Madrid venceu em Old Trafford com grande jogada de Redondo.",
+  },
+  {
+    code: "CL-F3-P0023",
+    id: "champions-league-phase3-023",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual jogador argentino fez a jogada de calcanhar que virou simbolo contra o Manchester United em 2000?",
+    options: [
+      "Juan Roman Riquelme",
+      "Pablo Aimar",
+      "Fernando Redondo",
+      "Ariel Ortega"
+    ],
+    correctAnswer: "Fernando Redondo",
+    explanation: "Redondo deu uma assistencia historica para Raul em Old Trafford.",
+  },
+  {
+    code: "CL-F3-P0024",
+    id: "champions-league-phase3-024",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube ingles foi finalista da Champions de 2009 e 2011 contra o Barcelona?",
+    options: [
+      "Chelsea",
+      "Arsenal",
+      "Liverpool",
+      "Manchester United"
+    ],
+    correctAnswer: "Manchester United",
+    explanation: "O United enfrentou o Barcelona nas finais de 2009 e 2011.",
+  },
+  {
+    code: "CL-F3-P0025",
+    id: "champions-league-phase3-025",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Barcelona campeao da Champions em 2009 e 2011?",
+    options: [
+      "Pep Guardiola",
+      "Luis Enrique",
+      "Frank Rijkaard",
+      "Tito Vilanova"
+    ],
+    correctAnswer: "Pep Guardiola",
+    explanation: "Guardiola comandou o Barcelona nos titulos de 2009 e 2011.",
+  },
+  {
+    code: "CL-F3-P0026",
+    id: "champions-league-phase3-026",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube turco foi semifinalista da Copa dos Campeoes da Europa em 1988-89?",
+    options: [
+      "Fenerbahce",
+      "Galatasaray",
+      "Besiktas",
+      "Trabzonspor"
+    ],
+    correctAnswer: "Galatasaray",
+    explanation: "O Galatasaray chegou a semifinal da competicao em 1988-89.",
+  },
+  {
+    code: "CL-F3-P0027",
+    id: "champions-league-phase3-027",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube ucraniano chegou a semifinal da Champions de 1998-99 com Shevchenko e Rebrov?",
+    options: [
+      "Shakhtar Donetsk",
+      "Dnipro",
+      "Dynamo Kyiv",
+      "Metalist"
+    ],
+    correctAnswer: "Dynamo Kyiv",
+    explanation: "O Dynamo Kyiv fez campanha marcante em 1998-99.",
+  },
+  {
+    code: "CL-F3-P0028",
+    id: "champions-league-phase3-028",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual jogador ucraniano era estrela do Dynamo Kyiv semifinalista em 1999?",
+    options: [
+      "Serhiy Rebrov",
+      "Anatoliy Tymoshchuk",
+      "Oleg Blokhin",
+      "Andriy Shevchenko"
+    ],
+    correctAnswer: "Andriy Shevchenko",
+    explanation: "Shevchenko era o grande nome do Dynamo Kyiv naquele periodo.",
+  },
+  {
+    code: "CL-F3-P0029",
+    id: "champions-league-phase3-029",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube italiano venceu a Champions de 1994 com goleada sobre o Barcelona?",
+    options: [
+      "Milan",
+      "Juventus",
+      "Inter de Milao",
+      "Parma"
+    ],
+    correctAnswer: "Milan",
+    explanation: "O Milan venceu o Barcelona por 4 a 0 na final de 1994.",
+  },
+  {
+    code: "CL-F3-P0030",
+    id: "champions-league-phase3-030",
+    topicId: "champions-league",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Milan na goleada da final da Champions de 1994?",
+    options: [
+      "Arrigo Sacchi",
+      "Fabio Capello",
+      "Carlo Ancelotti",
+      "Marcello Lippi"
+    ],
+    correctAnswer: "Fabio Capello",
+    explanation: "Capello era o tecnico do Milan campeao europeu em 1994.",
   },
 ];

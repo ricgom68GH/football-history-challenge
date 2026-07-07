@@ -9,10 +9,10 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual final da Champions ficou marcada pelo gol de voleio de Zidane em 2002?",
     options: [
+      "Real Madrid x Bayer Leverkusen",
       "Milan x Juventus",
       "Porto x Mônaco",
-      "Barcelona x Arsenal",
-      "Real Madrid x Bayer Leverkusen"
+      "Barcelona x Arsenal"
     ],
     correctAnswer: "Real Madrid x Bayer Leverkusen",
     explanation: "Zidane marcou um voleio histórico na final de 2002.",
@@ -25,8 +25,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a Champions de 2004 contra o Mônaco?",
     options: [
-      "Porto",
       "Benfica",
+      "Porto",
       "Milan",
       "Chelsea"
     ],
@@ -42,8 +42,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     question: "Qual clube perdeu a final de 2005 aps abrir 3 a 0 contra o Liverpool?",
     options: [
       "Juventus",
-      "Milan",
       "Chelsea",
+      "Milan",
       "Bayern de Munique"
     ],
     correctAnswer: "Milan",
@@ -59,8 +59,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     options: [
       "Reina",
       "Kirkland",
-      "Dudek",
-      "Westerveld"
+      "Westerveld",
+      "Dudek"
     ],
     correctAnswer: "Dudek",
     explanation: "Dudek fez defesa histórica contra Shevchenko na prorrogação da final de 2005.",
@@ -73,10 +73,10 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual jogador do Chelsea foi expulso na final da Champions de 2008?",
     options: [
+      "Drogba",
       "Terry",
       "Lampard",
-      "Ballack",
-      "Drogba"
+      "Ballack"
     ],
     correctAnswer: "Drogba",
     explanation: "Drogba foi expulso na prorrogação contra o Manchester United em 2008.",
@@ -89,8 +89,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual jogador escorregou na cobrança de pênalti da final de 2008?",
     options: [
-      "John Terry",
       "Cristiano Ronaldo",
+      "John Terry",
       "Anelka",
       "Lampard"
     ],
@@ -106,8 +106,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     question: "Qual clube venceu a Champions de 1982 com gol de Peter Withe?",
     options: [
       "Liverpool",
-      "Aston Villa",
       "Hamburgo",
+      "Aston Villa",
       "Nottingham Forest"
     ],
     correctAnswer: "Aston Villa",
@@ -123,8 +123,8 @@ export const championsLeaguePhase5Questions: Question[] = [
     options: [
       "Bayern de Munique",
       "Borussia Dortmund",
-      "Hamburgo",
-      "Werder Bremen"
+      "Werder Bremen",
+      "Hamburgo"
     ],
     correctAnswer: "Hamburgo",
     explanation: "O Hamburgo venceu a Juventus na final de 1983.",
@@ -137,10 +137,10 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a Champions de 1995 com um gol de Patrick Kluivert?",
     options: [
+      "Ajax",
       "Milan",
       "Juventus",
-      "Barcelona",
-      "Ajax"
+      "Barcelona"
     ],
     correctAnswer: "Ajax",
     explanation: "Kluivert marcou o gol do Ajax contra o Milan na final de 1995.",
@@ -153,12 +153,332 @@ export const championsLeaguePhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu a Champions de 2013 em final alemã contra o Borussia Dortmund?",
     options: [
-      "Bayern de Munique",
       "Schalke 04",
+      "Bayern de Munique",
       "Bayer Leverkusen",
       "Hamburgo"
     ],
     correctAnswer: "Bayern de Munique",
     explanation: "O Bayern venceu o Borussia Dortmund em Wembley, com gol decisivo de Robben.",
+  },
+  {
+    code: "CL-F5-P0011",
+    id: "champions-league-phase5-011",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube espanhol perdeu a final da Copa dos Campeoes de 1974 para o Bayern?",
+    options: [
+      "Barcelona",
+      "Real Madrid",
+      "Atletico de Madrid",
+      "Valencia"
+    ],
+    correctAnswer: "Atletico de Madrid",
+    explanation: "O Atletico perdeu para o Bayern apos jogo desempate em 1974.",
+  },
+  {
+    code: "CL-F5-P0012",
+    id: "champions-league-phase5-012",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador do Atletico marcou de falta na final europeia de 1974 antes do empate do Bayern?",
+    options: [
+      "Adelardo",
+      "Garat?",
+      "Irureta",
+      "Luis Aragones"
+    ],
+    correctAnswer: "Luis Aragones",
+    explanation: "Luis Aragones marcou na prorrogacao da primeira partida da final de 1974.",
+  },
+  {
+    code: "CL-F5-P0013",
+    id: "champions-league-phase5-013",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube ingles perdeu a final da Copa dos Campeoes de 1975 para o Bayern?",
+    options: [
+      "Leeds United",
+      "Liverpool",
+      "Arsenal",
+      "Derby County"
+    ],
+    correctAnswer: "Leeds United",
+    explanation: "O Leeds United foi vice europeu em 1975.",
+  },
+  {
+    code: "CL-F5-P0014",
+    id: "champions-league-phase5-014",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube frances foi vice da Copa dos Campeoes de 1976 contra o Bayern?",
+    options: [
+      "Marseille",
+      "Saint-Etienne",
+      "Monaco",
+      "Nantes"
+    ],
+    correctAnswer: "Saint-Etienne",
+    explanation: "O Saint-Etienne perdeu a final de 1976 para o Bayern.",
+  },
+  {
+    code: "CL-F5-P0015",
+    id: "champions-league-phase5-015",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube alemao perdeu a final da Copa dos Campeoes de 1977 para o Liverpool?",
+    options: [
+      "Bayern de Munique",
+      "Hamburgo",
+      "Borussia Monchengladbach",
+      "Colonia"
+    ],
+    correctAnswer: "Borussia Monchengladbach",
+    explanation: "O Borussia Monchengladbach foi vice em 1977.",
+  },
+  {
+    code: "CL-F5-P0016",
+    id: "champions-league-phase5-016",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador escoces marcou pelo Liverpool na final europeia de 1977?",
+    options: [
+      "Kenny Dalglish",
+      "Graeme Souness",
+      "Steve Heighway",
+      "Tommy Smith"
+    ],
+    correctAnswer: "Tommy Smith",
+    explanation: "Tommy Smith marcou um dos gols do Liverpool na final de 1977.",
+  },
+  {
+    code: "CL-F5-P0017",
+    id: "champions-league-phase5-017",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube espanhol perdeu a final da Copa dos Campeoes de 1986 para o Steaua Bucareste?",
+    options: [
+      "Barcelona",
+      "Real Madrid",
+      "Atletico de Madrid",
+      "Valencia"
+    ],
+    correctAnswer: "Barcelona",
+    explanation: "O Barcelona perdeu para o Steaua Bucareste nos penaltis em 1986.",
+  },
+  {
+    code: "CL-F5-P0018",
+    id: "champions-league-phase5-018",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Quem marcou o gol do Hamburgo na final europeia de 1983?",
+    options: [
+      "Horst Hrubesch",
+      "Felix Magath",
+      "Uli Stein",
+      "Manfred Kaltz"
+    ],
+    correctAnswer: "Felix Magath",
+    explanation: "Felix Magath marcou o gol do titulo do Hamburgo contra a Juventus.",
+  },
+  {
+    code: "CL-F5-P0019",
+    id: "champions-league-phase5-019",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube italiano perdeu a final da Copa dos Campeoes de 1984 para o Liverpool?",
+    options: [
+      "Juventus",
+      "Milan",
+      "Roma",
+      "Inter de Milao"
+    ],
+    correctAnswer: "Roma",
+    explanation: "A Roma perdeu a final de 1984 em seu proprio estadio.",
+  },
+  {
+    code: "CL-F5-P0020",
+    id: "champions-league-phase5-020",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual goleiro do Liverpool ficou famoso por distrair cobradores na final de 1984?",
+    options: [
+      "Ray Clemence",
+      "Jerzy Dudek",
+      "David James",
+      "Bruce Grobbelaar"
+    ],
+    correctAnswer: "Bruce Grobbelaar",
+    explanation: "Grobbelaar ficou marcado pelas pernas bambas na disputa por penaltis.",
+  },
+  {
+    code: "CL-F5-P0021",
+    id: "champions-league-phase5-021",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube italiano goleou o Steaua Bucareste na final europeia de 1989?",
+    options: [
+      "Milan",
+      "Juventus",
+      "Inter de Milao",
+      "Napoli"
+    ],
+    correctAnswer: "Milan",
+    explanation: "O Milan venceu o Steaua por 4 a 0 na final de 1989.",
+  },
+  {
+    code: "CL-F5-P0022",
+    id: "champions-league-phase5-022",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual dupla holandesa marcou na final europeia de 1989 pelo Milan?",
+    options: [
+      "Rijkaard e Koeman",
+      "Gullit e Van Basten",
+      "Bergkamp e Overmars",
+      "Davids e Seedorf"
+    ],
+    correctAnswer: "Gullit e Van Basten",
+    explanation: "Gullit e Van Basten marcaram dois gols cada na final de 1989.",
+  },
+  {
+    code: "CL-F5-P0023",
+    id: "champions-league-phase5-023",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube portugues perdeu a final da Copa dos Campeoes de 1990 para o Milan?",
+    options: [
+      "Porto",
+      "Sporting",
+      "Benfica",
+      "Boavista"
+    ],
+    correctAnswer: "Benfica",
+    explanation: "O Benfica foi vice europeu contra o Milan em 1990.",
+  },
+  {
+    code: "CL-F5-P0024",
+    id: "champions-league-phase5-024",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador holandes marcou o gol do Milan na final europeia de 1990?",
+    options: [
+      "Ruud Gullit",
+      "Marco van Basten",
+      "Roberto Donadoni",
+      "Frank Rijkaard"
+    ],
+    correctAnswer: "Frank Rijkaard",
+    explanation: "Rijkaard marcou o gol da vitoria do Milan sobre o Benfica.",
+  },
+  {
+    code: "CL-F5-P0025",
+    id: "champions-league-phase5-025",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube iugoslavo venceu a Copa dos Campeoes de 1991 nos penaltis?",
+    options: [
+      "Estrela Vermelha",
+      "Partizan",
+      "Dinamo Zagreb",
+      "Hajduk Split"
+    ],
+    correctAnswer: "Estrela Vermelha",
+    explanation: "O Estrela Vermelha venceu o Marseille nos penaltis em 1991.",
+  },
+  {
+    code: "CL-F5-P0026",
+    id: "champions-league-phase5-026",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube italiano perdeu a final da Champions de 1997 para o Borussia Dortmund?",
+    options: [
+      "Milan",
+      "Juventus",
+      "Inter de Milao",
+      "Parma"
+    ],
+    correctAnswer: "Juventus",
+    explanation: "A Juventus foi derrotada pelo Borussia Dortmund em 1997.",
+  },
+  {
+    code: "CL-F5-P0027",
+    id: "champions-league-phase5-027",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador marcou o terceiro gol do Borussia Dortmund na final de 1997 pouco apos entrar?",
+    options: [
+      "Karl-Heinz Riedle",
+      "Andreas Moller",
+      "Lars Ricken",
+      "Stephane Chapuisat"
+    ],
+    correctAnswer: "Lars Ricken",
+    explanation: "Ricken marcou logo apos entrar em campo na final de 1997.",
+  },
+  {
+    code: "CL-F5-P0028",
+    id: "champions-league-phase5-028",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube italiano perdeu a final da Champions de 1998 para o Real Madrid?",
+    options: [
+      "Milan",
+      "Inter de Milao",
+      "Roma",
+      "Juventus"
+    ],
+    correctAnswer: "Juventus",
+    explanation: "A Juventus perdeu a final de 1998 para o Real Madrid.",
+  },
+  {
+    code: "CL-F5-P0029",
+    id: "champions-league-phase5-029",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Quem marcou o gol do Real Madrid na final da Champions de 1998?",
+    options: [
+      "Predrag Mijatovic",
+      "Raul",
+      "Fernando Morientes",
+      "Clarence Seedorf"
+    ],
+    correctAnswer: "Predrag Mijatovic",
+    explanation: "Mijatovic marcou o gol do titulo contra a Juventus em 1998.",
+  },
+  {
+    code: "CL-F5-P0030",
+    id: "champions-league-phase5-030",
+    topicId: "champions-league",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube alemao eliminou o Manchester United na semifinal da Champions de 2001-02?",
+    options: [
+      "Bayern de Munique",
+      "Bayer Leverkusen",
+      "Borussia Dortmund",
+      "Schalke 04"
+    ],
+    correctAnswer: "Bayer Leverkusen",
+    explanation: "O Bayer Leverkusen eliminou o Manchester United antes de enfrentar o Real Madrid na final.",
   },
 ];
