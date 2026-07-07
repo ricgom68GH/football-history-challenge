@@ -17,32 +17,34 @@ export function PhaseCard({ phase, isUnlocked, questionCount, onSelect }: PhaseC
       type="button"
       onClick={() => onSelect(phase)}
       disabled={!canPlay}
-      className={`min-h-36 rounded-lg border p-3.5 text-left shadow-glow transition enabled:hover:-translate-y-0.5 enabled:hover:border-grass enabled:hover:bg-slate-900 disabled:cursor-not-allowed ${
+      className={`rounded-lg border px-2.5 py-2 text-left shadow-glow transition enabled:hover:-translate-y-0.5 enabled:hover:border-grass enabled:hover:bg-slate-900 disabled:cursor-not-allowed sm:min-h-32 sm:p-3.5 ${
         canPlay
           ? "border-grass/60 bg-slate-950/85"
           : "border-white/10 bg-slate-950/50 opacity-55"
       }`}
     >
       <div className="flex items-center justify-between gap-2">
-        <span
-          className={`rounded-full px-2.5 py-1 text-xs font-black ${
-            canPlay ? "bg-grass/15 text-grass" : "bg-white/10 text-slate-400"
-          }`}
-        >
-          Fase {phase.id}
-        </span>
-        <span className={`text-xs font-bold ${canPlay ? "text-grass" : "text-slate-400"}`}>
+        <div className="flex min-w-0 items-center gap-2">
+          <span
+            className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-black sm:px-2.5 sm:py-1 sm:text-xs ${
+              canPlay ? "bg-grass/15 text-grass" : "bg-white/10 text-slate-400"
+            }`}
+          >
+            Fase {phase.id}
+          </span>
+          <h3 className="truncate text-sm font-black leading-tight text-white sm:text-base">
+            {phase.name}
+          </h3>
+        </div>
+
+        <span className={`shrink-0 text-[10px] font-bold sm:text-xs ${canPlay ? "text-grass" : "text-slate-400"}`}>
           {status}
         </span>
       </div>
 
-      <h3 className="mt-3 text-base font-black text-white">{phase.name}</h3>
-      <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-300">{phase.description}</p>
-
-      <div className="mt-3 flex flex-wrap gap-2 text-xs font-bold text-slate-300">
-        <span className="rounded-full bg-white/10 px-2.5 py-1">Meta {phase.requiredScore}/10</span>
-        <span className="rounded-full bg-white/10 px-2.5 py-1">{questionCount}/10</span>
-      </div>
+      <p className="mt-1 text-[11px] font-bold leading-4 text-slate-300 sm:mt-2 sm:text-xs">
+        Meta {phase.requiredScore}/10 <span className="text-slate-500">·</span> {questionCount} perguntas
+      </p>
     </button>
   );
 }
