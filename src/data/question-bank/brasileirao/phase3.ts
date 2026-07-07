@@ -9,8 +9,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu o primeiro Brasileirão por pontos corridos, em 2003?",
     options: [
-      "Santos",
       "Cruzeiro",
+      "Santos",
       "São Paulo",
       "Corinthians"
     ],
@@ -26,8 +26,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     question: "Qual jogador foi destaque do Cruzeiro campeão brasileiro de 2003?",
     options: [
       "Rivaldo",
-      "Juninho Pernambucano",
       "Alex",
+      "Juninho Pernambucano",
       "Djalminha"
     ],
     correctAnswer: "Alex",
@@ -43,8 +43,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     options: [
       "Flamengo",
       "Internacional",
-      "Cruzeiro",
-      "São Paulo"
+      "São Paulo",
+      "Cruzeiro"
     ],
     correctAnswer: "São Paulo",
     explanation: "O São Paulo conquistou três Brasileirãos seguidos entre 2006 e 2008.",
@@ -57,10 +57,10 @@ export const brasileiraoPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual goleiro era símbolo do São Paulo tricampeão brasileiro nos anos 2000?",
     options: [
-      "Rogério Ceni",
       "Marcos",
       "Dida",
-      "Julio Cesar"
+      "Julio Cesar",
+      "Rogério Ceni"
     ],
     correctAnswer: "Rogério Ceni",
     explanation: "Rogério Ceni era líder e símbolo do São Paulo naquele período.",
@@ -73,8 +73,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu o Brasileirão de 2010?",
     options: [
-      "Corinthians",
       "Fluminense",
+      "Corinthians",
       "Cruzeiro",
       "Grêmio"
     ],
@@ -90,8 +90,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     question: "Qual técnico comandou o Fluminense campeão brasileiro de 2012?",
     options: [
       "Muricy Ramalho",
-      "Renato Gaucho",
       "Abel Braga",
+      "Renato Gaucho",
       "Cuca"
     ],
     correctAnswer: "Abel Braga",
@@ -107,8 +107,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     options: [
       "Washington",
       "Conca",
-      "Wellington Nem",
-      "Fred"
+      "Fred",
+      "Wellington Nem"
     ],
     correctAnswer: "Fred",
     explanation: "Fred foi o grande goleador do Fluminense no Brasileirão de 2012.",
@@ -121,10 +121,10 @@ export const brasileiraoPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual clube venceu o Brasileirão de 2002 antes da era dos pontos corridos?",
     options: [
-      "Santos",
       "Corinthians",
       "São Paulo",
-      "Grêmio"
+      "Grêmio",
+      "Santos"
     ],
     correctAnswer: "Santos",
     explanation: "O Santos de Robinho e Diego venceu o Brasileirão de 2002.",
@@ -137,8 +137,8 @@ export const brasileiraoPhase3Questions: Question[] = [
     difficulty: "medio",
     question: "Qual dupla jovem marcou o Santos campeão brasileiro de 2002?",
     options: [
-      "Neymar e Ganso",
       "Robinho e Diego",
+      "Neymar e Ganso",
       "Kaká e Luis Fabiano",
       "Alex e Deivid"
     ],
@@ -154,11 +154,331 @@ export const brasileiraoPhase3Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1995?",
     options: [
       "Santos",
-      "Grêmio",
       "Botafogo",
+      "Grêmio",
       "Corinthians"
     ],
     correctAnswer: "Botafogo",
     explanation: "O Botafogo conquistou o título brasileiro de 1995.",
+  },
+  {
+    code: "BR-F3-P0011",
+    id: "brasileirao-phase3-011",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube encerrou longo jejum nacional ao vencer o Brasileiro de 1993?",
+    options: [
+      "Sao Paulo",
+      "Corinthians",
+      "Palmeiras",
+      "Santos"
+    ],
+    correctAnswer: "Palmeiras",
+    explanation: "O Palmeiras encerrou um jejum importante com o titulo brasileiro de 1993.",
+  },
+  {
+    code: "BR-F3-P0012",
+    id: "brasileirao-phase3-012",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Palmeiras campeao brasileiro de 1993?",
+    options: [
+      "Felipao",
+      "Carlos Alberto Silva",
+      "Leao",
+      "Vanderlei Luxemburgo"
+    ],
+    correctAnswer: "Vanderlei Luxemburgo",
+    explanation: "Luxemburgo comandou o Palmeiras no titulo de 1993.",
+  },
+  {
+    code: "BR-F3-P0013",
+    id: "brasileirao-phase3-013",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual jogador foi simbolo do Corinthians campeao brasileiro de 1990?",
+    options: [
+      "Neto",
+      "Marcelinho Carioca",
+      "Rincon",
+      "Edilson"
+    ],
+    correctAnswer: "Neto",
+    explanation: "Neto foi o grande simbolo do primeiro titulo brasileiro do Corinthians.",
+  },
+  {
+    code: "BR-F3-P0014",
+    id: "brasileirao-phase3-014",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Bragantino vice-campeao brasileiro de 1991?",
+    options: [
+      "Vanderlei Luxemburgo",
+      "Carlos Alberto Parreira",
+      "Pepe",
+      "Candinho"
+    ],
+    correctAnswer: "Carlos Alberto Parreira",
+    explanation: "Parreira comandou o Bragantino na campanha historica de 1991.",
+  },
+  {
+    code: "BR-F3-P0015",
+    id: "brasileirao-phase3-015",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Sao Paulo campeao brasileiro de 1991?",
+    options: [
+      "Muricy Ramalho",
+      "Cilinho",
+      "Tele Santana",
+      "Pepe"
+    ],
+    correctAnswer: "Tele Santana",
+    explanation: "Tele Santana comandou o Sao Paulo no titulo brasileiro de 1991.",
+  },
+  {
+    code: "BR-F3-P0016",
+    id: "brasileirao-phase3-016",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube baiano foi vice-campeao brasileiro de 1993?",
+    options: [
+      "Bahia",
+      "Juazeirense",
+      "Fluminense de Feira",
+      "Vitoria"
+    ],
+    correctAnswer: "Vitoria",
+    explanation: "O Vitoria chegou a final do Brasileiro de 1993 contra o Palmeiras.",
+  },
+  {
+    code: "BR-F3-P0017",
+    id: "brasileirao-phase3-017",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante foi personagem do Botafogo campeao brasileiro de 1995?",
+    options: [
+      "Tulio Maravilha",
+      "Donizete",
+      "Bebeto",
+      "Dodo"
+    ],
+    correctAnswer: "Tulio Maravilha",
+    explanation: "Tulio Maravilha virou simbolo do Botafogo campeao de 1995.",
+  },
+  {
+    code: "BR-F3-P0018",
+    id: "brasileirao-phase3-018",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube paulista perdeu a final do Brasileiro de 1996 para o Gremio?",
+    options: [
+      "Guarani",
+      "Portuguesa",
+      "Bragantino",
+      "Ponte Preta"
+    ],
+    correctAnswer: "Portuguesa",
+    explanation: "A Portuguesa foi vice-campea brasileira em 1996.",
+  },
+  {
+    code: "BR-F3-P0019",
+    id: "brasileirao-phase3-019",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual tecnico comandou o Vasco campeao brasileiro de 1997?",
+    options: [
+      "Joel Santana",
+      "Oswaldo de Oliveira",
+      "Antonio Lopes",
+      "Leao"
+    ],
+    correctAnswer: "Antonio Lopes",
+    explanation: "Antonio Lopes era o tecnico do Vasco campeao de 1997.",
+  },
+  {
+    code: "BR-F3-P0020",
+    id: "brasileirao-phase3-020",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante marcou epoca no Vasco campeao brasileiro de 1997?",
+    options: [
+      "Romario",
+      "Viola",
+      "Donizete",
+      "Edmundo"
+    ],
+    correctAnswer: "Edmundo",
+    explanation: "Edmundo fez uma campanha individual memoravel em 1997.",
+  },
+  {
+    code: "BR-F3-P0021",
+    id: "brasileirao-phase3-021",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube mineiro foi vice-campeao brasileiro de 1999?",
+    options: [
+      "Atletico-MG",
+      "Cruzeiro",
+      "America-MG",
+      "Ipatinga"
+    ],
+    correctAnswer: "Atletico-MG",
+    explanation: "O Atletico-MG chegou a final do Brasileiro de 1999 contra o Corinthians.",
+  },
+  {
+    code: "BR-F3-P0022",
+    id: "brasileirao-phase3-022",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante foi destaque do Atletico-MG vice-campeao brasileiro de 1999?",
+    options: [
+      "Marques",
+      "Guilherme",
+      "Reinaldo",
+      "Valdir Bigode"
+    ],
+    correctAnswer: "Guilherme",
+    explanation: "Guilherme foi um dos principais nomes do Atletico-MG em 1999.",
+  },
+  {
+    code: "BR-F3-P0023",
+    id: "brasileirao-phase3-023",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual jogador foi destaque do Bahia campeao brasileiro de 1988?",
+    options: [
+      "Charles",
+      "Beijoca",
+      "Bobo",
+      "Ueslei"
+    ],
+    correctAnswer: "Bobo",
+    explanation: "Bobo foi um dos grandes nomes do Bahia campeao brasileiro de 1988.",
+  },
+  {
+    code: "BR-F3-P0024",
+    id: "brasileirao-phase3-024",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante foi destaque do Athletico-PR campeao brasileiro de 2001?",
+    options: [
+      "Washington",
+      "Kleber Pereira",
+      "Dagoberto",
+      "Alex Mineiro"
+    ],
+    correctAnswer: "Alex Mineiro",
+    explanation: "Alex Mineiro foi um dos principais jogadores do Athletico-PR em 2001.",
+  },
+  {
+    code: "BR-F3-P0025",
+    id: "brasileirao-phase3-025",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube surpreendeu ao ser vice-campeao brasileiro em 2001?",
+    options: [
+      "Sao Caetano",
+      "Goias",
+      "Ponte Preta",
+      "Juventude"
+    ],
+    correctAnswer: "Sao Caetano",
+    explanation: "O Sao Caetano foi vice em 2001, depois de tambem surpreender em 2000.",
+  },
+  {
+    code: "BR-F3-P0026",
+    id: "brasileirao-phase3-026",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube goiano se classificou para a Libertadores apos campanha historica no Brasileiro de 2005?",
+    options: [
+      "Atletico-GO",
+      "Goias",
+      "Vila Nova",
+      "Anapolis"
+    ],
+    correctAnswer: "Goias",
+    explanation: "O Goias terminou em terceiro em 2005 e foi a Libertadores.",
+  },
+  {
+    code: "BR-F3-P0027",
+    id: "brasileirao-phase3-027",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual atacante foi destaque do Parana Clube no Brasileirao de 2006, ano de vaga na Libertadores?",
+    options: [
+      "Maicosuel",
+      "Keirrison",
+      "Josiel",
+      "Dagoberto"
+    ],
+    correctAnswer: "Josiel",
+    explanation: "Josiel foi um dos nomes do Parana Clube na campanha que levou o time a Libertadores.",
+  },
+  {
+    code: "BR-F3-P0028",
+    id: "brasileirao-phase3-028",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube catarinense terminou o Brasileirao de 2011 em 7o lugar, sua melhor campanha nos pontos corridos?",
+    options: [
+      "Avai",
+      "Criciuma",
+      "Chapecoense",
+      "Figueirense"
+    ],
+    correctAnswer: "Figueirense",
+    explanation: "O Figueirense fez campanha marcante no Brasileirao de 2011.",
+  },
+  {
+    code: "BR-F3-P0029",
+    id: "brasileirao-phase3-029",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube pernambucano ficou marcado por campanha forte na Serie A de 2015?",
+    options: [
+      "Sport",
+      "Nautico",
+      "Santa Cruz",
+      "Salgueiro"
+    ],
+    correctAnswer: "Sport",
+    explanation: "O Sport fez boa campanha no Brasileiro de 2015.",
+  },
+  {
+    code: "BR-F3-P0030",
+    id: "brasileirao-phase3-030",
+    topicId: "brasileirao",
+    phaseId: 3,
+    difficulty: "medio",
+    question: "Qual clube cearense foi destaque recente por campanhas consistentes na Serie A e no G4 de 2021?",
+    options: [
+      "Ceara",
+      "Fortaleza",
+      "Ferroviario",
+      "Icasa"
+    ],
+    correctAnswer: "Fortaleza",
+    explanation: "O Fortaleza consolidou uma fase historica na elite nacional.",
   },
 ];

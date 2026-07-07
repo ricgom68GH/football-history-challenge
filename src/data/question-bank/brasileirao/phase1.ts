@@ -9,10 +9,10 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu o Brasileirão de 2019?",
     options: [
+      "Flamengo",
       "Santos",
       "Palmeiras",
-      "Grêmio",
-      "Flamengo"
+      "Grêmio"
     ],
     correctAnswer: "Flamengo",
     explanation: "O Flamengo foi campeão brasileiro de 2019 em campanha histórica.",
@@ -25,8 +25,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube é conhecido como Timão?",
     options: [
-      "Corinthians",
       "Cruzeiro",
+      "Corinthians",
       "Vasco",
       "Internacional"
     ],
@@ -42,8 +42,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 2021?",
     options: [
       "Flamengo",
-      "Atlético-MG",
       "Palmeiras",
+      "Atlético-MG",
       "Fortaleza"
     ],
     correctAnswer: "Atlético-MG",
@@ -59,8 +59,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     options: [
       "Kaká",
       "Rogério Ceni",
-      "Gabigol",
-      "Dida"
+      "Dida",
+      "Gabigol"
     ],
     correctAnswer: "Gabigol",
     explanation: "Gabigol foi um dos grandes nomes do Flamengo na temporada.",
@@ -73,10 +73,10 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu o Brasileirão de 2022?",
     options: [
+      "Palmeiras",
       "Internacional",
       "Fluminense",
-      "Corinthians",
-      "Palmeiras"
+      "Corinthians"
     ],
     correctAnswer: "Palmeiras",
     explanation: "O Palmeiras foi campeão brasileiro de 2022 sob comando de Abel Ferreira.",
@@ -89,8 +89,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu o Brasileirão de 2020?",
     options: [
-      "Flamengo",
       "Internacional",
+      "Flamengo",
       "São Paulo",
       "Atlético-MG"
     ],
@@ -106,8 +106,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     question: "Qual clube é conhecido como Verdão?",
     options: [
       "Gois",
-      "Palmeiras",
       "Coritiba",
+      "Palmeiras",
       "Juventude"
     ],
     correctAnswer: "Palmeiras",
@@ -123,8 +123,8 @@ export const brasileiraoPhase1Questions: Question[] = [
     options: [
       "São Paulo",
       "Internacional",
-      "Flamengo",
-      "Cruzeiro"
+      "Cruzeiro",
+      "Flamengo"
     ],
     correctAnswer: "Flamengo",
     explanation: "O Flamengo conquistou o Brasileirão de 2009 com Adriano e Petkovic.",
@@ -137,10 +137,10 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu o Brasileirão de 2003?",
     options: [
+      "Cruzeiro",
       "Santos",
       "São Paulo",
-      "Corinthians",
-      "Cruzeiro"
+      "Corinthians"
     ],
     correctAnswer: "Cruzeiro",
     explanation: "O Cruzeiro venceu o Brasileirão de 2003 na era dos pontos corridos.",
@@ -153,12 +153,332 @@ export const brasileiraoPhase1Questions: Question[] = [
     difficulty: "facil",
     question: "Qual clube venceu o Brasileirão de 2018?",
     options: [
-      "Palmeiras",
       "Flamengo",
+      "Palmeiras",
       "Grêmio",
       "Santos"
     ],
     correctAnswer: "Palmeiras",
     explanation: "O Palmeiras foi campeão brasileiro de 2018.",
+  },
+  {
+    code: "BR-F1-P0011",
+    id: "brasileirao-phase1-011",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Atletico-MG campeao brasileiro de 2021?",
+    options: [
+      "Tite",
+      "Renato Gaucho",
+      "Cuca",
+      "Abel Ferreira"
+    ],
+    correctAnswer: "Cuca",
+    explanation: "Cuca comandou o Atletico-MG na conquista do Brasileirao de 2021.",
+  },
+  {
+    code: "BR-F1-P0012",
+    id: "brasileirao-phase1-012",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual jovem atacante ganhou destaque no Palmeiras campeao brasileiro de 2023?",
+    options: [
+      "Vitor Roque",
+      "Marcos Leonardo",
+      "Kayky",
+      "Endrick"
+    ],
+    correctAnswer: "Endrick",
+    explanation: "Endrick foi personagem importante na reta final do titulo do Palmeiras em 2023.",
+  },
+  {
+    code: "BR-F1-P0013",
+    id: "brasileirao-phase1-013",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual craque uruguaio brilhou pelo Gremio no Brasileirao de 2023?",
+    options: [
+      "Luis Suarez",
+      "Edinson Cavani",
+      "Diego Forlan",
+      "Nicolas De La Cruz"
+    ],
+    correctAnswer: "Luis Suarez",
+    explanation: "Luis Suarez foi um dos grandes nomes do Gremio no Brasileirao de 2023.",
+  },
+  {
+    code: "BR-F1-P0014",
+    id: "brasileirao-phase1-014",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube cearense terminou o Brasileirao de 2021 no G4?",
+    options: [
+      "Ceara",
+      "Fortaleza",
+      "Ferroviario",
+      "Icasa"
+    ],
+    correctAnswer: "Fortaleza",
+    explanation: "O Fortaleza fez campanha historica e terminou entre os quatro primeiros em 2021.",
+  },
+  {
+    code: "BR-F1-P0015",
+    id: "brasileirao-phase1-015",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube paranaense e conhecido como Furacao?",
+    options: [
+      "Coritiba",
+      "Parana",
+      "Athletico-PR",
+      "Londrina"
+    ],
+    correctAnswer: "Athletico-PR",
+    explanation: "O Athletico-PR e conhecido nacionalmente como Furacao.",
+  },
+  {
+    code: "BR-F1-P0016",
+    id: "brasileirao-phase1-016",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube nordestino foi campeao brasileiro de 1988?",
+    options: [
+      "Sport",
+      "Vitoria",
+      "Santa Cruz",
+      "Bahia"
+    ],
+    correctAnswer: "Bahia",
+    explanation: "O Bahia conquistou o Campeonato Brasileiro de 1988.",
+  },
+  {
+    code: "BR-F1-P0017",
+    id: "brasileirao-phase1-017",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube paranaense conquistou o Brasileirao de 1985?",
+    options: [
+      "Coritiba",
+      "Athletico-PR",
+      "Parana",
+      "Londrina"
+    ],
+    correctAnswer: "Coritiba",
+    explanation: "O Coritiba foi campeao brasileiro em 1985.",
+  },
+  {
+    code: "BR-F1-P0018",
+    id: "brasileirao-phase1-018",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube gaucho foi campeao brasileiro invicto em 1979?",
+    options: [
+      "Gremio",
+      "Internacional",
+      "Juventude",
+      "Brasil de Pelotas"
+    ],
+    correctAnswer: "Internacional",
+    explanation: "O Internacional conquistou o Brasileiro de 1979 sem perder.",
+  },
+  {
+    code: "BR-F1-P0019",
+    id: "brasileirao-phase1-019",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube gaucho foi campeao brasileiro de 1996 com Paulo Nunes e Jardel?",
+    options: [
+      "Internacional",
+      "Juventude",
+      "Gremio",
+      "Caxias"
+    ],
+    correctAnswer: "Gremio",
+    explanation: "O Gremio venceu o Campeonato Brasileiro de 1996.",
+  },
+  {
+    code: "BR-F1-P0020",
+    id: "brasileirao-phase1-020",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube do ABC paulista foi vice da Copa Joao Havelange de 2000?",
+    options: [
+      "Santo Andre",
+      "Sao Bernardo",
+      "Agua Santa",
+      "Sao Caetano"
+    ],
+    correctAnswer: "Sao Caetano",
+    explanation: "O Sao Caetano surpreendeu o pais ao chegar a final de 2000.",
+  },
+  {
+    code: "BR-F1-P0021",
+    id: "brasileirao-phase1-021",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube goiano fez campanha historica e terminou em terceiro no Brasileirao de 2005?",
+    options: [
+      "Goias",
+      "Atletico-GO",
+      "Vila Nova",
+      "Anapolina"
+    ],
+    correctAnswer: "Goias",
+    explanation: "O Goias ficou em terceiro lugar no Campeonato Brasileiro de 2005.",
+  },
+  {
+    code: "BR-F1-P0022",
+    id: "brasileirao-phase1-022",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube do interior paulista foi vice-campeao brasileiro de 1991?",
+    options: [
+      "Guarani",
+      "Bragantino",
+      "Portuguesa",
+      "Ponte Preta"
+    ],
+    correctAnswer: "Bragantino",
+    explanation: "O Bragantino chegou a final do Brasileiro de 1991.",
+  },
+  {
+    code: "BR-F1-P0023",
+    id: "brasileirao-phase1-023",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube de Campinas foi campeao brasileiro de 1978?",
+    options: [
+      "Ponte Preta",
+      "XV de Piracicaba",
+      "Guarani",
+      "Comercial"
+    ],
+    correctAnswer: "Guarani",
+    explanation: "O Guarani conquistou o Campeonato Brasileiro de 1978.",
+  },
+  {
+    code: "BR-F1-P0024",
+    id: "brasileirao-phase1-024",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube paranaense venceu o Brasileirao de 2001?",
+    options: [
+      "Coritiba",
+      "Parana",
+      "Operario-PR",
+      "Athletico-PR"
+    ],
+    correctAnswer: "Athletico-PR",
+    explanation: "O Athletico-PR conquistou o Brasileiro de 2001.",
+  },
+  {
+    code: "BR-F1-P0025",
+    id: "brasileirao-phase1-025",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Athletico-PR campeao brasileiro de 2001?",
+    options: [
+      "Geninho",
+      "Levir Culpi",
+      "Muricy Ramalho",
+      "Oswaldo de Oliveira"
+    ],
+    correctAnswer: "Geninho",
+    explanation: "Geninho era o tecnico do Athletico-PR campeao brasileiro de 2001.",
+  },
+  {
+    code: "BR-F1-P0026",
+    id: "brasileirao-phase1-026",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Corinthians campeao brasileiro de 2015?",
+    options: [
+      "Mano Menezes",
+      "Tite",
+      "Carille",
+      "Luxemburgo"
+    ],
+    correctAnswer: "Tite",
+    explanation: "Tite comandou o Corinthians na campanha dominante de 2015.",
+  },
+  {
+    code: "BR-F1-P0027",
+    id: "brasileirao-phase1-027",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual tecnico comandou o Flamengo campeao brasileiro de 2019?",
+    options: [
+      "Dorival Junior",
+      "Renato Gaucho",
+      "Jorge Jesus",
+      "Rogerio Ceni"
+    ],
+    correctAnswer: "Jorge Jesus",
+    explanation: "Jorge Jesus comandou o Flamengo em 2019.",
+  },
+  {
+    code: "BR-F1-P0028",
+    id: "brasileirao-phase1-028",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual jogador holandes virou atracao do Botafogo no Brasileirao de 2013?",
+    options: [
+      "Robben",
+      "Van Persie",
+      "Sneijder",
+      "Seedorf"
+    ],
+    correctAnswer: "Seedorf",
+    explanation: "Clarence Seedorf foi destaque do Botafogo no Brasileiro de 2013.",
+  },
+  {
+    code: "BR-F1-P0029",
+    id: "brasileirao-phase1-029",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube mineiro conquistou vaga inedita na Libertadores apos o Brasileirao de 2021?",
+    options: [
+      "America-MG",
+      "Tombense",
+      "Ipatinga",
+      "Villa Nova-MG"
+    ],
+    correctAnswer: "America-MG",
+    explanation: "O America-MG fez campanha historica e foi a Libertadores pela primeira vez.",
+  },
+  {
+    code: "BR-F1-P0030",
+    id: "brasileirao-phase1-030",
+    topicId: "brasileirao",
+    phaseId: 1,
+    difficulty: "facil",
+    question: "Qual clube catarinense ficou nacionalmente marcado por sua ascensao ate a Serie A nos anos 2010?",
+    options: [
+      "Avai",
+      "Chapecoense",
+      "Figueirense",
+      "Criciuma"
+    ],
+    correctAnswer: "Chapecoense",
+    explanation: "A Chapecoense virou uma historia marcante do futebol brasileiro nos anos 2010.",
   },
 ];

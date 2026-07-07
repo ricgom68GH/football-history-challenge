@@ -9,9 +9,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube foi campeão brasileiro de 1971, considerado o primeiro Brasileirão oficial?",
     options: [
+      "Atlético-MG",
       "São Paulo",
       "Botafogo",
-      "Atlético-MG",
       "Palmeiras"
     ],
     correctAnswer: "Atlético-MG",
@@ -26,9 +26,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     question: "Qual jogador foi destaque do Atlético-MG campeão brasileiro de 1971?",
     options: [
       "Reinaldo",
+      "Dario",
       "Toninho Cerezo",
-      "Eder",
-      "Dario"
+      "Eder"
     ],
     correctAnswer: "Dario",
     explanation: "Dario, o Dadá Maravilha, foi nome marcante do título de 1971.",
@@ -41,9 +41,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1977 nos pênaltis contra o Atlético-MG?",
     options: [
-      "São Paulo",
       "Internacional",
       "Guarani",
+      "São Paulo",
       "Palmeiras"
     ],
     correctAnswer: "São Paulo",
@@ -58,9 +58,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1978?",
     options: [
       "Palmeiras",
-      "Guarani",
       "Internacional",
-      "Vasco"
+      "Vasco",
+      "Guarani"
     ],
     correctAnswer: "Guarani",
     explanation: "O Guarani conquistou o Brasileirão de 1978, título histórico para o clube.",
@@ -73,9 +73,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1979 de forma invicta?",
     options: [
+      "Internacional",
       "Grêmio",
       "Flamengo",
-      "Internacional",
       "Atlético-MG"
     ],
     correctAnswer: "Internacional",
@@ -90,9 +90,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1980 com Zico como grande nome?",
     options: [
       "Atlético-MG",
+      "Flamengo",
       "Vasco",
-      "Coritiba",
-      "Flamengo"
+      "Coritiba"
     ],
     correctAnswer: "Flamengo",
     explanation: "O Flamengo de Zico conquistou o Brasileirão de 1980.",
@@ -105,9 +105,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1985?",
     options: [
-      "Coritiba",
       "Bangu",
       "São Paulo",
+      "Coritiba",
       "Fluminense"
     ],
     correctAnswer: "Coritiba",
@@ -122,9 +122,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1988?",
     options: [
       "Internacional",
-      "Bahia",
       "Grêmio",
-      "Sport"
+      "Sport",
+      "Bahia"
     ],
     correctAnswer: "Bahia",
     explanation: "O Bahia conquistou o Brasileirão de 1988.",
@@ -137,9 +137,9 @@ export const brasileiraoPhase4Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1991?",
     options: [
+      "São Paulo",
       "Bragantino",
       "Corinthians",
-      "São Paulo",
       "Flamengo"
     ],
     correctAnswer: "São Paulo",
@@ -154,11 +154,331 @@ export const brasileiraoPhase4Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1996 com Paulo Nunes e Jardel como destaques?",
     options: [
       "Palmeiras",
+      "Grêmio",
       "Cruzeiro",
-      "Vasco",
-      "Grêmio"
+      "Vasco"
     ],
     correctAnswer: "Grêmio",
     explanation: "O Grêmio conquistou o título brasileiro de 1996.",
+  },
+  {
+    code: "BR-F4-P0011",
+    id: "brasileirao-phase4-011",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Atletico-MG campeao brasileiro de 1971?",
+    options: [
+      "Procopio Cardoso",
+      "Barbana",
+      "Tele Santana",
+      "Yustrich"
+    ],
+    correctAnswer: "Tele Santana",
+    explanation: "Tele Santana comandou o Atletico-MG no primeiro Brasileiro oficial.",
+  },
+  {
+    code: "BR-F4-P0012",
+    id: "brasileirao-phase4-012",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual atacante do Atletico-MG foi artilheiro do Brasileirao de 1977?",
+    options: [
+      "Dario",
+      "Eder",
+      "Marques",
+      "Reinaldo"
+    ],
+    correctAnswer: "Reinaldo",
+    explanation: "Reinaldo foi artilheiro e simbolo do Atletico-MG em 1977.",
+  },
+  {
+    code: "BR-F4-P0013",
+    id: "brasileirao-phase4-013",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual goleiro era simbolo do Sao Paulo campeao brasileiro de 1977?",
+    options: [
+      "Waldir Peres",
+      "Zetti",
+      "Gilmar",
+      "Valdir Joaquim de Moraes"
+    ],
+    correctAnswer: "Waldir Peres",
+    explanation: "Waldir Peres foi uma das referencias do Sao Paulo campeao de 1977.",
+  },
+  {
+    code: "BR-F4-P0014",
+    id: "brasileirao-phase4-014",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual atacante jovem despontou no Guarani campeao brasileiro de 1978?",
+    options: [
+      "Evair",
+      "Careca",
+      "Amoroso",
+      "Joao Paulo"
+    ],
+    correctAnswer: "Careca",
+    explanation: "Careca surgiu como uma das grandes revelacoes do Guarani campeao.",
+  },
+  {
+    code: "BR-F4-P0015",
+    id: "brasileirao-phase4-015",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Internacional campeao brasileiro invicto de 1979?",
+    options: [
+      "Rubens Minelli",
+      "Claudio Duarte",
+      "Enio Andrade",
+      "Carlos Froner"
+    ],
+    correctAnswer: "Enio Andrade",
+    explanation: "Enio Andrade comandou o Inter na campanha invicta de 1979.",
+  },
+  {
+    code: "BR-F4-P0016",
+    id: "brasileirao-phase4-016",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual meia era simbolo tecnico do Internacional campeao invicto de 1979?",
+    options: [
+      "Batista",
+      "Valdomiro",
+      "Mario Sergio",
+      "Falcao"
+    ],
+    correctAnswer: "Falcao",
+    explanation: "Falcao foi um dos grandes nomes do Inter nos anos 1970.",
+  },
+  {
+    code: "BR-F4-P0017",
+    id: "brasileirao-phase4-017",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube gaucho venceu o Campeonato Brasileiro de 1981?",
+    options: [
+      "Gremio",
+      "Internacional",
+      "Juventude",
+      "Caxias"
+    ],
+    correctAnswer: "Gremio",
+    explanation: "O Gremio conquistou o Campeonato Brasileiro de 1981.",
+  },
+  {
+    code: "BR-F4-P0018",
+    id: "brasileirao-phase4-018",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Gremio campeao brasileiro de 1981?",
+    options: [
+      "Felipao",
+      "Enio Andrade",
+      "Valdir Espinosa",
+      "Tel? Santana"
+    ],
+    correctAnswer: "Enio Andrade",
+    explanation: "Enio Andrade tambem comandou o Gremio campeao brasileiro de 1981.",
+  },
+  {
+    code: "BR-F4-P0019",
+    id: "brasileirao-phase4-019",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Coritiba campeao brasileiro de 1985?",
+    options: [
+      "Dirceu Kruger",
+      "Carpegiani",
+      "Enio Andrade",
+      "Ivo Wortmann"
+    ],
+    correctAnswer: "Enio Andrade",
+    explanation: "Enio Andrade foi o tecnico do Coritiba na conquista de 1985.",
+  },
+  {
+    code: "BR-F4-P0020",
+    id: "brasileirao-phase4-020",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Bahia campeao brasileiro de 1988?",
+    options: [
+      "Joel Santana",
+      "Pepe",
+      "Carlos Alberto Silva",
+      "Evaristo de Macedo"
+    ],
+    correctAnswer: "Evaristo de Macedo",
+    explanation: "Evaristo de Macedo comandou o Bahia no titulo brasileiro de 1988.",
+  },
+  {
+    code: "BR-F4-P0021",
+    id: "brasileirao-phase4-021",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual jogador foi destaque tecnico do Bahia campeao brasileiro de 1988?",
+    options: [
+      "Bobo",
+      "Charles",
+      "Naldinho",
+      "Beijoca"
+    ],
+    correctAnswer: "Bobo",
+    explanation: "Bobo foi o grande nome tecnico do Bahia campeao de 1988.",
+  },
+  {
+    code: "BR-F4-P0022",
+    id: "brasileirao-phase4-022",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube carioca venceu o Campeonato Brasileiro de 1974?",
+    options: [
+      "Flamengo",
+      "Vasco",
+      "Fluminense",
+      "Botafogo"
+    ],
+    correctAnswer: "Vasco",
+    explanation: "O Vasco conquistou o Brasileiro de 1974.",
+  },
+  {
+    code: "BR-F4-P0023",
+    id: "brasileirao-phase4-023",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual atacante era o grande nome do Vasco campeao brasileiro de 1974?",
+    options: [
+      "Romario",
+      "Edmundo",
+      "Roberto Dinamite",
+      "Roberto Miranda"
+    ],
+    correctAnswer: "Roberto Dinamite",
+    explanation: "Roberto Dinamite foi o maior simbolo do Vasco naquela campanha.",
+  },
+  {
+    code: "BR-F4-P0024",
+    id: "brasileirao-phase4-024",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube mineiro foi finalista do Brasileiro de 1977, mas terminou invicto e vice?",
+    options: [
+      "Cruzeiro",
+      "America-MG",
+      "Villa Nova-MG",
+      "Atletico-MG"
+    ],
+    correctAnswer: "Atletico-MG",
+    explanation: "O Atletico-MG terminou o Brasileiro de 1977 invicto, mas ficou com o vice.",
+  },
+  {
+    code: "BR-F4-P0025",
+    id: "brasileirao-phase4-025",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube de Campinas decidiu o Brasileiro de 1986 contra o Sao Paulo?",
+    options: [
+      "Guarani",
+      "Ponte Preta",
+      "XV de Piracicaba",
+      "Comercial"
+    ],
+    correctAnswer: "Guarani",
+    explanation: "O Guarani foi vice-campeao brasileiro de 1986.",
+  },
+  {
+    code: "BR-F4-P0026",
+    id: "brasileirao-phase4-026",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube de Minas venceu a primeira edicao dos pontos corridos em 2003?",
+    options: [
+      "Atletico-MG",
+      "Cruzeiro",
+      "America-MG",
+      "Ipatinga"
+    ],
+    correctAnswer: "Cruzeiro",
+    explanation: "O Cruzeiro venceu o Brasileiro de 2003, primeiro por pontos corridos.",
+  },
+  {
+    code: "BR-F4-P0027",
+    id: "brasileirao-phase4-027",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube catarinense foi campeao da Copa do Brasil de 1991 e teve presenca marcante na elite nacional?",
+    options: [
+      "Avai",
+      "Figueirense",
+      "Criciuma",
+      "Chapecoense"
+    ],
+    correctAnswer: "Criciuma",
+    explanation: "O Criciuma e uma historia importante fora do eixo tradicional.",
+  },
+  {
+    code: "BR-F4-P0028",
+    id: "brasileirao-phase4-028",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube do Para foi campeao da Serie B em 2001 e voltou a elite nacional?",
+    options: [
+      "Remo",
+      "Tuna Luso",
+      "Castanhal",
+      "Paysandu"
+    ],
+    correctAnswer: "Paysandu",
+    explanation: "O Paysandu viveu fase nacional importante no inicio dos anos 2000.",
+  },
+  {
+    code: "BR-F4-P0029",
+    id: "brasileirao-phase4-029",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube goiano foi vice-campeao da Copa Sul-Americana em 2010 e teve campanhas nacionais marcantes?",
+    options: [
+      "Goias",
+      "Atletico-GO",
+      "Vila Nova",
+      "Anapolina"
+    ],
+    correctAnswer: "Goias",
+    explanation: "O Goias teve campanhas relevantes no cenario nacional.",
+  },
+  {
+    code: "BR-F4-P0030",
+    id: "brasileirao-phase4-030",
+    topicId: "brasileirao",
+    phaseId: 4,
+    difficulty: "dificil",
+    question: "Qual clube pernambucano fez boa campanha no Brasileirao de 2015 e terminou na parte de cima da tabela?",
+    options: [
+      "Nautico",
+      "Sport",
+      "Santa Cruz",
+      "Central"
+    ],
+    correctAnswer: "Sport",
+    explanation: "O Sport fez uma campanha competitiva no Brasileiro de 2015.",
   },
 ];

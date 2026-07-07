@@ -9,10 +9,10 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o controverso Módulo Verde da Copa União de 1987?",
     options: [
+      "Flamengo",
       "Sport",
       "Internacional",
-      "Guarani",
-      "Flamengo"
+      "Guarani"
     ],
     correctAnswer: "Flamengo",
     explanation: "O Flamengo venceu o Módulo Verde de 1987, em uma disputa historicamente controversa.",
@@ -25,8 +25,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube é reconhecido pela CBF como campeão brasileiro de 1987?",
     options: [
-      "Sport",
       "Flamengo",
+      "Sport",
       "Guarani",
       "Internacional"
     ],
@@ -42,8 +42,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1990?",
     options: [
       "São Paulo",
-      "Corinthians",
       "Atlético-MG",
+      "Corinthians",
       "Bahia"
     ],
     correctAnswer: "Corinthians",
@@ -59,8 +59,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     options: [
       "Corinthians",
       "Grêmio",
-      "Palmeiras",
-      "Santos"
+      "Santos",
+      "Palmeiras"
     ],
     correctAnswer: "Palmeiras",
     explanation: "O Palmeiras conquistou o Brasileirão de 1994, fechando bicampeonato nacional.",
@@ -73,10 +73,10 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1997?",
     options: [
+      "Vasco",
       "Palmeiras",
       "Internacional",
-      "Cruzeiro",
-      "Vasco"
+      "Cruzeiro"
     ],
     correctAnswer: "Vasco",
     explanation: "O Vasco conquistou o Brasileirão de 1997.",
@@ -89,8 +89,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual atacante foi grande nome do Vasco campeão brasileiro de 1997?",
     options: [
-      "Edmundo",
       "Romario",
+      "Edmundo",
       "Juninho Pernambucano",
       "Viola"
     ],
@@ -106,8 +106,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     question: "Qual clube venceu o Brasileirão de 1998?",
     options: [
       "Cruzeiro",
-      "Corinthians",
       "Santos",
+      "Corinthians",
       "Portuguesa"
     ],
     correctAnswer: "Corinthians",
@@ -123,8 +123,8 @@ export const brasileiraoPhase5Questions: Question[] = [
     options: [
       "São Caetano",
       "Palmeiras",
-      "Vasco",
-      "Cruzeiro"
+      "Cruzeiro",
+      "Vasco"
     ],
     correctAnswer: "Vasco",
     explanation: "O Vasco venceu a Copa João Havelange de 2000.",
@@ -137,10 +137,10 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube foi vice-campeão da Copa João Havelange de 2000?",
     options: [
+      "São Caetano",
       "Vasco",
       "Fluminense",
-      "Coritiba",
-      "São Caetano"
+      "Coritiba"
     ],
     correctAnswer: "São Caetano",
     explanation: "O São Caetano surpreendeu o país e chegou à final de 2000.",
@@ -153,12 +153,332 @@ export const brasileiraoPhase5Questions: Question[] = [
     difficulty: "dificil",
     question: "Qual clube venceu o Brasileirão de 1984?",
     options: [
-      "Fluminense",
       "Vasco",
+      "Fluminense",
       "Corinthians",
       "Atlético-MG"
     ],
     correctAnswer: "Fluminense",
     explanation: "O Fluminense conquistou o Campeonato Brasileirão de 1984.",
+  },
+  {
+    code: "BR-F5-P0011",
+    id: "brasileirao-phase5-011",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Na Taca Brasil de 1959, qual clube nordestino derrotou o Santos na decisao?",
+    options: [
+      "Sport",
+      "Vitoria",
+      "Bahia",
+      "Nautico"
+    ],
+    correctAnswer: "Bahia",
+    explanation: "O Bahia venceu a Taca Brasil de 1959, titulo reconhecido posteriormente.",
+  },
+  {
+    code: "BR-F5-P0012",
+    id: "brasileirao-phase5-012",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Na Taca Brasil de 1966, qual clube mineiro superou o Santos de Pele?",
+    options: [
+      "Atletico-MG",
+      "America-MG",
+      "Villa Nova-MG",
+      "Cruzeiro"
+    ],
+    correctAnswer: "Cruzeiro",
+    explanation: "O Cruzeiro venceu a Taca Brasil de 1966 contra o Santos.",
+  },
+  {
+    code: "BR-F5-P0013",
+    id: "brasileirao-phase5-013",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual craque foi simbolo do Cruzeiro na Taca Brasil de 1966?",
+    options: [
+      "Tostao",
+      "Dirceu Lopes",
+      "Piazza",
+      "Natal"
+    ],
+    correctAnswer: "Tostao",
+    explanation: "Tostao foi um dos grandes nomes do Cruzeiro na conquista de 1966.",
+  },
+  {
+    code: "BR-F5-P0014",
+    id: "brasileirao-phase5-014",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual competicao nacional de 1970 teve o Fluminense como campeao e foi reconhecida posteriormente?",
+    options: [
+      "Taca Brasil",
+      "Robertao",
+      "Copa Uniao",
+      "Torneio Rio-Sao Paulo"
+    ],
+    correctAnswer: "Robertao",
+    explanation: "O Robertao de 1970 e um dos titulos nacionais reconhecidos posteriormente.",
+  },
+  {
+    code: "BR-F5-P0015",
+    id: "brasileirao-phase5-015",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador foi simbolo do Fluminense campeao nacional de 1970?",
+    options: [
+      "Rivelino",
+      "Assis",
+      "Flavio Minuano",
+      "Washington"
+    ],
+    correctAnswer: "Flavio Minuano",
+    explanation: "Flavio Minuano foi um dos nomes do Fluminense campeao do Robertao de 1970.",
+  },
+  {
+    code: "BR-F5-P0016",
+    id: "brasileirao-phase5-016",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Palmeiras campeao brasileiro de 1972?",
+    options: [
+      "Rubens Minelli",
+      "Dudu",
+      "Filpo Nunez",
+      "Oswaldo Brandao"
+    ],
+    correctAnswer: "Oswaldo Brandao",
+    explanation: "Oswaldo Brandao comandou o Palmeiras em conquistas nacionais dos anos 1970.",
+  },
+  {
+    code: "BR-F5-P0017",
+    id: "brasileirao-phase5-017",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual meia ficou conhecido como Divino e marcou a era vencedora do Palmeiras nos anos 1970?",
+    options: [
+      "Ademir da Guia",
+      "Dudu",
+      "Leivinha",
+      "Cesar Maluco"
+    ],
+    correctAnswer: "Ademir da Guia",
+    explanation: "Ademir da Guia foi o grande simbolo tecnico do Palmeiras daquela geracao.",
+  },
+  {
+    code: "BR-F5-P0018",
+    id: "brasileirao-phase5-018",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Internacional bicampeao brasileiro em 1975 e 1976?",
+    options: [
+      "Enio Andrade",
+      "Rubens Minelli",
+      "Claudio Duarte",
+      "Paulo Cesar Carpegiani"
+    ],
+    correctAnswer: "Rubens Minelli",
+    explanation: "Rubens Minelli comandou o Inter nos titulos de 1975 e 1976.",
+  },
+  {
+    code: "BR-F5-P0019",
+    id: "brasileirao-phase5-019",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual zagueiro chileno foi simbolo do Internacional campeao brasileiro nos anos 1970?",
+    options: [
+      "Gamarra",
+      "Fabbro",
+      "Figueroa",
+      "Contreras"
+    ],
+    correctAnswer: "Figueroa",
+    explanation: "Elias Figueroa foi um dos maiores nomes do Inter campeao nacional.",
+  },
+  {
+    code: "BR-F5-P0020",
+    id: "brasileirao-phase5-020",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Guarani campeao brasileiro de 1978?",
+    options: [
+      "Enio Andrade",
+      "Rubens Minelli",
+      "Pepe",
+      "Carlos Alberto Silva"
+    ],
+    correctAnswer: "Carlos Alberto Silva",
+    explanation: "Carlos Alberto Silva comandou o Guarani na conquista de 1978.",
+  },
+  {
+    code: "BR-F5-P0021",
+    id: "brasileirao-phase5-021",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube mineiro perdeu a final do Brasileiro de 1977 mesmo terminando invicto?",
+    options: [
+      "Atletico-MG",
+      "Cruzeiro",
+      "America-MG",
+      "Villa Nova-MG"
+    ],
+    correctAnswer: "Atletico-MG",
+    explanation: "O Atletico-MG ficou invicto, mas perdeu o titulo nos penaltis.",
+  },
+  {
+    code: "BR-F5-P0022",
+    id: "brasileirao-phase5-022",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paulista foi finalista do Brasileiro de 1991 contra o Sao Paulo?",
+    options: [
+      "Guarani",
+      "Bragantino",
+      "Portuguesa",
+      "Ponte Preta"
+    ],
+    correctAnswer: "Bragantino",
+    explanation: "O Bragantino foi finalista brasileiro em 1991.",
+  },
+  {
+    code: "BR-F5-P0023",
+    id: "brasileirao-phase5-023",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual tecnico comandou o Bragantino vice-campeao brasileiro de 1991?",
+    options: [
+      "Vanderlei Luxemburgo",
+      "Pepe",
+      "Carlos Alberto Parreira",
+      "Candinho"
+    ],
+    correctAnswer: "Carlos Alberto Parreira",
+    explanation: "Parreira levou o Bragantino a final nacional de 1991.",
+  },
+  {
+    code: "BR-F5-P0024",
+    id: "brasileirao-phase5-024",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube baiano decidiu o Brasileiro de 1993 contra o Palmeiras?",
+    options: [
+      "Bahia",
+      "Galicia",
+      "Juazeirense",
+      "Vitoria"
+    ],
+    correctAnswer: "Vitoria",
+    explanation: "O Vitoria foi finalista do Campeonato Brasileiro de 1993.",
+  },
+  {
+    code: "BR-F5-P0025",
+    id: "brasileirao-phase5-025",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual jogador foi revelacao do Vitoria vice-campeao brasileiro de 1993?",
+    options: [
+      "Dida",
+      "Bebeto",
+      "Alex Alves",
+      "Edilson"
+    ],
+    correctAnswer: "Dida",
+    explanation: "Dida surgiu como um dos grandes nomes daquela campanha do Vitoria.",
+  },
+  {
+    code: "BR-F5-P0026",
+    id: "brasileirao-phase5-026",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paulista foi vice-campeao brasileiro de 1996 em final contra o Gremio?",
+    options: [
+      "Guarani",
+      "Portuguesa",
+      "Bragantino",
+      "Ponte Preta"
+    ],
+    correctAnswer: "Portuguesa",
+    explanation: "A Portuguesa fez uma das campanhas mais lembradas de sua historia.",
+  },
+  {
+    code: "BR-F5-P0027",
+    id: "brasileirao-phase5-027",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual meia era destaque da Portuguesa vice-campea brasileira de 1996?",
+    options: [
+      "Dener",
+      "Zinho",
+      "Rodrigo Fabri",
+      "Alex Alves"
+    ],
+    correctAnswer: "Rodrigo Fabri",
+    explanation: "Rodrigo Fabri foi um dos destaques da Portuguesa naquela campanha.",
+  },
+  {
+    code: "BR-F5-P0028",
+    id: "brasileirao-phase5-028",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paranaense foi vice-campeao brasileiro de 2004?",
+    options: [
+      "Coritiba",
+      "Parana",
+      "Londrina",
+      "Athletico-PR"
+    ],
+    correctAnswer: "Athletico-PR",
+    explanation: "O Athletico-PR terminou como vice-campeao brasileiro em 2004.",
+  },
+  {
+    code: "BR-F5-P0029",
+    id: "brasileirao-phase5-029",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube do ABC paulista surpreendeu ao chegar a finais nacionais em 2000 e 2001?",
+    options: [
+      "Sao Caetano",
+      "Santo Andre",
+      "Sao Bernardo",
+      "Maua"
+    ],
+    correctAnswer: "Sao Caetano",
+    explanation: "O Sao Caetano foi uma das grandes surpresas nacionais do inicio dos anos 2000.",
+  },
+  {
+    code: "BR-F5-P0030",
+    id: "brasileirao-phase5-030",
+    topicId: "brasileirao",
+    phaseId: 5,
+    difficulty: "dificil",
+    question: "Qual clube paranaense venceu o Brasileiro de 2001 com uma campanha ofensiva marcante?",
+    options: [
+      "Coritiba",
+      "Athletico-PR",
+      "Parana",
+      "Londrina"
+    ],
+    correctAnswer: "Athletico-PR",
+    explanation: "O Athletico-PR conquistou o Brasileiro de 2001 com ataque forte e Alex Mineiro em destaque.",
   },
 ];
