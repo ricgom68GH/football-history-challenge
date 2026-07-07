@@ -147,11 +147,11 @@ export default function Home() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-pitch px-4 py-6">
+    <main className="relative min-h-screen overflow-hidden bg-pitch px-4 py-4">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.22),transparent_34%),linear-gradient(135deg,rgba(15,23,42,0.95),rgba(7,19,13,0.95))]" />
       <div className="absolute inset-0 opacity-10 [background-image:linear-gradient(rgba(255,255,255,.25)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.25)_1px,transparent_1px)] [background-size:64px_64px]" />
 
-      <div className="relative z-10 flex min-h-[calc(100vh-3rem)] w-full items-center justify-center">
+      <div className="relative z-10 flex min-h-[calc(100vh-2rem)] w-full items-center justify-center">
         {gameStatus === "start" && (
           <section className="w-full max-w-3xl text-center">
             <p className="text-sm font-bold uppercase tracking-[0.35em] text-grass">
@@ -220,3 +220,4 @@ export default function Home() {
     </main>
   );
 }
+

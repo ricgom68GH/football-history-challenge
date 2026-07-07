@@ -32,8 +32,8 @@ export function QuizCard({
   const gotItRight = selectedAnswer === question.correctAnswer;
 
   return (
-    <section className="w-full max-w-2xl rounded-xl border border-white/10 bg-slate-950/80 p-5 shadow-glow backdrop-blur md:p-6">
-      <div className="mb-4 flex flex-wrap gap-4 text-sm font-bold">
+    <section className="w-full max-w-xl rounded-lg border border-white/10 bg-slate-950/80 p-4 shadow-glow backdrop-blur md:p-5">
+      <div className="mb-3 flex flex-wrap gap-3 text-xs font-bold">
         <button type="button" onClick={onBackToPhases} className="text-slate-300 transition hover:text-grass">
           Voltar para fases
         </button>
@@ -42,23 +42,23 @@ export function QuizCard({
         </button>
       </div>
 
-      <div className="mb-4 space-y-2">
-        <div className="flex items-center justify-between gap-4 text-sm font-semibold text-slate-300">
+      <div className="mb-3 space-y-1.5">
+        <div className="flex items-center justify-between gap-3 text-xs font-semibold text-slate-300">
           <span>
             {topic.name} • {phase.name}
           </span>
           <span>
-            Pergunta {currentQuestion} de {totalQuestions}
+            {currentQuestion}/{totalQuestions}
           </span>
         </div>
         <ProgressBar currentQuestion={currentQuestion} totalQuestions={totalQuestions} />
       </div>
 
-      <h2 className="mb-4 text-xl font-bold leading-tight text-white md:text-2xl">
+      <h2 className="mb-3 text-lg font-bold leading-snug text-white md:text-xl">
         {question.question}
       </h2>
 
-      <div className="grid gap-2.5">
+      <div className="grid gap-2">
         {question.options.map((answer) => (
           <AnswerButton
             key={answer}
@@ -72,14 +72,14 @@ export function QuizCard({
       </div>
 
       {showResult && (
-        <div className="mt-4 rounded-lg border border-white/10 bg-white/5 p-3">
-          <p className={`font-bold ${gotItRight ? "text-grass" : "text-red-300"}`}>
+        <div className="mt-3 rounded-lg border border-white/10 bg-white/5 p-2.5">
+          <p className={`text-sm font-bold ${gotItRight ? "text-grass" : "text-red-300"}`}>
             {gotItRight ? "Você acertou!" : "Você errou!"}
           </p>
-          <p className="mt-1 text-sm text-slate-300">
+          <p className="mt-1 text-xs text-slate-300">
             Resposta correta: <strong className="text-white">{question.correctAnswer}</strong>
           </p>
-          <p className="mt-2 text-sm leading-6 text-slate-300">{question.explanation}</p>
+          <p className="mt-1.5 text-xs leading-5 text-slate-300">{question.explanation}</p>
         </div>
       )}
 
@@ -87,7 +87,7 @@ export function QuizCard({
         type="button"
         onClick={onNextQuestion}
         disabled={!showResult}
-        className="mt-4 w-full rounded-lg bg-grass px-5 py-2.5 font-bold text-slate-950 transition hover:bg-green-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400"
+        className="mt-3 w-full rounded-lg bg-grass px-4 py-2 text-sm font-bold text-slate-950 transition hover:bg-green-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400"
       >
         {currentQuestion === totalQuestions ? "Ver resultado" : "Próxima pergunta"}
       </button>

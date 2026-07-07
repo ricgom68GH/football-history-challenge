@@ -24,10 +24,9 @@ export function AnswerButton({
       type="button"
       onClick={onClick}
       disabled={showResult}
-      className={`w-full rounded-lg border px-4 py-2.5 text-left font-semibold transition hover:border-grass hover:bg-grass/10 disabled:cursor-not-allowed ${resultStyle}`}
+      className={`w-full rounded-md border px-3 py-2 text-left text-sm font-semibold transition hover:border-grass hover:bg-grass/10 disabled:cursor-not-allowed ${resultStyle}`}
     >
       {answer}
     </button>
   );
 }
-
