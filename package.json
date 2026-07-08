@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^15.5.20",
     "next": "^15.1.6",
     "node-releases": "^2.0.27",
     "react": "^19.0.0",
