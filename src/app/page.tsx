@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 import { PhaseSelector } from "@/components/PhaseSelector";
@@ -29,7 +29,6 @@ export default function Home() {
   useEffect(() => {
     setProgress(loadProgress(topics.map((topic) => topic.id)));
   }, []);
-
 
   const currentQuestion = phaseQuestions[currentQuestionIndex];
   const currentQuestionNumber = currentQuestionIndex + 1;
@@ -146,26 +145,38 @@ export default function Home() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-x-hidden bg-pitch px-4 py-4">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.2),transparent_30%),linear-gradient(135deg,rgba(2,6,23,0.98),rgba(7,19,13,0.96))]" />
-      <div className="absolute inset-0 opacity-10 [background-image:linear-gradient(rgba(255,255,255,.25)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.25)_1px,transparent_1px)] [background-size:64px_64px]" />
+    <main className="relative min-h-screen overflow-x-hidden bg-[#dff7ee] px-3 py-2 text-slate-900 sm:px-4 sm:py-3">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_10%,rgba(255,255,255,0.82),transparent_22%),radial-gradient(circle_at_86%_16%,rgba(250,204,21,0.34),transparent_18%),linear-gradient(145deg,#dff7ff_0%,#74e2b7_42%,#166534_100%)]" />
+      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-[linear-gradient(0deg,rgba(22,101,52,0.72),transparent),repeating-linear-gradient(90deg,rgba(255,255,255,0.16)_0,rgba(255,255,255,0.16)_2px,transparent_2px,transparent_76px)]" />
+      <div className="absolute left-1/2 top-8 h-36 w-36 -translate-x-1/2 rounded-full border-[12px] border-white/18" />
+      <div className="absolute -left-16 top-16 h-40 w-40 rounded-full bg-sky-300/30 blur-3xl" />
+      <div className="absolute -right-20 bottom-12 h-48 w-48 rounded-full bg-lime-200/32 blur-3xl" />
 
-      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-5xl items-center justify-center">
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-6xl items-start justify-center py-1 sm:items-center sm:py-0">
         {gameStatus === "start" && (
-          <section className="w-full max-w-2xl text-center">
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-grass">
-              FOOTBALL HISTORY · GR GAMES
+          <section className="w-full max-w-lg rounded-[1.75rem] border border-white/75 bg-white/88 px-5 py-6 text-center shadow-[0_20px_58px_rgba(15,23,42,0.2)] backdrop-blur sm:px-8 sm:py-7 md:py-8">
+            <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-sky-600 shadow-[0_12px_26px_rgba(14,165,233,0.3)]">
+              <span className="h-7 w-7 rounded-full border-[5px] border-white/95 bg-white/20 shadow-inner" aria-hidden="true" />
+            </div>
+            <p className="text-[10px] font-black uppercase tracking-[0.22em] text-emerald-800">
+              {"FOOTBALL HISTORY \u00b7 GR GAMES"}
             </p>
-            <h1 className="mt-4 text-4xl font-black text-white md:text-6xl">Football History Challenge</h1>
-            <p className="mx-auto mt-4 max-w-xl text-base leading-7 text-slate-300 md:text-lg">
-              Um quiz de futebol histórico. Escolha uma competição, avance de fase e prove que você conhece os grandes momentos do jogo.
+            <h1 className="mt-3 text-3xl font-black leading-tight text-slate-950 sm:text-4xl md:text-5xl">Football History Challenge</h1>
+            <p className="mx-auto mt-3 max-w-md text-sm font-semibold leading-6 text-slate-700 sm:text-base">
+              {"Teste seu conhecimento sobre Copas, Libertadores, Champions e Brasileir\u00e3o."}
             </p>
+            <div className="mx-auto mt-4 flex max-w-sm flex-wrap items-center justify-center gap-2" aria-hidden="true">
+              <span className="rounded-full bg-sky-100 px-3 py-1.5 text-lg shadow-sm">{"\u26bd"}</span>
+              <span className="rounded-full bg-amber-100 px-3 py-1.5 text-lg shadow-sm">{"\ud83c\udfc6"}</span>
+              <span className="rounded-full bg-indigo-100 px-3 py-1.5 text-lg shadow-sm">{"\u2b50"}</span>
+              <span className="rounded-full bg-emerald-100 px-3 py-1.5 text-lg shadow-sm">{"\ud83c\udff3\ufe0f"}</span>
+            </div>
             <button
               type="button"
               onClick={startJourney}
-              className="mt-7 rounded-lg bg-grass px-7 py-3 text-base font-black text-slate-950 shadow-glow transition hover:bg-green-400"
+              className="mt-5 w-full rounded-2xl bg-gradient-to-r from-emerald-600 to-lime-400 px-7 py-3.5 text-base font-black text-slate-950 shadow-[0_14px_28px_rgba(22,163,74,0.36)] transition hover:-translate-y-0.5 hover:shadow-[0_18px_34px_rgba(22,163,74,0.44)] focus:outline-none focus:ring-4 focus:ring-lime-200 sm:w-auto"
             >
-              Start Challenge
+              {"Come\u00e7ar desafio"}
             </button>
           </section>
         )}
@@ -219,8 +230,3 @@ export default function Home() {
     </main>
   );
 }
-
-
-
-
-

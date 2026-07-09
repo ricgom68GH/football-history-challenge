@@ -1,4 +1,4 @@
-﻿import { AnswerButton } from "@/components/AnswerButton";
+import { AnswerButton } from "@/components/AnswerButton";
 import { ProgressBar } from "@/components/ProgressBar";
 import type { Phase, Question, Topic } from "@/types/quiz";
 
@@ -32,38 +32,46 @@ export function QuizCard({
   const gotItRight = selectedAnswer === question.correctAnswer;
 
   return (
-    <section className="w-full max-w-xl rounded-lg border border-white/10 bg-slate-950/85 p-4 shadow-glow backdrop-blur md:p-5">
-      <div className="mb-3 flex items-center justify-between gap-3 text-xs font-bold">
-        <div className="flex gap-4">
-          <button type="button" onClick={onBackToPhases} className="text-slate-300 transition hover:text-grass">
+    <section className="w-full max-w-xl rounded-[1.35rem] border border-white/75 bg-white/90 p-2.5 shadow-[0_18px_48px_rgba(15,23,42,0.2)] backdrop-blur sm:rounded-[1.75rem] sm:p-4">
+      <div className="mb-1.5 flex flex-wrap items-center justify-between gap-1.5 text-[10px] font-black sm:mb-2 sm:gap-2 sm:text-xs">
+        <div className="flex gap-1.5 sm:gap-2">
+          <button
+            type="button"
+            onClick={onBackToPhases}
+            className="rounded-full bg-slate-200 px-2.5 py-1 text-slate-700 transition hover:bg-emerald-100 hover:text-emerald-800 focus:outline-none focus:ring-4 focus:ring-emerald-100 sm:px-3 sm:py-1.5"
+          >
             Fases
           </button>
-          <button type="button" onClick={onMainMenu} className="text-slate-300 transition hover:text-grass">
-            Menu principal
+          <button
+            type="button"
+            onClick={onMainMenu}
+            className="rounded-full bg-slate-200 px-2.5 py-1 text-slate-700 transition hover:bg-emerald-100 hover:text-emerald-800 focus:outline-none focus:ring-4 focus:ring-emerald-100 sm:px-3 sm:py-1.5"
+          >
+            Menu
           </button>
         </div>
-        <span className="rounded-full border border-grass/30 bg-grass/10 px-2.5 py-1 font-black text-grass/90">
+        <span className="rounded-full bg-emerald-100 px-2.5 py-1 font-black text-emerald-800 sm:px-3 sm:py-1.5">
           {question.code}
         </span>
       </div>
 
-      <div className="mb-3 space-y-1.5">
-        <div className="flex items-center justify-between gap-3 text-xs font-bold text-slate-300">
-          <span className="truncate">
-            {topic.name} • {phase.name}
+      <div className="mb-2 rounded-[1rem] bg-slate-100 p-2 sm:mb-3 sm:rounded-[1.25rem] sm:p-3">
+        <div className="mb-1.5 flex items-center justify-between gap-2 text-[11px] font-black text-slate-700 sm:mb-2 sm:text-xs">
+          <span className="min-w-0 truncate">
+            {topic.name} / {phase.name}
           </span>
-          <span className="shrink-0 text-grass">
+          <span className="shrink-0 rounded-full bg-white px-2.5 py-0.5 text-emerald-800 shadow-sm sm:px-3 sm:py-1">
             {currentQuestion}/{totalQuestions}
           </span>
         </div>
         <ProgressBar currentQuestion={currentQuestion} totalQuestions={totalQuestions} />
       </div>
 
-      <h2 className="mb-3 text-lg font-black leading-snug text-white md:text-xl">
+      <h2 className="mb-2 text-base font-black leading-snug text-slate-950 sm:mb-3 sm:text-xl">
         {question.question}
       </h2>
 
-      <div className="grid gap-2">
+      <div className="grid gap-1.5 sm:gap-2">
         {question.options.map((answer) => (
           <AnswerButton
             key={answer}
@@ -77,14 +85,14 @@ export function QuizCard({
       </div>
 
       {showResult && (
-        <div className="mt-3 rounded-md border border-white/10 bg-white/5 p-2.5">
-          <p className={`text-sm font-black ${gotItRight ? "text-grass" : "text-red-300"}`}>
-            {gotItRight ? "Você acertou!" : "Você errou!"}
+        <div className={`mt-2 rounded-[1rem] border p-2 sm:mt-3 sm:rounded-[1.25rem] sm:p-3 ${gotItRight ? "border-emerald-300 bg-emerald-50" : "border-red-300 bg-red-50"}`}>
+          <p className={`text-xs font-black sm:text-sm ${gotItRight ? "text-emerald-800" : "text-red-800"}`}>
+            {gotItRight ? "Voc\u00ea acertou!" : "Voc\u00ea errou!"}
           </p>
-          <p className="mt-1 text-xs text-slate-300">
-            Correta: <strong className="text-white">{question.correctAnswer}</strong>
+          <p className="mt-0.5 text-[11px] font-semibold text-slate-700 sm:mt-1 sm:text-sm">
+            Correta: <strong className="text-slate-950">{question.correctAnswer}</strong>
           </p>
-          <p className="mt-1.5 text-xs leading-5 text-slate-300">{question.explanation}</p>
+          <p className="mt-1 line-clamp-2 text-[11px] leading-4 text-slate-700 sm:line-clamp-3 sm:text-sm sm:leading-5">{question.explanation}</p>
         </div>
       )}
 
@@ -92,11 +100,10 @@ export function QuizCard({
         type="button"
         onClick={onNextQuestion}
         disabled={!showResult}
-        className="mt-3 w-full rounded-md bg-grass px-4 py-2 text-sm font-black text-slate-950 transition hover:bg-green-400 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400"
+        className="mt-2 w-full rounded-2xl bg-gradient-to-r from-emerald-600 to-lime-400 px-4 py-2.5 text-sm font-black text-slate-950 shadow-[0_12px_24px_rgba(22,163,74,0.32)] transition hover:-translate-y-0.5 hover:shadow-[0_18px_34px_rgba(22,163,74,0.42)] focus:outline-none focus:ring-4 focus:ring-lime-200 disabled:cursor-not-allowed disabled:from-slate-300 disabled:to-slate-300 disabled:text-slate-600 disabled:shadow-none disabled:hover:translate-y-0 sm:mt-3 sm:px-5 sm:py-3 sm:text-base"
       >
-        {currentQuestion === totalQuestions ? "Ver resultado" : "Próxima pergunta"}
+        {currentQuestion === totalQuestions ? "Ver resultado" : "Pr\u00f3xima pergunta"}
       </button>
     </section>
   );
 }
-
