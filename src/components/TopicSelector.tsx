@@ -1,3 +1,4 @@
+import { AchievementsPanel } from "@/components/AchievementsPanel";
 import { TopicCard } from "@/components/TopicCard";
 import type { Topic } from "@/types/quiz";
 
@@ -27,6 +28,8 @@ export function TopicSelector({ topics, onSelectTopic, onBack }: TopicSelectorPr
           {"Escolha uma competi\u00e7\u00e3o e avance pelas fases."}
         </p>
       </div>
+
+      <AchievementsPanel />
 
       <div className="mx-auto grid max-w-5xl grid-cols-2 gap-2 sm:gap-2.5 lg:grid-cols-4">
         {topics.map((topic) => (

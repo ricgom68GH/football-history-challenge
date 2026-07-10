@@ -17,7 +17,7 @@ export function PhaseCard({ phase, isUnlocked, questionCount, onSelect }: PhaseC
       type="button"
       onClick={() => onSelect(phase)}
       disabled={!canPlay}
-      className={`group relative overflow-hidden rounded-[1.05rem] border bg-white/94 px-2.5 py-2 text-left shadow-[0_9px_20px_rgba(15,23,42,0.14)] transition enabled:hover:-translate-y-0.5 enabled:hover:shadow-[0_16px_34px_rgba(15,23,42,0.22)] disabled:cursor-not-allowed sm:min-h-[132px] sm:rounded-[1.35rem] sm:p-3.5 ${
+      className={`group relative overflow-hidden rounded-[1.05rem] border bg-white/94 px-2.5 py-2 text-left shadow-[0_9px_20px_rgba(15,23,42,0.14)] transition enabled:hover:-translate-y-0.5 enabled:hover:shadow-[0_16px_34px_rgba(15,23,42,0.22)] disabled:cursor-not-allowed sm:min-h-[112px] sm:rounded-[1.35rem] sm:p-3 ${
         canPlay
           ? "border-white/80"
           : "border-white/55 bg-slate-100/90 opacity-70 grayscale"
@@ -34,7 +34,7 @@ export function PhaseCard({ phase, isUnlocked, questionCount, onSelect }: PhaseC
           >
             Fase {phase.id}
           </span>
-          <h3 className="min-w-0 truncate text-sm font-black leading-tight text-slate-950 sm:mt-3 sm:text-lg">
+          <h3 className="min-w-0 truncate text-sm font-black leading-tight text-slate-950 sm:mt-2 sm:line-clamp-2 sm:whitespace-normal sm:text-lg">
             {phase.name}
           </h3>
         </div>
@@ -47,8 +47,8 @@ export function PhaseCard({ phase, isUnlocked, questionCount, onSelect }: PhaseC
         </span>
       </div>
 
-      <p className="mt-1 pl-1 text-[11px] font-black leading-4 text-slate-700 sm:mt-3 sm:pl-0 sm:text-xs">
-        Meta {phase.requiredScore}/10 <span className="text-slate-400">·</span> {questionCount} perguntas
+      <p className="mt-1 pl-1 text-[11px] font-black leading-4 text-slate-700 sm:mt-2 sm:pl-0 sm:text-xs">
+        Meta {phase.requiredScore}/10 <span className="text-slate-400">{String.fromCharCode(183)}</span> {questionCount} perguntas
       </p>
     </button>
   );

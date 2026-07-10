@@ -21,7 +21,7 @@ export function PhaseSelector({
   onMainMenu,
 }: PhaseSelectorProps) {
   return (
-    <section className="w-full max-w-6xl py-1 sm:py-3">
+    <section className="w-full max-w-5xl py-1 sm:py-3">
       <div className="mb-1.5 flex justify-center gap-2 text-[11px] font-black sm:mb-3 sm:text-xs">
         <button
           type="button"
@@ -47,7 +47,7 @@ export function PhaseSelector({
         </p>
       </div>
 
-      <div className="mx-auto grid max-w-6xl gap-1.5 sm:grid-cols-2 sm:gap-2.5 lg:grid-cols-5">
+      <div className="mx-auto grid max-w-5xl gap-1.5 sm:grid-cols-2 sm:gap-2.5 xl:grid-cols-3">
         {phases.map((phase) => {
           const questionCount = questions.filter(
             (question) => question.topicId === topic.id && question.phaseId === phase.id,

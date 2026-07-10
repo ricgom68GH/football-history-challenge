@@ -8,6 +8,7 @@ import { TopicSelector } from "@/components/TopicSelector";
 import { phases } from "@/data/phases";
 import { questions } from "@/data/questions";
 import { topics } from "@/data/topics";
+import { completeQuizRound, type Achievement } from "@/lib/achievements";
 import { loadProgress, unlockNextPhase } from "@/lib/progress";
 import { didPassPhase, getQuestionsByTopicAndPhase, getRandomQuestionsForPhase } from "@/lib/quizEngine";
 import type { Phase, Question, QuizProgress, Topic } from "@/types/quiz";
@@ -25,6 +26,7 @@ export default function Home() {
   const [showResult, setShowResult] = useState(false);
   const [passedLastQuiz, setPassedLastQuiz] = useState(false);
   const [phaseQuestions, setPhaseQuestions] = useState<Question[]>([]);
+  const [newAchievements, setNewAchievements] = useState<Achievement[]>([]);
 
   useEffect(() => {
     setProgress(loadProgress(topics.map((topic) => topic.id)));
@@ -104,6 +106,14 @@ export default function Home() {
       const passed = didPassPhase(finalScore, selectedPhase);
 
       setPassedLastQuiz(passed);
+      const completedRound = completeQuizRound({
+        topicId: selectedTopic.id,
+        phaseId: selectedPhase.id,
+        score: finalScore,
+        totalQuestions: phaseQuestions.length,
+        passed,
+      });
+      setNewAchievements(completedRound.newAchievements);
 
       if (passed) {
         setProgress((currentProgress) =>
@@ -146,17 +156,27 @@ export default function Home() {
 
   return (
     <main className="relative min-h-screen overflow-x-hidden bg-[#dff7ee] px-3 py-2 text-slate-900 sm:px-4 sm:py-3">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_10%,rgba(255,255,255,0.82),transparent_22%),radial-gradient(circle_at_86%_16%,rgba(250,204,21,0.34),transparent_18%),linear-gradient(145deg,#dff7ff_0%,#74e2b7_42%,#166534_100%)]" />
-      <div className="absolute inset-x-0 bottom-0 h-1/2 bg-[linear-gradient(0deg,rgba(22,101,52,0.72),transparent),repeating-linear-gradient(90deg,rgba(255,255,255,0.16)_0,rgba(255,255,255,0.16)_2px,transparent_2px,transparent_76px)]" />
-      <div className="absolute left-1/2 top-8 h-36 w-36 -translate-x-1/2 rounded-full border-[12px] border-white/18" />
-      <div className="absolute -left-16 top-16 h-40 w-40 rounded-full bg-sky-300/30 blur-3xl" />
-      <div className="absolute -right-20 bottom-12 h-48 w-48 rounded-full bg-lime-200/32 blur-3xl" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(247,255,178,0.54),rgba(204,245,132,0.22)_32%,transparent_58%),linear-gradient(115deg,#d8fb9a_0%,#a7e873_28%,#70cd67_58%,#31a95c_100%)]" />
+      <div className="absolute inset-0 opacity-35 bg-[repeating-linear-gradient(102deg,rgba(255,255,255,0.18)_0,rgba(255,255,255,0.18)_92px,rgba(18,122,57,0.16)_92px,rgba(18,122,57,0.16)_184px)]" />
+      <div className="absolute inset-0 opacity-25 bg-[linear-gradient(90deg,transparent_calc(50%-1px),rgba(255,255,255,0.58)_50%,transparent_calc(50%+1px)),radial-gradient(circle_at_center,transparent_0,transparent_18%,rgba(255,255,255,0.42)_18.2%,transparent_18.6%)]" />
+      <div className="absolute -left-10 top-[18%] h-56 w-32 rounded-r-[3rem] border-y-2 border-r-2 border-white/28 sm:h-72 sm:w-44" />
+      <div className="absolute -right-10 bottom-[18%] h-56 w-32 rounded-l-[3rem] border-y-2 border-l-2 border-white/28 sm:h-72 sm:w-44" />
+      <div className="absolute left-6 top-8 text-2xl opacity-24 sm:left-16 sm:top-14 sm:text-3xl" aria-hidden="true">{"\ud83c\udfc6"}</div>
+      <div className="absolute right-8 top-10 text-2xl opacity-22 sm:right-20 sm:top-16 sm:text-3xl" aria-hidden="true">{"\u2b50"}</div>
+      <div className="absolute bottom-9 left-8 text-2xl opacity-24 sm:bottom-14 sm:left-20 sm:text-3xl" aria-hidden="true">{"\u26bd"}</div>
+      <div className="absolute bottom-8 right-10 text-2xl opacity-22 sm:bottom-16 sm:right-24 sm:text-3xl" aria-hidden="true">{"\ud83c\udff3\ufe0f"}</div>
+      <div className="absolute left-[10%] top-[18%] h-px w-28 rotate-[-12deg] border-t border-dashed border-white/30" />
+      <div className="absolute bottom-[12%] right-[9%] h-px w-32 rotate-[-10deg] border-t border-dashed border-white/30" />
 
       <div className="relative z-10 mx-auto flex min-h-[calc(100vh-1rem)] w-full max-w-6xl items-start justify-center py-1 sm:items-center sm:py-0">
         {gameStatus === "start" && (
           <section className="w-full max-w-lg rounded-[1.75rem] border border-white/75 bg-white/88 px-5 py-6 text-center shadow-[0_20px_58px_rgba(15,23,42,0.2)] backdrop-blur sm:px-8 sm:py-7 md:py-8">
-            <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-sky-600 shadow-[0_12px_26px_rgba(14,165,233,0.3)]">
-              <span className="h-7 w-7 rounded-full border-[5px] border-white/95 bg-white/20 shadow-inner" aria-hidden="true" />
+            <div className="mx-auto mb-3 flex h-20 w-20 items-center justify-center overflow-hidden rounded-2xl bg-[#05231f] shadow-[0_12px_26px_rgba(14,165,233,0.24)] ring-1 ring-emerald-200/70 sm:h-24 sm:w-24">
+              <img
+                src="/brand/gr-games-logo.png"
+                alt="GR Games"
+                className="h-full w-full object-cover"
+              />
             </div>
             <p className="text-[10px] font-black uppercase tracking-[0.22em] text-emerald-800">
               {"FOOTBALL HISTORY \u00b7 GR GAMES"}
@@ -221,6 +241,7 @@ export default function Home() {
             totalQuestions={phaseQuestions.length}
             passed={passedLastQuiz}
             isLastPhase={selectedPhase.id === phases.length}
+            newAchievements={newAchievements}
             onPlayAgain={restartPhase}
             onBackToPhases={backToPhases}
             onMainMenu={goToMainMenu}
