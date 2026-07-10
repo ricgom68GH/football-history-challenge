@@ -24,6 +24,9 @@ export type Question = {
   options: string[];
   correctAnswer: string;
   explanation: string;
+  subthemeCode?: string;
+  subtheme?: string;
+  characterType?: string;
 };
 
 export type QuizProgress = Record<string, number>;
