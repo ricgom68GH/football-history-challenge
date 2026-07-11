@@ -1,8 +1,13 @@
-﻿import type { Phase, Question } from "@/types/quiz";
+import type { Phase, Question } from "@/types/quiz";
 
 export const worldCupPhase1SubthemeDistribution: Record<string, number> = {
   CF: 1, PF: 2, JH: 2, EP: 1, RE: 1, CB: 1, MC: 1,
 };
+
+export const worldCupPhase2SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const worldCupPhase3SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const worldCupPhase4SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const worldCupPhase5SubthemeDistribution = worldCupPhase1SubthemeDistribution;
 
 export function getQuestionsByTopicAndPhase(
   questions: Question[],
@@ -83,10 +88,19 @@ export function getRandomQuestionsForPhase(
   limit = 10,
 ) {
   const phaseQuestions = getQuestionsByTopicAndPhase(questions, topicId, phaseId);
-  if (topicId === "world-cup" && phaseId === 1) {
+  if (topicId === "world-cup" && (phaseId >= 1 && phaseId <= 5)) {
+    const distribution = phaseId === 1
+      ? worldCupPhase1SubthemeDistribution
+      : phaseId === 2
+        ? worldCupPhase2SubthemeDistribution
+        : phaseId === 3
+          ? worldCupPhase3SubthemeDistribution
+          : phaseId === 4
+            ? worldCupPhase4SubthemeDistribution
+            : worldCupPhase5SubthemeDistribution;
     return getRandomQuestionsBySubtheme(
       phaseQuestions,
-      worldCupPhase1SubthemeDistribution,
+      distribution,
       limit,
     );
   }
