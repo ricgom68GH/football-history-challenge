@@ -650,3 +650,61 @@ test("Brasileirao preserves the five approved historical corrections", () => {
     assert.equal(brasileirao.find((question) => question.id === id)?.correctAnswer, answer);
   }
 });
+test("Brasileirao distributes correct answers across all four option positions", () => {
+  for (const phaseQuestions of brasileiraoPhases) {
+    const positions = [0, 0, 0, 0];
+    for (const question of phaseQuestions) {
+      const position = question.options.indexOf(question.correctAnswer);
+      assert.ok(position >= 0);
+      positions[position] += 1;
+    }
+    assert.deepEqual(positions, [8, 8, 7, 7]);
+  }
+});
+test("Champions League distributes correct answers across all four option positions", () => {
+  for (const phaseQuestions of championsLeaguePhases) {
+    const positions = [0, 0, 0, 0];
+    for (const question of phaseQuestions) {
+      const position = question.options.indexOf(question.correctAnswer);
+      assert.ok(position >= 0);
+      positions[position] += 1;
+    }
+    assert.deepEqual(positions, [8, 8, 7, 7]);
+  }
+});
+test("Libertadores distributes correct answers across all four option positions", () => {
+  const phases = [
+    libertadoresPhase1Questions,
+    libertadoresPhase2Questions,
+    libertadoresPhase3Questions,
+    libertadoresPhase4Questions,
+    libertadoresPhase5Questions,
+  ];
+  for (const phaseQuestions of phases) {
+    const positions = [0, 0, 0, 0];
+    for (const question of phaseQuestions) {
+      const position = question.options.indexOf(question.correctAnswer);
+      assert.ok(position >= 0);
+      positions[position] += 1;
+    }
+    assert.deepEqual(positions, [8, 8, 7, 7]);
+  }
+});
+test("World Cup distributes correct answers across all four option positions", () => {
+  const phases = [
+    worldCupPhase1Questions,
+    worldCupPhase2Questions,
+    worldCupPhase3Questions,
+    worldCupPhase4Questions,
+    worldCupPhase5Questions,
+  ];
+  for (const phaseQuestions of phases) {
+    const positions = [0, 0, 0, 0];
+    for (const question of phaseQuestions) {
+      const position = question.options.indexOf(question.correctAnswer);
+      assert.ok(position >= 0);
+      positions[position] += 1;
+    }
+    assert.deepEqual(positions, [8, 8, 7, 7]);
+  }
+});
