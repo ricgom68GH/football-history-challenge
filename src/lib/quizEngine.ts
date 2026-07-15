@@ -8,6 +8,13 @@ export const worldCupPhase2SubthemeDistribution = worldCupPhase1SubthemeDistribu
 export const worldCupPhase3SubthemeDistribution = worldCupPhase1SubthemeDistribution;
 export const worldCupPhase4SubthemeDistribution = worldCupPhase1SubthemeDistribution;
 export const worldCupPhase5SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const libertadoresPhase1SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const libertadoresPhase2SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const libertadoresPhase3SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const libertadoresPhase4SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const libertadoresPhase5SubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const championsLeagueSubthemeDistribution = worldCupPhase1SubthemeDistribution;
+export const brasileiraoSubthemeDistribution = worldCupPhase1SubthemeDistribution;
 
 export function getQuestionsByTopicAndPhase(
   questions: Question[],
@@ -104,7 +111,34 @@ export function getRandomQuestionsForPhase(
       limit,
     );
   }
-  return shuffleQuestions(phaseQuestions).slice(0, limit);
+  if (topicId === "libertadores" && (phaseId >= 1 && phaseId <= 5)) {
+    return getRandomQuestionsBySubtheme(
+      phaseQuestions,
+      phaseId === 1
+        ? libertadoresPhase1SubthemeDistribution
+        : phaseId === 2
+          ? libertadoresPhase2SubthemeDistribution
+          : phaseId === 3
+            ? libertadoresPhase3SubthemeDistribution
+            : phaseId === 4
+              ? libertadoresPhase4SubthemeDistribution
+              : libertadoresPhase5SubthemeDistribution,
+      limit,
+    );
+  }
+  if (topicId === "champions-league" && (phaseId >= 1 && phaseId <= 5)) {
+    return getRandomQuestionsBySubtheme(
+      phaseQuestions,
+      championsLeagueSubthemeDistribution,
+      limit,
+    );
+  }  if (topicId === "brasileirao" && (phaseId >= 1 && phaseId <= 5)) {
+    return getRandomQuestionsBySubtheme(
+      phaseQuestions,
+      brasileiraoSubthemeDistribution,
+      limit,
+    );
+  }  return shuffleQuestions(phaseQuestions).slice(0, limit);
 }
 
 export function didPassPhase(score: number, phase: Phase) {
