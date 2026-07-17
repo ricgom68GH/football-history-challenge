@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { PhaseSelector } from "@/components/PhaseSelector";
+import { PrivateDuelPlaceholder } from "@/components/PrivateDuelPlaceholder";
 import { QuizCard } from "@/components/QuizCard";
 import { ResultCard } from "@/components/ResultCard";
 import { TopicSelector } from "@/components/TopicSelector";
@@ -9,14 +10,16 @@ import { phases } from "@/data/phases";
 import { questions } from "@/data/questions";
 import { topics } from "@/data/topics";
 import { completeQuizRound, type Achievement } from "@/lib/achievements";
+import { QUESTION_TIME_SECONDS } from "@/lib/gameConfig";
 import { loadProgress, unlockNextPhase } from "@/lib/progress";
 import { didPassPhase, getQuestionsByTopicAndPhase, getRandomQuestionsForPhase } from "@/lib/quizEngine";
-import type { Phase, Question, QuizProgress, Topic } from "@/types/quiz";
+import type { GameMode, Phase, Question, QuizProgress, Topic } from "@/types/quiz";
 
-type GameStatus = "start" | "topics" | "phases" | "playing" | "finished";
+type GameStatus = "start" | "duel" | "topics" | "phases" | "playing" | "finished";
 
 export default function Home() {
   const [gameStatus, setGameStatus] = useState<GameStatus>("start");
+  const [gameMode, setGameMode] = useState<GameMode>("solo");
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
   const [selectedPhase, setSelectedPhase] = useState<Phase | null>(null);
   const [progress, setProgress] = useState<QuizProgress>({});
@@ -27,6 +30,12 @@ export default function Home() {
   const [passedLastQuiz, setPassedLastQuiz] = useState(false);
   const [phaseQuestions, setPhaseQuestions] = useState<Question[]>([]);
   const [newAchievements, setNewAchievements] = useState<Achievement[]>([]);
+  const [timeRemaining, setTimeRemaining] = useState(QUESTION_TIME_SECONDS);
+  const [timeExpired, setTimeExpired] = useState(false);
+  const answerLockedRef = useRef(false);
+  const timerIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const timerTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const answerHandlerRef = useRef<(answer: string | null, timedOut?: boolean) => void>(() => {});
 
   useEffect(() => {
     setProgress(loadProgress(topics.map((topic) => topic.id)));
@@ -34,8 +43,44 @@ export default function Home() {
 
   const currentQuestion = phaseQuestions[currentQuestionIndex];
   const currentQuestionNumber = currentQuestionIndex + 1;
+  function clearQuestionTimer() {
+    if (timerIntervalRef.current) {
+      clearInterval(timerIntervalRef.current);
+      timerIntervalRef.current = null;
+    }
+    if (timerTimeoutRef.current) {
+      clearTimeout(timerTimeoutRef.current);
+      timerTimeoutRef.current = null;
+    }
+  }
+
+  useEffect(() => {
+    if (gameMode !== "solo" || gameStatus !== "playing" || !currentQuestion) {
+      clearQuestionTimer();
+      return;
+    }
+
+    clearQuestionTimer();
+    answerLockedRef.current = false;
+    setTimeRemaining(QUESTION_TIME_SECONDS);
+    setTimeExpired(false);
+
+    timerIntervalRef.current = setInterval(() => {
+      setTimeRemaining((currentTime) => Math.max(0, currentTime - 1));
+    }, 1000);
+    timerTimeoutRef.current = setTimeout(() => {
+      setTimeRemaining(0);
+      answerHandlerRef.current(null, true);
+    }, QUESTION_TIME_SECONDS * 1000);
+
+    return clearQuestionTimer;
+  }, [currentQuestion?.id, gameMode, gameStatus]);
 
   function goToMainMenu() {
+    clearQuestionTimer();
+    setGameMode("solo");
+    setTimeRemaining(QUESTION_TIME_SECONDS);
+    setTimeExpired(false);
     setSelectedTopic(null);
     setSelectedPhase(null);
     setPhaseQuestions([]);
@@ -47,8 +92,14 @@ export default function Home() {
     setGameStatus("start");
   }
 
-  function startJourney() {
+  function startSoloGame() {
+    setGameMode("solo");
     setGameStatus("topics");
+  }
+
+  function openPrivateDuel() {
+    setGameMode("private_duel");
+    setGameStatus("duel");
   }
 
   function selectTopic(topic: Topic) {
@@ -81,18 +132,23 @@ export default function Home() {
     setGameStatus("playing");
   }
 
-  function selectAnswer(answer: string) {
-    if (showResult || !currentQuestion) {
+  function selectAnswer(answer: string | null, timedOut = false) {
+    if (showResult || answerLockedRef.current || !currentQuestion) {
       return;
     }
 
+    answerLockedRef.current = true;
+    clearQuestionTimer();
     setSelectedAnswer(answer);
+    setTimeExpired(timedOut);
     setShowResult(true);
 
     if (answer === currentQuestion.correctAnswer) {
       setScore((currentScore) => currentScore + 1);
     }
   }
+
+  answerHandlerRef.current = selectAnswer;
 
   function goToNextQuestion() {
     if (!selectedTopic || !selectedPhase) {
@@ -193,12 +249,23 @@ export default function Home() {
             </div>
             <button
               type="button"
-              onClick={startJourney}
+              onClick={startSoloGame}
               className="mt-5 w-full rounded-2xl bg-gradient-to-r from-emerald-600 to-lime-400 px-7 py-3.5 text-base font-black text-slate-950 shadow-[0_14px_28px_rgba(22,163,74,0.36)] transition hover:-translate-y-0.5 hover:shadow-[0_18px_34px_rgba(22,163,74,0.44)] focus:outline-none focus:ring-4 focus:ring-lime-200 sm:w-auto"
             >
-              {"Come\u00e7ar desafio"}
+              Jogar sozinho
+            </button>
+            <button
+              type="button"
+              onClick={openPrivateDuel}
+              className="mt-3 w-full rounded-2xl border border-sky-200 bg-sky-50 px-7 py-3.5 text-base font-black text-sky-900 transition hover:-translate-y-0.5 hover:bg-sky-100 focus:outline-none focus:ring-4 focus:ring-sky-100 sm:ml-2 sm:w-auto"
+            >
+              Desafiar um amigo
             </button>
           </section>
+        )}
+
+        {gameStatus === "duel" && (
+          <PrivateDuelPlaceholder onBack={goToMainMenu} />
         )}
 
         {gameStatus === "topics" && (
@@ -226,6 +293,8 @@ export default function Home() {
             totalQuestions={phaseQuestions.length}
             selectedAnswer={selectedAnswer}
             showResult={showResult}
+            timeRemaining={timeRemaining}
+            timeExpired={timeExpired}
             onSelectAnswer={selectAnswer}
             onNextQuestion={goToNextQuestion}
             onBackToPhases={backToPhases}

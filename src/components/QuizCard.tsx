@@ -10,6 +10,8 @@ type QuizCardProps = {
   totalQuestions: number;
   selectedAnswer: string | null;
   showResult: boolean;
+  timeRemaining: number;
+  timeExpired: boolean;
   onSelectAnswer: (answer: string) => void;
   onNextQuestion: () => void;
   onBackToPhases: () => void;
@@ -24,6 +26,8 @@ export function QuizCard({
   totalQuestions,
   selectedAnswer,
   showResult,
+  timeRemaining,
+  timeExpired,
   onSelectAnswer,
   onNextQuestion,
   onBackToPhases,
@@ -50,9 +54,19 @@ export function QuizCard({
             Menu
           </button>
         </div>
-        <span className="rounded-full bg-emerald-100 px-2.5 py-1 font-black text-emerald-800 sm:px-3 sm:py-1.5">
-          {question.code}
-        </span>
+        <div className="flex items-center gap-1.5">
+          <span
+            className={`rounded-full px-2.5 py-1 font-black tabular-nums sm:px-3 sm:py-1.5 ${
+              timeRemaining <= 3 ? "bg-red-100 text-red-800" : "bg-amber-100 text-amber-800"
+            }`}
+            aria-live="polite"
+          >
+            {timeRemaining}s
+          </span>
+          <span className="rounded-full bg-emerald-100 px-2.5 py-1 font-black text-emerald-800 sm:px-3 sm:py-1.5">
+            {question.code}
+          </span>
+        </div>
       </div>
 
       <div className="mb-2 rounded-[1rem] bg-slate-100 p-2 sm:mb-3 sm:rounded-[1.25rem] sm:p-3">
@@ -87,7 +101,7 @@ export function QuizCard({
       {showResult && (
         <div className={`mt-2 rounded-[1rem] border p-2 sm:mt-3 sm:rounded-[1.25rem] sm:p-3 ${gotItRight ? "border-emerald-300 bg-emerald-50" : "border-red-300 bg-red-50"}`}>
           <p className={`text-xs font-black sm:text-sm ${gotItRight ? "text-emerald-800" : "text-red-800"}`}>
-            {gotItRight ? "Voc\u00ea acertou!" : "Voc\u00ea errou!"}
+            {gotItRight ? "Voc\u00ea acertou!" : timeExpired ? "Tempo esgotado!" : "Voc\u00ea errou!"}
           </p>
           <p className="mt-0.5 text-[11px] font-semibold text-slate-700 sm:mt-1 sm:text-sm">
             Correta: <strong className="text-slate-950">{question.correctAnswer}</strong>

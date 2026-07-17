@@ -1,4 +1,6 @@
-﻿export type Difficulty = "facil" | "medio" | "dificil";
+export type Difficulty = "facil" | "medio" | "dificil";
+
+export type GameMode = "solo" | "private_duel";
 
 export type Topic = {
   id: string;

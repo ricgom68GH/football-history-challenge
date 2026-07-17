@@ -1,0 +1,1 @@
+export const QUESTION_TIME_SECONDS = 10;
